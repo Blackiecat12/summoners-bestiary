@@ -33,6 +33,6 @@ class AppDataContainer(private val context: Context) : AppContainer {
      * Implementation for [MonsterRepository]
      */
     override val monsterRepository: MonsterRepository by lazy {
-        OfflineMonsterRepository(MonsterDatabase.getDatabase(context).itemDao())
+        OfflineMonsterRepository(MonsterDatabase.getDatabase(context).monsterDao())
     }
 }

@@ -12,6 +12,7 @@ navigationRuntime = "2.8.7"
 navigationCompose = "2.8.7"
 databaseRoom = "2.6.1"
 ksp = "2.1.0-1.0.29"
+gson = "2.8.9"
 
 
 [libraries]
@@ -34,6 +35,7 @@ androidx-navigation-compose = { group = "androidx.navigation", name = "navigatio
 androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref="databaseRoom"}
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref="databaseRoom"}
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref="databaseRoom"}
+gson = {group = "com.google.code.gson", name = "gson", version.ref="gson"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

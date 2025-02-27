@@ -1,0 +1,8168 @@
+[
+  {
+    "name": "Akata",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "aberration",
+    "creatureSubtypes": [],
+    "initiative": 6,
+    "perception": 1,
+    "senses": [
+      "Darkvision 120 ft.",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 13,
+      "touch": 12,
+      "flatFooted": 11
+    },
+    "speed": {
+      "speed": 40,
+      "climb": 20
+    },
+    "meleeAttacks": "Bite +2   (x2)  plus void bite,  2 Tentacles -3   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 12,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 3,
+      "wisdom": 12,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 2,
+      "cmd": 14
+    },
+    "specialQualities": [
+      "hibernation",
+      "no breath",
+      "void bite"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Amphisbaena",
+    "summonLevel": 4,
+    "cr": "4",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "magical beast",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 11,
+    "senses": [
+      "All-Around Vision",
+      "Darkvision 60 ft.",
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 19,
+      "touch": 11,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 20,
+      "climb": 20
+    },
+    "meleeAttacks": "2 Bites +7   (x2)  plus poison",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 14,
+      "dexterity": 15,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 4
+    },
+    "attackBonus": {
+      "base": 5,
+      "cmb": 8,
+      "cmd": 20
+    },
+    "specialQualities": [
+      "split",
+      "poison"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Ankylosaurus",
+    "summonLevel": 5,
+    "cr": "6",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 0,
+    "perception": 14,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 22,
+      "touch": 8,
+      "flatFooted": 22
+    },
+    "speed": {
+      "speed": 30
+    },
+    "meleeAttacks": null,
+    "rangedAttacks": "Tail +6/+1",
+    "abilityScores": {
+      "strength": 27,
+      "dexterity": 10,
+      "constitution": 17,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 8
+    },
+    "attackBonus": {
+      "base": 7,
+      "cmb": 17,
+      "cmd": 27
+    },
+    "specialQualities": [
+      "stun"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Ape",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 8,
+    "senses": [
+      "Darkvision",
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 11,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 30,
+      "climb": 30
+    },
+    "meleeAttacks": "2 Slams +3   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 15,
+      "dexterity": 15,
+      "constitution": 14,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 7
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 5,
+      "cmd": 17
+    },
+    "specialQualities": [
+      ""
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Astral Deva",
+    "summonLevel": 9,
+    "cr": "14",
+    "size": "medium",
+    "alignment": "Neutral Good",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "angel",
+      "extraplanar",
+      "good"
+    ],
+    "initiative": 8,
+    "perception": 24,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 29,
+      "touch": 14,
+      "flatFooted": 25
+    },
+    "speed": {
+      "speed": 50,
+      "fly": 100
+    },
+    "meleeAttacks": "+2  Disrupting Warhammer +23/+18/+13  Good (x3)  plus stun,  Slam +23  Good (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 26,
+      "dexterity": 19,
+      "constitution": 21,
+      "intelligence": 18,
+      "wisdom": 18,
+      "charisma": 23
+    },
+    "attackBonus": {
+      "base": 15,
+      "cmb": 23,
+      "cmd": 37
+    },
+    "specialQualities": [
+      "change shape",
+      "uncanny dodge",
+      "stun"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Aurochs",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 0,
+    "perception": 9,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 13,
+      "touch": 9,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Gore +7   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 23,
+      "dexterity": 10,
+      "constitution": 17,
+      "intelligence": 2,
+      "wisdom": 11,
+      "charisma": 4
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 9,
+      "cmd": 19
+    },
+    "specialQualities": [
+      "stampede",
+      "trample"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Babau",
+    "summonLevel": 5,
+    "cr": "6",
+    "size": "medium",
+    "alignment": "Chaotic Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "chaotic",
+      "demon",
+      "evil",
+      "extraplanar"
+    ],
+    "initiative": 5,
+    "perception": 19,
+    "senses": [
+      "Darkvision 60 ft.",
+      "See Invisibility"
+    ],
+    "armourClass": {
+      "base": 19,
+      "touch": 11,
+      "flatFooted": 18
+    },
+    "speed": {
+      "speed": 30
+    },
+    "meleeAttacks": "2 Claws +12  Chaotic, Chaotic/Evil, Evil (x2) ,  Bite +12  Chaotic, Chaotic/Evil, Evil (x2) ,  Longspear +12/+7  Chaotic, Chaotic/Evil, Evil (x3)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 21,
+      "dexterity": 13,
+      "constitution": 20,
+      "intelligence": 14,
+      "wisdom": 13,
+      "charisma": 16
+    },
+    "attackBonus": {
+      "base": 7,
+      "cmb": 12,
+      "cmd": 23
+    },
+    "specialQualities": [
+      "sneak attack",
+      "protective slime"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Barbed Devil",
+    "summonLevel": 8,
+    "cr": "11",
+    "size": "medium",
+    "alignment": "Lawful Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "devil",
+      "evil",
+      "extraplanar",
+      "lawful"
+    ],
+    "initiative": 6,
+    "perception": 21,
+    "senses": [
+      "Darkvision 60 ft.",
+      "See in Darkness"
+    ],
+    "armourClass": {
+      "base": 26,
+      "touch": 16,
+      "flatFooted": 20
+    },
+    "speed": {
+      "speed": 30
+    },
+    "meleeAttacks": "2 Claws +18  Lawful/Evil, Evil, Lawful (19-20 x2)  plus fear, grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 23,
+      "dexterity": 23,
+      "constitution": 22,
+      "intelligence": 12,
+      "wisdom": 15,
+      "charisma": 18
+    },
+    "attackBonus": {
+      "base": 12,
+      "cmb": 18,
+      "cmd": 34
+    },
+    "specialQualities": [
+      "fear",
+      "impale",
+      "barbed defense",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Bearded Devil",
+    "summonLevel": 5,
+    "cr": "5",
+    "size": "medium",
+    "alignment": "Lawful Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "devil",
+      "evil",
+      "extraplanar",
+      "lawful"
+    ],
+    "initiative": 6,
+    "perception": 10,
+    "senses": [
+      "Darkvision 60 ft.",
+      "See in Darkness"
+    ],
+    "armourClass": {
+      "base": 19,
+      "touch": 12,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Glaive +11/+6  Lawful/Evil, Evil, Lawful (x3)  plus infernal wound,  2 Claws +10  Lawful/Evil, Evil, Lawful (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 19,
+      "dexterity": 15,
+      "constitution": 19,
+      "intelligence": 6,
+      "wisdom": 12,
+      "charisma": 10
+    },
+    "attackBonus": {
+      "base": 6,
+      "cmb": 10,
+      "cmd": 22
+    },
+    "specialQualities": [
+      "beard",
+      "infernal wound"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Bebilith",
+    "summonLevel": 7,
+    "cr": "10",
+    "size": "huge",
+    "alignment": "Chaotic Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "chaotic",
+      "evil",
+      "extraplanar"
+    ],
+    "initiative": 5,
+    "perception": 16,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 22,
+      "touch": 9,
+      "flatFooted": 21
+    },
+    "speed": {
+      "speed": 40,
+      "climb": 20
+    },
+    "meleeAttacks": "Bite +19  Chaotic, Evil (x2)  plus rot,  2 Claws +19  Chaotic, Evil (19-20 x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 28,
+      "dexterity": 12,
+      "constitution": 24,
+      "intelligence": 11,
+      "wisdom": 13,
+      "charisma": 13
+    },
+    "attackBonus": {
+      "base": 12,
+      "cmb": 23,
+      "cmd": 34
+    },
+    "specialQualities": [
+      "dismantle armor",
+      "penetrating strike",
+      "web",
+      "rot"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Behir",
+    "summonLevel": 7,
+    "cr": "8",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "magical beast",
+    "creatureSubtypes": [],
+    "initiative": 1,
+    "perception": 8,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 21,
+      "touch": 9,
+      "flatFooted": 20
+    },
+    "speed": {
+      "speed": 40,
+      "climb": 20
+    },
+    "meleeAttacks": "Bite +15   (x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 23,
+      "dexterity": 12,
+      "constitution": 21,
+      "intelligence": 7,
+      "wisdom": 14,
+      "charisma": 12
+    },
+    "attackBonus": {
+      "base": 10,
+      "cmb": 18,
+      "cmd": 29
+    },
+    "specialQualities": [
+      "breath weapon",
+      "constrict",
+      "rake",
+      "swallow whole",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Bison",
+    "summonLevel": 4,
+    "cr": "4",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 0,
+    "perception": 8,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 9,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Gore +10   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 27,
+      "dexterity": 10,
+      "constitution": 19,
+      "intelligence": 2,
+      "wisdom": 11,
+      "charisma": 4
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 12,
+      "cmd": 22
+    },
+    "specialQualities": [
+      "stampede",
+      "trample"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Blink Dog",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "medium",
+    "alignment": "Lawful Good",
+    "creatureType": "magical beast",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 7,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 12,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Bite +4   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 12,
+      "dexterity": 15,
+      "constitution": 14,
+      "intelligence": 10,
+      "wisdom": 13,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 4,
+      "cmd": 16
+    },
+    "specialQualities": [
+      ""
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Boar",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 0,
+    "perception": 6,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 10,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Gore +4   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 17,
+      "dexterity": 10,
+      "constitution": 17,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 4
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 4,
+      "cmd": 14
+    },
+    "specialQualities": [
+      "ferocity"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Bone Devil",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "large",
+    "alignment": "Lawful Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "devil",
+      "evil",
+      "extraplanar",
+      "lawful"
+    ],
+    "initiative": 9,
+    "perception": 19,
+    "senses": [
+      "Darkvision 60 ft.",
+      "See in Darkness"
+    ],
+    "armourClass": {
+      "base": 25,
+      "touch": 14,
+      "flatFooted": 20
+    },
+    "speed": {
+      "speed": 40,
+      "fly": 60
+    },
+    "meleeAttacks": "Bite +14  Lawful/Evil, Evil, Lawful (x2) ,  2 Claws +14  Lawful/Evil, Evil, Lawful (x2) ,  Sting +14  Lawful/Evil, Evil, Lawful (x2)  plus poison",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 21,
+      "dexterity": 21,
+      "constitution": 20,
+      "intelligence": 16,
+      "wisdom": 15,
+      "charisma": 18
+    },
+    "attackBonus": {
+      "base": 10,
+      "cmb": 16,
+      "cmd": 31
+    },
+    "specialQualities": [
+      "fear aura",
+      "poison"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Brachiosaurus",
+    "summonLevel": 7,
+    "cr": "10",
+    "size": "gargantuan",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 0,
+    "perception": 28,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 18,
+      "touch": 6,
+      "flatFooted": 18
+    },
+    "speed": {
+      "speed": 30
+    },
+    "meleeAttacks": null,
+    "rangedAttacks": "Tail +10/+5/+0",
+    "abilityScores": {
+      "strength": 37,
+      "dexterity": 10,
+      "constitution": 21,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 10
+    },
+    "attackBonus": {
+      "base": 13,
+      "cmb": 30,
+      "cmd": 40
+    },
+    "specialQualities": [
+      "trample"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Bralani Azata",
+    "summonLevel": 5,
+    "cr": "6",
+    "size": "medium",
+    "alignment": "Chaotic Good",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "azata",
+      "chaotic",
+      "extraplanar",
+      "good"
+    ],
+    "initiative": 8,
+    "perception": 15,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 20,
+      "touch": 14,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 40,
+      "fly": 100
+    },
+    "meleeAttacks": "+1  Scimitar +13/+8  Chaotic, Good (18-20 x2) ,  Slam +12  Chaotic, Good (x2)",
+    "rangedAttacks": "+1  Composite longbow +12/+7  Chaotic, Good (x3)",
+    "abilityScores": {
+      "strength": 20,
+      "dexterity": 18,
+      "constitution": 19,
+      "intelligence": 13,
+      "wisdom": 14,
+      "charisma": 15
+    },
+    "attackBonus": {
+      "base": 7,
+      "cmb": 12,
+      "cmd": 26
+    },
+    "specialQualities": [
+      "whirlwind blast",
+      "wind form"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Bulette",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "magical beast",
+    "creatureSubtypes": [],
+    "initiative": 6,
+    "perception": 11,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Low-Light Vision",
+      "Scent",
+      "Tremorsense 60 ft."
+    ],
+    "armourClass": {
+      "base": 22,
+      "touch": 10,
+      "flatFooted": 20
+    },
+    "speed": {
+      "speed": 40,
+      "burrow": 20
+    },
+    "meleeAttacks": "Bite +13   (x2) ,  2 Claws +12   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 23,
+      "dexterity": 15,
+      "constitution": 20,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 16,
+      "cmd": 28
+    },
+    "specialQualities": [
+      "leap",
+      "savage bite"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Cerberi",
+    "summonLevel": 4,
+    "cr": "6",
+    "size": "medium",
+    "alignment": "Lawful Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "evil",
+      "extraplanar",
+      "lawful"
+    ],
+    "initiative": 6,
+    "perception": 15,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Soul Scent"
+    ],
+    "armourClass": {
+      "base": 18,
+      "touch": 12,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "3 Bites +11  Evil, Lawful (x2)  plus cerberus's jaws",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 16,
+      "dexterity": 14,
+      "constitution": 19,
+      "intelligence": 6,
+      "wisdom": 15,
+      "charisma": 9
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 11,
+      "cmd": 23
+    },
+    "specialQualities": [
+      "rend",
+      "cerberus's jaws"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Chaos Beast",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "medium",
+    "alignment": "Chaotic Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "chaotic",
+      "extraplanar"
+    ],
+    "initiative": 6,
+    "perception": 13,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 20,
+      "touch": 13,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 20
+    },
+    "meleeAttacks": "4 Claws +13  Chaotic (x2)  plus corporeal instability",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 17,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 10,
+      "wisdom": 12,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 9,
+      "cmb": 12,
+      "cmd": 25
+    },
+    "specialQualities": [
+      "amorphous",
+      "resistant to transformation",
+      "corporeal instability"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Cheetah",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 8,
+    "perception": 5,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 14,
+      "flatFooted": 11
+    },
+    "speed": {
+      "speed": 50
+    },
+    "meleeAttacks": "Bite +6   (x2)  plus trip,  2 Claws +6   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 17,
+      "dexterity": 19,
+      "constitution": 15,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 5,
+      "cmd": 19
+    },
+    "specialQualities": [
+      "sprint",
+      "trip"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Choker",
+    "summonLevel": 4,
+    "cr": "2",
+    "size": "small",
+    "alignment": "Chaotic Evil",
+    "creatureType": "aberration",
+    "creatureSubtypes": [],
+    "initiative": 6,
+    "perception": 1,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 13,
+      "flatFooted": 15
+    },
+    "speed": {
+      "speed": 20,
+      "climb": 10
+    },
+    "meleeAttacks": "2 Tentacles +6   (x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 16,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 4,
+      "wisdom": 13,
+      "charisma": 7
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 4,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "constrict",
+      "grab",
+      "strangle",
+      "quickness"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Cloaker",
+    "summonLevel": 5,
+    "cr": "5",
+    "size": "large",
+    "alignment": "Chaotic Neutral",
+    "creatureType": "aberration",
+    "creatureSubtypes": [],
+    "initiative": 7,
+    "perception": 14,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 19,
+      "touch": 12,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 10,
+      "fly": 40
+    },
+    "meleeAttacks": "Bite +8   (x2) ,  Tail slap +3   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 21,
+      "dexterity": 16,
+      "constitution": 19,
+      "intelligence": 14,
+      "wisdom": 15,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 4,
+      "cmb": 10,
+      "cmd": 23
+    },
+    "specialQualities": [
+      "engulf",
+      "moan",
+      "shadow shift"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Cloud Giant",
+    "summonLevel": 9,
+    "cr": "11",
+    "size": "huge",
+    "alignment": "Neutral Good",
+    "creatureType": "humanoid",
+    "creatureSubtypes": [
+      "giant"
+    ],
+    "initiative": 1,
+    "perception": 20,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 21,
+      "touch": 9,
+      "flatFooted": 20
+    },
+    "speed": {
+      "speed": 50
+    },
+    "meleeAttacks": "Morningstar +22/+17/+12   (x2) ,  2 Slams +22   (x2)",
+    "rangedAttacks": "Rock +11/+6/+1",
+    "abilityScores": {
+      "strength": 35,
+      "dexterity": 13,
+      "constitution": 23,
+      "intelligence": 12,
+      "wisdom": 16,
+      "charisma": 12
+    },
+    "attackBonus": {
+      "base": 12,
+      "cmb": 26,
+      "cmd": 37
+    },
+    "specialQualities": [
+      "rock throwing",
+      "oversized weapon",
+      "rock catching"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Constrictor Snake",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 3,
+    "perception": 12,
+    "senses": [
+      "Scent",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 13,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 20,
+      "climb": 20
+    },
+    "meleeAttacks": "Bite +5   (x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 17,
+      "dexterity": 17,
+      "constitution": 12,
+      "intelligence": 1,
+      "wisdom": 12,
+      "charisma": 2
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 5,
+      "cmd": 18
+    },
+    "specialQualities": [
+      "constrict",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Crocodile",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 1,
+    "perception": 5,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 10,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 30
+    },
+    "meleeAttacks": "Bite +5   (x2)  plus grab,  Tail slap +0   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 19,
+      "dexterity": 12,
+      "constitution": 17,
+      "intelligence": 1,
+      "wisdom": 12,
+      "charisma": 2
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 7,
+      "cmd": 18
+    },
+    "specialQualities": [
+      "death roll",
+      "sprint",
+      "hold breath",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Deinonychus",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 6,
+    "perception": 14,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 12,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 60
+    },
+    "meleeAttacks": "2 Talons +5   (x2)",
+    "rangedAttacks": "Foreclaws +5",
+    "abilityScores": {
+      "strength": 15,
+      "dexterity": 15,
+      "constitution": 19,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 5,
+      "cmd": 17
+    },
+    "specialQualities": [
+      "pounce"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Dire Ape",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 8,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 11,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 30,
+      "climb": 30
+    },
+    "meleeAttacks": "Bite +6   (x2) ,  2 Claws +6   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 19,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 7
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 8,
+      "cmd": 20
+    },
+    "specialQualities": [
+      "rend"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Dire Bat",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 12,
+    "senses": [
+      "Blindsense 40 ft.",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 11,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 20,
+      "fly": 40
+    },
+    "meleeAttacks": "Bite +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 17,
+      "dexterity": 15,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 14,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 7,
+      "cmd": 19
+    },
+    "specialQualities": [
+      ""
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Dire Bear",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 5,
+    "perception": 12,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 18,
+      "touch": 10,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "2 Claws +13   (x2)  plus grab,  Bite +13   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 25,
+      "dexterity": 13,
+      "constitution": 21,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 10
+    },
+    "attackBonus": {
+      "base": 7,
+      "cmb": 15,
+      "cmd": 26
+    },
+    "specialQualities": [
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Dire Boar",
+    "summonLevel": 4,
+    "cr": "4",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 4,
+    "perception": 12,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 9,
+      "flatFooted": 15
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Gore +8   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 23,
+      "dexterity": 10,
+      "constitution": 17,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 8
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 10,
+      "cmd": 20
+    },
+    "specialQualities": [
+      "ferocity"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Dire Crocodile",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "gargantuan",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 4,
+    "perception": 11,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 21,
+      "touch": 6,
+      "flatFooted": 21
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 30
+    },
+    "meleeAttacks": "Bite +18   (19-20 x2)  plus grab,  Tail slap +13   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 37,
+      "dexterity": 10,
+      "constitution": 25,
+      "intelligence": 1,
+      "wisdom": 14,
+      "charisma": 2
+    },
+    "attackBonus": {
+      "base": 9,
+      "cmb": 26,
+      "cmd": 36
+    },
+    "specialQualities": [
+      "death roll",
+      "swallow whole",
+      "sprint",
+      "hold breath",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Dire Lion",
+    "summonLevel": 5,
+    "cr": "5",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 6,
+    "perception": 11,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 11,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Bite +12   (x2)  plus grab,  2 Claws +13   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 25,
+      "dexterity": 15,
+      "constitution": 17,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 10
+    },
+    "attackBonus": {
+      "base": 6,
+      "cmb": 14,
+      "cmd": 26
+    },
+    "specialQualities": [
+      "pounce",
+      "rake",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Dire Rat",
+    "summonLevel": 1,
+    "cr": "1/3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 3,
+    "perception": 4,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 14,
+      "flatFooted": 11
+    },
+    "speed": {
+      "speed": 40,
+      "swim": 20,
+      "climb": 20
+    },
+    "meleeAttacks": "Bite +1   (x2)  plus disease",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 10,
+      "dexterity": 17,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 4
+    },
+    "attackBonus": {
+      "base": 0,
+      "cmb": -1,
+      "cmd": 12
+    },
+    "specialQualities": [
+      "disease"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Dire Shark",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "gargantuan",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [
+      "aquatic"
+    ],
+    "initiative": 6,
+    "perception": 25,
+    "senses": [
+      "Blindsense 30 ft.",
+      "Keen Scent",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 23,
+      "touch": 8,
+      "flatFooted": 21
+    },
+    "speed": {
+      "swim": 60
+    },
+    "meleeAttacks": "Bite +17   (19-20 x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 30,
+      "dexterity": 15,
+      "constitution": 17,
+      "intelligence": 1,
+      "wisdom": 12,
+      "charisma": 10
+    },
+    "attackBonus": {
+      "base": 11,
+      "cmb": 25,
+      "cmd": 37
+    },
+    "specialQualities": [
+      "swallow whole",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Dire Tiger",
+    "summonLevel": 6,
+    "cr": "8",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 6,
+    "perception": 9,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 11,
+      "flatFooted": 15
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "2 Claws +18   (x2)  plus grab,  Bite +17   (19-20 x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 27,
+      "dexterity": 15,
+      "constitution": 17,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 10
+    },
+    "attackBonus": {
+      "base": 10,
+      "cmb": 19,
+      "cmd": 31
+    },
+    "specialQualities": [
+      "pounce",
+      "rake",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Dire Wolf",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 10,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 11,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 50
+    },
+    "meleeAttacks": "Bite +7   (x2)  plus trip",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 19,
+      "dexterity": 15,
+      "constitution": 17,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 10
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 8,
+      "cmd": 20
+    },
+    "specialQualities": [
+      "trip"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Dog",
+    "summonLevel": 1,
+    "cr": "1/3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 1,
+    "perception": 8,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 13,
+      "touch": 12,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Bite +2   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 13,
+      "constitution": 15,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 0,
+      "cmb": 0,
+      "cmd": 11
+    },
+    "specialQualities": [
+      ""
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Dolphin",
+    "summonLevel": 1,
+    "cr": "1/2",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 9,
+    "senses": [
+      "Blindsight 120 ft.",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 13,
+      "touch": 12,
+      "flatFooted": 11
+    },
+    "speed": {
+      "swim": 80
+    },
+    "meleeAttacks": "Slam +3   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 12,
+      "dexterity": 15,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 2,
+      "cmd": 14
+    },
+    "specialQualities": [
+      "hold breath"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Dretch",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "small",
+    "alignment": "Chaotic Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "chaotic",
+      "demon",
+      "evil",
+      "extraplanar"
+    ],
+    "initiative": 0,
+    "perception": 5,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 11,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 20
+    },
+    "meleeAttacks": "2 Claws +4  Chaotic, Chaotic/Evil, Evil (x2) ,  Bite +4  Chaotic, Chaotic/Evil, Evil (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 12,
+      "dexterity": 10,
+      "constitution": 14,
+      "intelligence": 5,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 2,
+      "cmd": 12
+    },
+    "specialQualities": [
+      ""
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Eagle",
+    "summonLevel": 1,
+    "cr": "1/2",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 10,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 13,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 10,
+      "fly": 80
+    },
+    "meleeAttacks": "2 Talons +3   (x2) ,  Bite +3   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 10,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 2,
+      "wisdom": 15,
+      "charisma": 7
+    },
+    "attackBonus": {
+      "base": 0,
+      "cmb": -1,
+      "cmd": 11
+    },
+    "specialQualities": [
+      ""
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Elasmosaurus",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 14,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 20,
+      "touch": 11,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 50
+    },
+    "meleeAttacks": "Bite +13   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 26,
+      "dexterity": 15,
+      "constitution": 20,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 9
+    },
+    "attackBonus": {
+      "base": 7,
+      "cmb": 17,
+      "cmd": 30
+    },
+    "specialQualities": [
+      ""
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Elder Air Elemental",
+    "summonLevel": 8,
+    "cr": "11",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": 15,
+    "perception": 19,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 28,
+      "touch": 20,
+      "flatFooted": 16
+    },
+    "speed": {
+      "fly": 100
+    },
+    "meleeAttacks": "2 Slams +25   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 28,
+      "dexterity": 33,
+      "constitution": 18,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 16,
+      "cmb": 27,
+      "cmd": 49
+    },
+    "specialQualities": [
+      "whirlwind",
+      "air mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Elder Earth Elemental",
+    "summonLevel": 8,
+    "cr": "11",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": -1,
+    "perception": 19,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Tremorsense 60 ft."
+    ],
+    "armourClass": {
+      "base": 23,
+      "touch": 7,
+      "flatFooted": 23
+    },
+    "speed": {
+      "speed": 20,
+      "burrow": 20
+    },
+    "meleeAttacks": "2 Slams +26   (19-20 x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 34,
+      "dexterity": 8,
+      "constitution": 21,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 16,
+      "cmb": 30,
+      "cmd": 39
+    },
+    "specialQualities": [
+      "earth mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Elder Ice Elemental",
+    "summonLevel": 8,
+    "cr": "11",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "cold",
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 9,
+    "perception": 19,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Snow Vision"
+    ],
+    "armourClass": {
+      "base": 24,
+      "touch": 14,
+      "flatFooted": 18
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 60
+    },
+    "meleeAttacks": "2 Slams +24   (19-20 x2)  + 2d8 cold",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 30,
+      "dexterity": 20,
+      "constitution": 19,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 16,
+      "cmb": 28,
+      "cmd": 44
+    },
+    "specialQualities": [
+      "numbing cold",
+      "ice glide",
+      "icewalking"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Elder Lightning Elemental",
+    "summonLevel": 8,
+    "cr": "11",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": 14,
+    "perception": 19,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 25,
+      "touch": 19,
+      "flatFooted": 14
+    },
+    "speed": {
+      "fly": 100
+    },
+    "meleeAttacks": "2 Slams +24   (x2)  + 2d8 electricity",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 26,
+      "dexterity": 31,
+      "constitution": 16,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 16,
+      "cmb": 26,
+      "cmd": 47
+    },
+    "specialQualities": [
+      "metal mastery",
+      "spark leap"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Elder Magma Elemental",
+    "summonLevel": 8,
+    "cr": "11",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar",
+      "fire"
+    ],
+    "initiative": 3,
+    "perception": 19,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 25,
+      "touch": 7,
+      "flatFooted": 25
+    },
+    "speed": {
+      "speed": 20,
+      "burrow": 20
+    },
+    "meleeAttacks": "2 Slams +22   (x2)  plus burn",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 26,
+      "dexterity": 8,
+      "constitution": 19,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 16,
+      "cmb": 26,
+      "cmd": 35
+    },
+    "specialQualities": [
+      "burn",
+      "lava puddle",
+      "earth glide"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Elder Mud Elemental",
+    "summonLevel": 8,
+    "cr": "11",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 5,
+    "perception": 19,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Tremorsense 30 ft."
+    ],
+    "armourClass": {
+      "base": 23,
+      "touch": 14,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 30,
+      "burrow": 10
+    },
+    "meleeAttacks": "2 Slams +24   (x2)  plus entrap",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 30,
+      "dexterity": 20,
+      "constitution": 19,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 16,
+      "cmb": 28,
+      "cmd": 44
+    },
+    "specialQualities": [
+      "entrap",
+      "earth glide"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Elder Water Elemental",
+    "summonLevel": 8,
+    "cr": "11",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 6,
+    "perception": 19,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 24,
+      "touch": 15,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 90
+    },
+    "meleeAttacks": "2 Slams +24   (19-20 x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 30,
+      "dexterity": 22,
+      "constitution": 19,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 16,
+      "cmb": 28,
+      "cmd": 45
+    },
+    "specialQualities": [
+      "drench",
+      "vortex",
+      "water mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Electric Eel",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [
+      "aquatic"
+    ],
+    "initiative": 6,
+    "perception": 4,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 13,
+      "flatFooted": 13
+    },
+    "speed": {
+      "swim": 30
+    },
+    "meleeAttacks": "Bite +3   (x2) ,  Tail -2   (x2)  + 1d6 electricity",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 14,
+      "constitution": 19,
+      "intelligence": 1,
+      "wisdom": 10,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 1,
+      "cmd": 13
+    },
+    "specialQualities": [
+      "electricity"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Elephant",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 0,
+    "perception": 21,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 8,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Gore +16   (x2) ,  Slam +16   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 30,
+      "dexterity": 10,
+      "constitution": 19,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 7
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 20,
+      "cmd": 30
+    },
+    "specialQualities": [
+      "trample"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Elk",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 3,
+    "perception": 7,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 13,
+      "touch": 13,
+      "flatFooted": 10
+    },
+    "speed": {
+      "speed": 50
+    },
+    "meleeAttacks": "Gore +3   (x2) ,  2 Hooves -2   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 14,
+      "dexterity": 17,
+      "constitution": 16,
+      "intelligence": 2,
+      "wisdom": 15,
+      "charisma": 7
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 3,
+      "cmd": 16
+    },
+    "specialQualities": [
+      ""
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Emperor Cobra",
+    "summonLevel": 5,
+    "cr": "5",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 6,
+    "perception": 13,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 18,
+      "touch": 11,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 30,
+      "swim": 30,
+      "climb": 30
+    },
+    "meleeAttacks": "Bite +10   (x2)  plus poison",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 22,
+      "dexterity": 15,
+      "constitution": 18,
+      "intelligence": 1,
+      "wisdom": 17,
+      "charisma": 2
+    },
+    "attackBonus": {
+      "base": 4,
+      "cmb": 11,
+      "cmd": 23
+    },
+    "specialQualities": [
+      "poison"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Erinyes Devil",
+    "summonLevel": 6,
+    "cr": "8",
+    "size": "medium",
+    "alignment": "Lawful Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "devil",
+      "evil",
+      "extraplanar",
+      "lawful"
+    ],
+    "initiative": 6,
+    "perception": 16,
+    "senses": [
+      "Darkvision 60 ft.",
+      "See in Darkness",
+      "True Seeing"
+    ],
+    "armourClass": {
+      "base": 23,
+      "touch": 17,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 50
+    },
+    "meleeAttacks": "+1  Longsword +15/+10  Lawful/Evil, Evil, Lawful (19-20 x2)",
+    "rangedAttacks": "+1  Flaming 2 Composite longbow +16/+11  Lawful/Evil, Evil, Lawful (x3)  + 1d6 Fire,  Rope +15/+10  touch Lawful/Evil, Evil, Lawful",
+    "abilityScores": {
+      "strength": 20,
+      "dexterity": 23,
+      "constitution": 21,
+      "intelligence": 14,
+      "wisdom": 18,
+      "charisma": 21
+    },
+    "attackBonus": {
+      "base": 9,
+      "cmb": 14,
+      "cmd": 31
+    },
+    "specialQualities": [
+      ""
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Fire Beetle",
+    "summonLevel": 1,
+    "cr": "1/3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "vermin",
+    "creatureSubtypes": [],
+    "initiative": 0,
+    "perception": 0,
+    "senses": [
+      "Low-Light Vision",
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 12,
+      "touch": 11,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 30
+    },
+    "meleeAttacks": "Bite +1   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 10,
+      "dexterity": 11,
+      "constitution": 11,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 7
+    },
+    "attackBonus": {
+      "base": 0,
+      "cmb": -1,
+      "cmd": 9
+    },
+    "specialQualities": [
+      "luminescence"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Frost Giant",
+    "summonLevel": 8,
+    "cr": "9",
+    "size": "large",
+    "alignment": "Chaotic Evil",
+    "creatureType": "humanoid",
+    "creatureSubtypes": [
+      "cold",
+      "giant"
+    ],
+    "initiative": -1,
+    "perception": 13,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 8,
+      "flatFooted": 18
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Greataxe +18/+13   (x3) ,  2 Slams +18   (x2)",
+    "rangedAttacks": "Rock +8/+3",
+    "abilityScores": {
+      "strength": 29,
+      "dexterity": 9,
+      "constitution": 21,
+      "intelligence": 10,
+      "wisdom": 14,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 10,
+      "cmb": 20,
+      "cmd": 29
+    },
+    "specialQualities": [
+      "rock throwing",
+      "rock catching"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Ghaele Azata",
+    "summonLevel": 9,
+    "cr": "13",
+    "size": "medium",
+    "alignment": "Chaotic Good",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "azata",
+      "chaotic",
+      "extraplanar",
+      "good"
+    ],
+    "initiative": 5,
+    "perception": 20,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Detect Evil",
+      "Low-Light Vision",
+      "See Invisibility"
+    ],
+    "armourClass": {
+      "base": 24,
+      "touch": 12,
+      "flatFooted": 22
+    },
+    "speed": {
+      "speed": 50,
+      "fly": 150
+    },
+    "meleeAttacks": "+2  Holy Greatsword +22/+17/+12  Chaotic, Good (19-20 x2)",
+    "rangedAttacks": "2 Light rays +14/+9/+4  ranged touch Chaotic, Good plus Light ray",
+    "abilityScores": {
+      "strength": 25,
+      "dexterity": 12,
+      "constitution": 20,
+      "intelligence": 16,
+      "wisdom": 19,
+      "charisma": 17
+    },
+    "attackBonus": {
+      "base": 13,
+      "cmb": 20,
+      "cmd": 32
+    },
+    "specialQualities": [
+      "gaze",
+      "light form",
+      "light ray"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Giant Anaconda",
+    "summonLevel": 7,
+    "cr": "10",
+    "size": "gargantuan",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 6,
+    "perception": 22,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 25,
+      "touch": 9,
+      "flatFooted": 22
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 20,
+      "climb": 20
+    },
+    "meleeAttacks": "Bite +19   (19-20 x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 36,
+      "dexterity": 14,
+      "constitution": 23,
+      "intelligence": 1,
+      "wisdom": 13,
+      "charisma": 2
+    },
+    "attackBonus": {
+      "base": 9,
+      "cmb": 26,
+      "cmd": 39
+    },
+    "specialQualities": [
+      "constrict",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Giant Ant, Drone",
+    "summonLevel": 4,
+    "cr": "2",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "vermin",
+    "creatureSubtypes": [],
+    "initiative": 0,
+    "perception": 5,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 10,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 50,
+      "fly": 30,
+      "climb": 20
+    },
+    "meleeAttacks": "Bite +5   (x2)  plus grab,  Sting +5   (x2)  plus poison",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 18,
+      "dexterity": 10,
+      "constitution": 21,
+      "intelligence": 10,
+      "wisdom": 13,
+      "charisma": 15
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 5,
+      "cmd": 15
+    },
+    "specialQualities": [
+      "grab",
+      "poison"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Giant Ant, Soldier",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "vermin",
+    "creatureSubtypes": [],
+    "initiative": 0,
+    "perception": 5,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 10,
+      "flatFooted": 15
+    },
+    "speed": {
+      "speed": 50,
+      "climb": 20
+    },
+    "meleeAttacks": "Bite +3   (x2)  plus grab,  Sting +3   (x2)  plus poison",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 14,
+      "dexterity": 10,
+      "constitution": 17,
+      "intelligence": 10,
+      "wisdom": 13,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 3,
+      "cmd": 13
+    },
+    "specialQualities": [
+      "grab",
+      "poison"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Giant Ant, Worker",
+    "summonLevel": 2,
+    "cr": "2",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "vermin",
+    "creatureSubtypes": [],
+    "initiative": 0,
+    "perception": 5,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 10,
+      "flatFooted": 15
+    },
+    "speed": {
+      "speed": 50,
+      "climb": 20
+    },
+    "meleeAttacks": "Bite +3   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 14,
+      "dexterity": 10,
+      "constitution": 17,
+      "intelligence": 10,
+      "wisdom": 13,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 3,
+      "cmd": 13
+    },
+    "specialQualities": [
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Giant Centipede",
+    "summonLevel": 2,
+    "cr": "1/2",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "vermin",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 4,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 12,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 40,
+      "climb": 40
+    },
+    "meleeAttacks": "Bite +2   (x2)  plus poison",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 9,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 2
+    },
+    "attackBonus": {
+      "base": 0,
+      "cmb": -1,
+      "cmd": 11
+    },
+    "specialQualities": [
+      "poison"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Giant Frog",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 1,
+    "perception": 3,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 12,
+      "touch": 11,
+      "flatFooted": 11
+    },
+    "speed": {
+      "speed": 30,
+      "swim": 30
+    },
+    "meleeAttacks": "Bite +3   (x2)  plus grab",
+    "rangedAttacks": "Tongue +2  touch",
+    "abilityScores": {
+      "strength": 15,
+      "dexterity": 13,
+      "constitution": 16,
+      "intelligence": 1,
+      "wisdom": 8,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 3,
+      "cmd": 14
+    },
+    "specialQualities": [
+      "pull",
+      "swallow whole",
+      "tongue",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Giant Mantis",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "vermin",
+    "creatureSubtypes": [],
+    "initiative": 1,
+    "perception": 6,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 10,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 30,
+      "climb": 30
+    },
+    "meleeAttacks": "2 Claws +5   (x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 16,
+      "dexterity": 13,
+      "constitution": 16,
+      "intelligence": 10,
+      "wisdom": 14,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 7,
+      "cmd": 18
+    },
+    "specialQualities": [
+      "lunge",
+      "mandibles",
+      "sudden strike",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Giant Moray Eel",
+    "summonLevel": 5,
+    "cr": "5",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [
+      "aquatic"
+    ],
+    "initiative": 6,
+    "perception": 7,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 19,
+      "touch": 11,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 5,
+      "swim": 30
+    },
+    "meleeAttacks": "Bite +11   (x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 22,
+      "dexterity": 14,
+      "constitution": 16,
+      "intelligence": 1,
+      "wisdom": 12,
+      "charisma": 8
+    },
+    "attackBonus": {
+      "base": 5,
+      "cmb": 12,
+      "cmd": 24
+    },
+    "specialQualities": [
+      "gnaw",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Giant Octopus",
+    "summonLevel": 6,
+    "cr": "8",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [
+      "aquatic"
+    ],
+    "initiative": 6,
+    "perception": 8,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 18,
+      "touch": 11,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 30
+    },
+    "meleeAttacks": "Bite +13   (x2)  plus poison,  8 Tentacles +11   (x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 20,
+      "dexterity": 15,
+      "constitution": 17,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 3
+    },
+    "attackBonus": {
+      "base": 9,
+      "cmb": 15,
+      "cmd": 27
+    },
+    "specialQualities": [
+      "constrict",
+      "ink cloud",
+      "poison",
+      "grab",
+      "jet"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Giant Scorpion",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "vermin",
+    "creatureSubtypes": [],
+    "initiative": 0,
+    "perception": 4,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Tremorsense 60 ft."
+    ],
+    "armourClass": {
+      "base": 9,
+      "touch": 9,
+      "flatFooted": 9
+    },
+    "speed": {
+      "speed": 50
+    },
+    "meleeAttacks": "2 Claws +6   (x2)  plus grab,  Sting +6   (x2)  plus poison",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 19,
+      "dexterity": 10,
+      "constitution": 16,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 2
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 8,
+      "cmd": 18
+    },
+    "specialQualities": [
+      "constrict",
+      "grab",
+      "poison"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Giant Spider",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "vermin",
+    "creatureSubtypes": [],
+    "initiative": 3,
+    "perception": 4,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Tremorsense 60 ft."
+    ],
+    "armourClass": {
+      "base": 13,
+      "touch": 13,
+      "flatFooted": 10
+    },
+    "speed": {
+      "speed": 30,
+      "climb": 30
+    },
+    "meleeAttacks": "Bite +2   (x2)  plus poison",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 11,
+      "dexterity": 17,
+      "constitution": 12,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 2
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 2,
+      "cmd": 15
+    },
+    "specialQualities": [
+      "web",
+      "poison"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Giant Squid",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [
+      "aquatic"
+    ],
+    "initiative": 7,
+    "perception": 22,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 20,
+      "touch": 11,
+      "flatFooted": 17
+    },
+    "speed": {
+      "swim": 60
+    },
+    "meleeAttacks": "Bite +14   (x2) ,  Tentacles +12   (19-20 x2)  plus grab",
+    "rangedAttacks": "2 Arms +10/+5",
+    "abilityScores": {
+      "strength": 25,
+      "dexterity": 17,
+      "constitution": 19,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 2
+    },
+    "attackBonus": {
+      "base": 9,
+      "cmb": 18,
+      "cmd": 31
+    },
+    "specialQualities": [
+      "constrict",
+      "ink cloud",
+      "grab",
+      "jet"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Giant Wasp",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "vermin",
+    "creatureSubtypes": [],
+    "initiative": 1,
+    "perception": 9,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 10,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 20,
+      "fly": 60
+    },
+    "meleeAttacks": "Sting +6   (x2)  plus poison",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 18,
+      "dexterity": 12,
+      "constitution": 18,
+      "intelligence": 10,
+      "wisdom": 13,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 8,
+      "cmd": 19
+    },
+    "specialQualities": [
+      "poison"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Gibbering Mouther",
+    "summonLevel": 4,
+    "cr": "5",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "aberration",
+    "creatureSubtypes": [],
+    "initiative": 3,
+    "perception": 12,
+    "senses": [
+      "All-Around Vision",
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 19,
+      "touch": 13,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 10,
+      "swim": 20
+    },
+    "meleeAttacks": "6 Bites +7   (x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 10,
+      "dexterity": 17,
+      "constitution": 24,
+      "intelligence": 4,
+      "wisdom": 13,
+      "charisma": 12
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 3,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "engulf",
+      "gibbering",
+      "ground manipulation",
+      "spittle",
+      "amorphous",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Glabrezu",
+    "summonLevel": 9,
+    "cr": "13",
+    "size": "huge",
+    "alignment": "Chaotic Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "chaotic",
+      "demon",
+      "evil",
+      "extraplanar"
+    ],
+    "initiative": 0,
+    "perception": 26,
+    "senses": [
+      "Darkvision 60 ft.",
+      "True Seeing"
+    ],
+    "armourClass": {
+      "base": 28,
+      "touch": 8,
+      "flatFooted": 28
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "2 Pincers +15  Chaotic, Chaotic/Evil, Evil (x2) ,  2 Claws +20  Chaotic, Chaotic/Evil, Evil (x2) ,  Bite +20  Chaotic, Chaotic/Evil, Evil (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 31,
+      "dexterity": 11,
+      "constitution": 31,
+      "intelligence": 16,
+      "wisdom": 16,
+      "charisma": 20
+    },
+    "attackBonus": {
+      "base": 12,
+      "cmb": 24,
+      "cmd": 34
+    },
+    "specialQualities": [
+      "rend"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Goblin Dog",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 1,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 13,
+      "touch": 12,
+      "flatFooted": 11
+    },
+    "speed": {
+      "speed": 50
+    },
+    "meleeAttacks": "Bite +2   (x2)  plus allergic reaction",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 8
+    },
+    "attackBonus": {
+      "base": 0,
+      "cmb": 2,
+      "cmd": 14
+    },
+    "specialQualities": [
+      "allergic reaction"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Gorgon",
+    "summonLevel": 8,
+    "cr": "8",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "magical beast",
+    "creatureSubtypes": [],
+    "initiative": 4,
+    "perception": 17,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 20,
+      "touch": 9,
+      "flatFooted": 20
+    },
+    "speed": {
+      "speed": 30
+    },
+    "meleeAttacks": "Gore +14   (x2) ,  2 Hooves +9   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 24,
+      "dexterity": 10,
+      "constitution": 24,
+      "intelligence": 2,
+      "wisdom": 16,
+      "charisma": 9
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 16,
+      "cmd": 26
+    },
+    "specialQualities": [
+      "breath weapon",
+      "trample"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Greater Air Elemental",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": 14,
+    "perception": 16,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 25,
+      "touch": 19,
+      "flatFooted": 14
+    },
+    "speed": {
+      "fly": 100
+    },
+    "meleeAttacks": "2 Slams +21   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 24,
+      "dexterity": 31,
+      "constitution": 18,
+      "intelligence": 8,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 13,
+      "cmb": 22,
+      "cmd": 43
+    },
+    "specialQualities": [
+      "whirlwind",
+      "air mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Greater Earth Elemental",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": -1,
+    "perception": 16,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Tremorsense 60 ft."
+    ],
+    "armourClass": {
+      "base": 21,
+      "touch": 7,
+      "flatFooted": 21
+    },
+    "speed": {
+      "speed": 20,
+      "burrow": 20
+    },
+    "meleeAttacks": "2 Slams +21   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 30,
+      "dexterity": 8,
+      "constitution": 21,
+      "intelligence": 8,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 13,
+      "cmb": 25,
+      "cmd": 34
+    },
+    "specialQualities": [
+      "earth mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Greater Fire Elemental",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "elemental",
+      "extraplanar",
+      "fire"
+    ],
+    "initiative": 12,
+    "perception": 16,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 23,
+      "touch": 17,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 60
+    },
+    "meleeAttacks": "2 Slams +19   (x2)  plus burn",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 24,
+      "dexterity": 27,
+      "constitution": 18,
+      "intelligence": 8,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 13,
+      "cmb": 22,
+      "cmd": 41
+    },
+    "specialQualities": [
+      "burn"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Greater Ice Elemental",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "cold",
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 8,
+    "perception": 16,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Snow Vision"
+    ],
+    "armourClass": {
+      "base": 23,
+      "touch": 13,
+      "flatFooted": 18
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 60
+    },
+    "meleeAttacks": "2 Slams +20   (x2)  + 2d6 cold",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 28,
+      "dexterity": 18,
+      "constitution": 19,
+      "intelligence": 8,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 13,
+      "cmb": 24,
+      "cmd": 39
+    },
+    "specialQualities": [
+      "numbing cold",
+      "ice glide",
+      "icewalking"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Greater Lightning Elemental",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": 13,
+    "perception": 16,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 22,
+      "touch": 18,
+      "flatFooted": 12
+    },
+    "speed": {
+      "fly": 100
+    },
+    "meleeAttacks": "2 Slams +20   (x2)  + 2d6 electricity",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 22,
+      "dexterity": 29,
+      "constitution": 16,
+      "intelligence": 8,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 13,
+      "cmb": 21,
+      "cmd": 41
+    },
+    "specialQualities": [
+      "metal mastery",
+      "spark leap"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Greater Magma Elemental",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar",
+      "fire"
+    ],
+    "initiative": 3,
+    "perception": 16,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 19,
+      "touch": 7,
+      "flatFooted": 19
+    },
+    "speed": {
+      "speed": 20,
+      "burrow": 20
+    },
+    "meleeAttacks": "2 Slams +18   (x2)  plus burn",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 24,
+      "dexterity": 8,
+      "constitution": 19,
+      "intelligence": 8,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 13,
+      "cmb": 22,
+      "cmd": 31
+    },
+    "specialQualities": [
+      "burn",
+      "lava puddle",
+      "earth glide"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Greater Mud Elemental",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 4,
+    "perception": 16,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Tremorsense 30 ft."
+    ],
+    "armourClass": {
+      "base": 22,
+      "touch": 13,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 30,
+      "burrow": 10
+    },
+    "meleeAttacks": "2 Slams +20   (x2)  plus entrap",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 28,
+      "dexterity": 18,
+      "constitution": 19,
+      "intelligence": 8,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 13,
+      "cmb": 24,
+      "cmd": 39
+    },
+    "specialQualities": [
+      "entrap",
+      "earth glide"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Greater Water Elemental",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 5,
+    "perception": 16,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 23,
+      "touch": 14,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 90
+    },
+    "meleeAttacks": "2 Slams +20   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 28,
+      "dexterity": 20,
+      "constitution": 19,
+      "intelligence": 8,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 13,
+      "cmb": 24,
+      "cmd": 40
+    },
+    "specialQualities": [
+      "drench",
+      "vortex",
+      "water mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Grick",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "aberration",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 12,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 12,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 30,
+      "climb": 20
+    },
+    "meleeAttacks": "Bite +4   (x2) ,  4 Tentacles -1   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 12,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 3,
+      "wisdom": 14,
+      "charisma": 5
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 4,
+      "cmd": 16
+    },
+    "specialQualities": [
+      ""
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Griffon",
+    "summonLevel": 6,
+    "cr": "4",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "magical beast",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 12,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 11,
+      "flatFooted": 15
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 80
+    },
+    "meleeAttacks": "Bite +8   (x2) ,  2 Talons +7   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 16,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 5,
+      "wisdom": 13,
+      "charisma": 8
+    },
+    "attackBonus": {
+      "base": 5,
+      "cmb": 9,
+      "cmd": 21
+    },
+    "specialQualities": [
+      "pounce",
+      "rake"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Grig",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "tiny",
+    "alignment": "Neutral Good",
+    "creatureType": "fey",
+    "creatureSubtypes": [],
+    "initiative": 4,
+    "perception": 5,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 17,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 40
+    },
+    "meleeAttacks": "Short sword -1   (19-20 x2)",
+    "rangedAttacks": "Longbow +6   (x3)",
+    "abilityScores": {
+      "strength": 5,
+      "dexterity": 18,
+      "constitution": 13,
+      "intelligence": 10,
+      "wisdom": 13,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 0,
+      "cmb": 2,
+      "cmd": 10
+    },
+    "specialQualities": [
+      "fiddle"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Grizzly Bear",
+    "summonLevel": 4,
+    "cr": "4",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 1,
+    "perception": 6,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 16,
+      "touch": 10,
+      "flatFooted": 15
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "2 Claws +7   (x2)  plus grab,  Bite +7   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 21,
+      "dexterity": 13,
+      "constitution": 19,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 9,
+      "cmd": 20
+    },
+    "specialQualities": [
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Hell Hound",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "medium",
+    "alignment": "Lawful Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "evil",
+      "extraplanar",
+      "fire",
+      "lawful"
+    ],
+    "initiative": 5,
+    "perception": 7,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 16,
+      "touch": 11,
+      "flatFooted": 15
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Bite +5  Evil, Lawful (x2)  + 1d6 fire",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 13,
+      "constitution": 15,
+      "intelligence": 6,
+      "wisdom": 10,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 4,
+      "cmb": 5,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "breath weapon"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Hezrou",
+    "summonLevel": 8,
+    "cr": "11",
+    "size": "large",
+    "alignment": "Chaotic Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "aquatic",
+      "chaotic",
+      "demon",
+      "evil",
+      "extraplanar"
+    ],
+    "initiative": 4,
+    "perception": 23,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 25,
+      "touch": 9,
+      "flatFooted": 25
+    },
+    "speed": {
+      "speed": 30,
+      "swim": 30
+    },
+    "meleeAttacks": "Bite +17  Chaotic, Chaotic/Evil, Evil (x2)  plus grab,  2 Claws +17  Chaotic, Chaotic/Evil, Evil (x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 27,
+      "dexterity": 11,
+      "constitution": 29,
+      "intelligence": 14,
+      "wisdom": 14,
+      "charisma": 18
+    },
+    "attackBonus": {
+      "base": 10,
+      "cmb": 19,
+      "cmd": 29
+    },
+    "specialQualities": [
+      "nausea",
+      "amphibious",
+      "stench",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Horse",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 6,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 11,
+      "touch": 11,
+      "flatFooted": 9
+    },
+    "speed": {
+      "speed": 50
+    },
+    "meleeAttacks": "2 Hooves +3   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 16,
+      "dexterity": 14,
+      "constitution": 17,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 7
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 5,
+      "cmd": 17
+    },
+    "specialQualities": [
+      "docile"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Hound Archon",
+    "summonLevel": 4,
+    "cr": "4",
+    "size": "medium",
+    "alignment": "Lawful Good",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "archon",
+      "extraplanar",
+      "good",
+      "lawful"
+    ],
+    "initiative": 4,
+    "perception": 10,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Detect Evil",
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 10,
+      "touch": 10,
+      "flatFooted": 10
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Bite +8  Good, Lawful (x2) ,  Slam +8  Good, Lawful (x2) ,  Masterwork Greatsword +9/+4  Good, Lawful (19-20 x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 15,
+      "dexterity": 10,
+      "constitution": 13,
+      "intelligence": 10,
+      "wisdom": 13,
+      "charisma": 12
+    },
+    "attackBonus": {
+      "base": 6,
+      "cmb": 8,
+      "cmd": 18
+    },
+    "specialQualities": [
+      "change shape"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Huge Air Elemental",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": 13,
+    "perception": 13,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 22,
+      "touch": 18,
+      "flatFooted": 12
+    },
+    "speed": {
+      "fly": 100
+    },
+    "meleeAttacks": "2 Slams +17   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 22,
+      "dexterity": 29,
+      "constitution": 18,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 10,
+      "cmb": 18,
+      "cmd": 38
+    },
+    "specialQualities": [
+      "whirlwind",
+      "air mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Huge Earth Elemental",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": -1,
+    "perception": 13,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Tremorsense 60 ft."
+    ],
+    "armourClass": {
+      "base": 19,
+      "touch": 7,
+      "flatFooted": 19
+    },
+    "speed": {
+      "speed": 20,
+      "burrow": 20
+    },
+    "meleeAttacks": "2 Slams +17   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 28,
+      "dexterity": 8,
+      "constitution": 19,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 10,
+      "cmb": 21,
+      "cmd": 30
+    },
+    "specialQualities": [
+      "earth mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Huge Fire Elemental",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "elemental",
+      "extraplanar",
+      "fire"
+    ],
+    "initiative": 11,
+    "perception": 13,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 21,
+      "touch": 16,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 60
+    },
+    "meleeAttacks": "2 Slams +15   (x2)  plus burn",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 18,
+      "dexterity": 25,
+      "constitution": 16,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 10,
+      "cmb": 16,
+      "cmd": 34
+    },
+    "specialQualities": [
+      "burn"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Huge Lightning Elemental",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": 12,
+    "perception": 13,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 19,
+      "touch": 17,
+      "flatFooted": 10
+    },
+    "speed": {
+      "fly": 100
+    },
+    "meleeAttacks": "2 Slams +16   (x2)  + 1d8 electricity",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 20,
+      "dexterity": 27,
+      "constitution": 16,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 10,
+      "cmb": 17,
+      "cmd": 36
+    },
+    "specialQualities": [
+      "metal mastery",
+      "spark leap"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Huge Magma Elemental",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar",
+      "fire"
+    ],
+    "initiative": 3,
+    "perception": 13,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 7,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 20,
+      "burrow": 20
+    },
+    "meleeAttacks": "2 Slams +14   (x2)  plus burn",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 22,
+      "dexterity": 8,
+      "constitution": 17,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 10,
+      "cmb": 18,
+      "cmd": 27
+    },
+    "specialQualities": [
+      "burn",
+      "lava puddle",
+      "earth glide"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Huge Mud Elemental",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 3,
+    "perception": 13,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Tremorsense 30 ft."
+    ],
+    "armourClass": {
+      "base": 20,
+      "touch": 12,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 30,
+      "burrow": 10
+    },
+    "meleeAttacks": "2 Slams +15   (x2)  plus entrap",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 24,
+      "dexterity": 16,
+      "constitution": 19,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 10,
+      "cmb": 19,
+      "cmd": 33
+    },
+    "specialQualities": [
+      "entrap",
+      "earth glide"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Huge Water Elemental",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 4,
+    "perception": 13,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 21,
+      "touch": 13,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 90
+    },
+    "meleeAttacks": "2 Slams +15   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 24,
+      "dexterity": 18,
+      "constitution": 19,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 10,
+      "cmb": 19,
+      "cmd": 34
+    },
+    "specialQualities": [
+      "drench",
+      "vortex",
+      "water mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Hyena",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 8,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 12,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 50
+    },
+    "meleeAttacks": "Bite +3   (x2)  plus trip",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 14,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 3,
+      "cmd": 15
+    },
+    "specialQualities": [
+      "trip"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Ice Devil",
+    "summonLevel": 9,
+    "cr": "13",
+    "size": "large",
+    "alignment": "Lawful Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "devil",
+      "evil",
+      "extraplanar",
+      "lawful"
+    ],
+    "initiative": 9,
+    "perception": 27,
+    "senses": [
+      "Darkvision 60 ft.",
+      "See in Darkness"
+    ],
+    "armourClass": {
+      "base": 32,
+      "touch": 14,
+      "flatFooted": 27
+    },
+    "speed": {
+      "speed": 40,
+      "fly": 60
+    },
+    "meleeAttacks": "+1  Frost Spear +21/+16/+11  Lawful/Evil, Evil, Lawful (x3)  + 1d6 Cold,  Bite +19  Lawful/Evil, Evil, Lawful (x2) ,  Tail +19/+14/+9  Lawful/Evil, Evil, Lawful (x2)  plus slow",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 23,
+      "dexterity": 21,
+      "constitution": 22,
+      "intelligence": 25,
+      "wisdom": 22,
+      "charisma": 20
+    },
+    "attackBonus": {
+      "base": 14,
+      "cmb": 21,
+      "cmd": 36
+    },
+    "specialQualities": [
+      "regeneration",
+      "fear aura",
+      "slow"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Invisible Stalker",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": 8,
+    "perception": 12,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 20,
+      "touch": 14,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 30
+    },
+    "meleeAttacks": "2 Slams +12   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 18,
+      "dexterity": 19,
+      "constitution": 22,
+      "intelligence": 14,
+      "wisdom": 15,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 7,
+      "cmb": 11,
+      "cmd": 25
+    },
+    "specialQualities": [
+      "improved tracking",
+      "natural invisibility"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Kyton",
+    "summonLevel": 5,
+    "cr": "6",
+    "size": "medium",
+    "alignment": "Lawful Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "evil",
+      "extraplanar",
+      "kyton",
+      "lawful"
+    ],
+    "initiative": 7,
+    "perception": 14,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 13,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 30
+    },
+    "meleeAttacks": null,
+    "rangedAttacks": "4 Chains +12/+7  Evil, Lawful",
+    "abilityScores": {
+      "strength": 15,
+      "dexterity": 17,
+      "constitution": 14,
+      "intelligence": 11,
+      "wisdom": 12,
+      "charisma": 12
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 10,
+      "cmd": 23
+    },
+    "specialQualities": [
+      "dancing chains",
+      "unnerving gaze",
+      "chain armor",
+      "regeneration"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Lantern Archon",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "small",
+    "alignment": "Lawful Good",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "archon",
+      "extraplanar",
+      "good",
+      "lawful"
+    ],
+    "initiative": 4,
+    "perception": 4,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 11,
+      "flatFooted": 15
+    },
+    "speed": {
+      "fly": 60
+    },
+    "meleeAttacks": null,
+    "rangedAttacks": "2 Light rays +3  ranged touch Good, Lawful plus Light ray",
+    "abilityScores": {
+      "strength": 1,
+      "dexterity": 11,
+      "constitution": 12,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 10
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": -4,
+      "cmd": 6
+    },
+    "specialQualities": [
+      "gestalt",
+      "light ray"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Large Air Elemental",
+    "summonLevel": 5,
+    "cr": "5",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": 11,
+    "perception": 11,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 21,
+      "touch": 17,
+      "flatFooted": 13
+    },
+    "speed": {
+      "fly": 100
+    },
+    "meleeAttacks": "2 Slams +14   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 18,
+      "dexterity": 25,
+      "constitution": 16,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 13,
+      "cmd": 31
+    },
+    "specialQualities": [
+      "whirlwind",
+      "air mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Large Earth Elemental",
+    "summonLevel": 5,
+    "cr": "5",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": -1,
+    "perception": 11,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Tremorsense 60 ft."
+    ],
+    "armourClass": {
+      "base": 18,
+      "touch": 8,
+      "flatFooted": 18
+    },
+    "speed": {
+      "speed": 20,
+      "burrow": 20
+    },
+    "meleeAttacks": "2 Slams +14   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 24,
+      "dexterity": 8,
+      "constitution": 17,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 16,
+      "cmd": 25
+    },
+    "specialQualities": [
+      "earth mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Large Fire Elemental",
+    "summonLevel": 5,
+    "cr": "5",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "elemental",
+      "extraplanar",
+      "fire"
+    ],
+    "initiative": 9,
+    "perception": 11,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 19,
+      "touch": 15,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 50
+    },
+    "meleeAttacks": "2 Slams +12   (x2)  plus burn",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 14,
+      "dexterity": 21,
+      "constitution": 14,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 11,
+      "cmd": 27
+    },
+    "specialQualities": [
+      "burn"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Large Ice Elemental",
+    "summonLevel": 5,
+    "cr": "5",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "cold",
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 5,
+    "perception": 11,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Snow Vision"
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 10,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 60
+    },
+    "meleeAttacks": "2 Slams +12   (x2)  + 1d6 cold",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 20,
+      "dexterity": 12,
+      "constitution": 17,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 14,
+      "cmd": 25
+    },
+    "specialQualities": [
+      "numbing cold",
+      "ice glide",
+      "icewalking"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Large Lightning Elemental",
+    "summonLevel": 5,
+    "cr": "5",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": 10,
+    "perception": 11,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 18,
+      "touch": 16,
+      "flatFooted": 11
+    },
+    "speed": {
+      "fly": 100
+    },
+    "meleeAttacks": "2 Slams +13   (x2)  + 1d6 electricity",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 16,
+      "dexterity": 23,
+      "constitution": 14,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 12,
+      "cmd": 29
+    },
+    "specialQualities": [
+      "metal mastery",
+      "spark leap"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Large Magma Elemental",
+    "summonLevel": 5,
+    "cr": "5",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar",
+      "fire"
+    ],
+    "initiative": 3,
+    "perception": 11,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 16,
+      "touch": 8,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 20,
+      "burrow": 20
+    },
+    "meleeAttacks": "2 Slams +11   (x2)  plus burn",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 18,
+      "dexterity": 8,
+      "constitution": 15,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 13,
+      "cmd": 22
+    },
+    "specialQualities": [
+      "burn",
+      "lava puddle",
+      "earth glide"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Large Mud Elemental",
+    "summonLevel": 5,
+    "cr": "5",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 1,
+    "perception": 11,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Tremorsense 30 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 10,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 30,
+      "burrow": 10
+    },
+    "meleeAttacks": "2 Slams +12   (x2)  plus entrap",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 20,
+      "dexterity": 12,
+      "constitution": 17,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 14,
+      "cmd": 25
+    },
+    "specialQualities": [
+      "entrap",
+      "earth glide"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Large Water Elemental",
+    "summonLevel": 5,
+    "cr": "5",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 2,
+    "perception": 9,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 18,
+      "touch": 12,
+      "flatFooted": 15
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 90
+    },
+    "meleeAttacks": "2 Slams +12   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 20,
+      "dexterity": 14,
+      "constitution": 17,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 14,
+      "cmd": 27
+    },
+    "specialQualities": [
+      "drench",
+      "vortex",
+      "water mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Lemure",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "medium",
+    "alignment": "Lawful Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "devil",
+      "evil",
+      "extraplanar",
+      "lawful"
+    ],
+    "initiative": 0,
+    "perception": 0,
+    "senses": [
+      "Darkvision 60 ft.",
+      "See in Darkness"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 10,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 20
+    },
+    "meleeAttacks": "2 Claws +2  Lawful/Evil, Evil, Lawful (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 11,
+      "dexterity": 10,
+      "constitution": 12,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 5
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 2,
+      "cmd": 12
+    },
+    "specialQualities": [
+      ""
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Leopard",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 4,
+    "perception": 5,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 14,
+      "flatFooted": 11
+    },
+    "speed": {
+      "speed": 30,
+      "climb": 20
+    },
+    "meleeAttacks": "Bite +6   (x2)  plus grab,  2 Claws +6   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 16,
+      "dexterity": 19,
+      "constitution": 15,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 5,
+      "cmd": 19
+    },
+    "specialQualities": [
+      "pounce",
+      "rake",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Lillend Azata",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "large",
+    "alignment": "Chaotic Good",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "azata",
+      "chaotic",
+      "extraplanar",
+      "good"
+    ],
+    "initiative": 3,
+    "perception": 13,
+    "senses": [
+      "Low-Light Vision",
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 20,
+      "touch": 12,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 70
+    },
+    "meleeAttacks": "+1  Longsword +12/+7  Chaotic, Good (19-20 x2) ,  Tail slap +11  Chaotic, Good (x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 20,
+      "dexterity": 17,
+      "constitution": 21,
+      "intelligence": 14,
+      "wisdom": 16,
+      "charisma": 19
+    },
+    "attackBonus": {
+      "base": 7,
+      "cmb": 13,
+      "cmd": 26
+    },
+    "specialQualities": [
+      "bardic performance",
+      "constrict",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Lion",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 7,
+    "perception": 9,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 12,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Bite +7   (x2)  plus grab,  2 Claws +7   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 21,
+      "dexterity": 17,
+      "constitution": 15,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 9,
+      "cmd": 22
+    },
+    "specialQualities": [
+      "pounce",
+      "rake",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Mastodon Elephant",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 1,
+    "perception": 24,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 21,
+      "touch": 9,
+      "flatFooted": 20
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Gore +21   (x2) ,  Slam +20   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 34,
+      "dexterity": 12,
+      "constitution": 21,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 7
+    },
+    "attackBonus": {
+      "base": 10,
+      "cmb": 24,
+      "cmd": 35
+    },
+    "specialQualities": [
+      "trample"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Medium Air Elemental",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": 9,
+    "perception": 7,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 19,
+      "touch": 16,
+      "flatFooted": 13
+    },
+    "speed": {
+      "fly": 100
+    },
+    "meleeAttacks": "Slam +9   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 14,
+      "dexterity": 21,
+      "constitution": 14,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 4,
+      "cmb": 6,
+      "cmd": 22
+    },
+    "specialQualities": [
+      "whirlwind",
+      "air mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Medium Earth Elemental",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": -1,
+    "perception": 7,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Tremorsense 60 ft."
+    ],
+    "armourClass": {
+      "base": 18,
+      "touch": 9,
+      "flatFooted": 18
+    },
+    "speed": {
+      "speed": 20,
+      "burrow": 20
+    },
+    "meleeAttacks": "Slam +9   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 20,
+      "dexterity": 8,
+      "constitution": 17,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 4,
+      "cmb": 9,
+      "cmd": 18
+    },
+    "specialQualities": [
+      "earth mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Medium Fire Elemental",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "elemental",
+      "extraplanar",
+      "fire"
+    ],
+    "initiative": 7,
+    "perception": 7,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 14,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 50
+    },
+    "meleeAttacks": "Slam +7   (x2)  plus burn",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 12,
+      "dexterity": 17,
+      "constitution": 14,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 4,
+      "cmb": 5,
+      "cmd": 19
+    },
+    "specialQualities": [
+      "burn"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Medium Ice Elemental",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "cold",
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 0,
+    "perception": 7,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Snow Vision"
+    ],
+    "armourClass": {
+      "base": 16,
+      "touch": 10,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 60
+    },
+    "meleeAttacks": "Slam +7   (x2)  + 1d4 cold",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 16,
+      "dexterity": 10,
+      "constitution": 15,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 4,
+      "cmb": 7,
+      "cmd": 17
+    },
+    "specialQualities": [
+      "numbing cold",
+      "ice glide",
+      "icewalking"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Medium Lightning Elemental",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": 8,
+    "perception": 7,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 16,
+      "touch": 15,
+      "flatFooted": 11
+    },
+    "speed": {
+      "fly": 100
+    },
+    "meleeAttacks": "Slam +8   (x2)  + 1d4 electricity",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 14,
+      "dexterity": 19,
+      "constitution": 12,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 4,
+      "cmb": 6,
+      "cmd": 21
+    },
+    "specialQualities": [
+      "metal mastery",
+      "spark leap"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Medium Magma Elemental",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar",
+      "fire"
+    ],
+    "initiative": 3,
+    "perception": 7,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 16,
+      "touch": 9,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 20,
+      "burrow": 20
+    },
+    "meleeAttacks": "Slam +6   (x2)  plus burn",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 14,
+      "dexterity": 8,
+      "constitution": 15,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 4,
+      "cmb": 6,
+      "cmd": 15
+    },
+    "specialQualities": [
+      "burn",
+      "lava puddle",
+      "earth glide"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Medium Mud Elemental",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 0,
+    "perception": 7,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Tremorsense 30 ft."
+    ],
+    "armourClass": {
+      "base": 16,
+      "touch": 10,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 30,
+      "burrow": 10
+    },
+    "meleeAttacks": "Slam +7   (x2)  plus entrap",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 16,
+      "dexterity": 10,
+      "constitution": 15,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 4,
+      "cmb": 7,
+      "cmd": 17
+    },
+    "specialQualities": [
+      "entrap",
+      "earth glide"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Medium Water Elemental",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 1,
+    "perception": 5,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 11,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 90
+    },
+    "meleeAttacks": "Slam +7   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 16,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 4,
+      "cmb": 7,
+      "cmd": 18
+    },
+    "specialQualities": [
+      "drench",
+      "vortex",
+      "water mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Mephit, Air",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air"
+    ],
+    "initiative": 6,
+    "perception": 6,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 14,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 60
+    },
+    "meleeAttacks": "2 Claws +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 3,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "breath weapon",
+      "fast healing"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Mephit, Dust",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air"
+    ],
+    "initiative": 6,
+    "perception": 6,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 14,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 50
+    },
+    "meleeAttacks": "2 Claws +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 3,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "breath weapon",
+      "fast healing"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Mephit, Earth",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth"
+    ],
+    "initiative": 6,
+    "perception": 6,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 14,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 40
+    },
+    "meleeAttacks": "2 Claws +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 3,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "breath weapon",
+      "fast healing",
+      "change size"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Mephit, Fire",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "fire"
+    ],
+    "initiative": 6,
+    "perception": 6,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 14,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 40
+    },
+    "meleeAttacks": "2 Claws +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 3,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "breath weapon",
+      "fast healing"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Mephit, Ice",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "cold"
+    ],
+    "initiative": 6,
+    "perception": 6,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 14,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 40
+    },
+    "meleeAttacks": "2 Claws +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 3,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "breath weapon",
+      "fast healing"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Mephit, Lightning",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "electricity",
+      "extraplanar"
+    ],
+    "initiative": 6,
+    "perception": 6,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 14,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 60
+    },
+    "meleeAttacks": "2 Claws +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 3,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "breath weapon",
+      "fast healing",
+      "vulnerability to water"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Mephit, Magma",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "fire"
+    ],
+    "initiative": 6,
+    "perception": 6,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 14,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 40
+    },
+    "meleeAttacks": "2 Claws +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 3,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "breath weapon",
+      "fast healing",
+      "magma form"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Mephit, Ooze",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "water"
+    ],
+    "initiative": 6,
+    "perception": 6,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 14,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 30,
+      "swim": 30
+    },
+    "meleeAttacks": "2 Claws +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 3,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "breath weapon",
+      "fast healing"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Mephit, Salt",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth"
+    ],
+    "initiative": 6,
+    "perception": 6,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 14,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 40
+    },
+    "meleeAttacks": "2 Claws +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 3,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "breath weapon",
+      "fast healing",
+      "dehydrate"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Mephit, Smoke",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "extraplanar",
+      "fire"
+    ],
+    "initiative": 6,
+    "perception": 6,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 14,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 50
+    },
+    "meleeAttacks": "2 Claws +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 3,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "breath weapon",
+      "fast healing",
+      "ember storm"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Mephit, Steam",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "fire"
+    ],
+    "initiative": 6,
+    "perception": 6,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 14,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 40
+    },
+    "meleeAttacks": "2 Claws +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 3,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "breath weapon",
+      "fast healing",
+      "boiling rain"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Mephit, Water",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "water"
+    ],
+    "initiative": 6,
+    "perception": 6,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 14,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 30,
+      "swim": 30
+    },
+    "meleeAttacks": "2 Claws +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 14
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 3,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "breath weapon",
+      "fast healing"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Merfolk",
+    "summonLevel": 2,
+    "cr": "1/3",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "humanoid",
+    "creatureSubtypes": [
+      "aquatic"
+    ],
+    "initiative": 2,
+    "perception": -1,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 12,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 5,
+      "swim": 50
+    },
+    "meleeAttacks": null,
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 11,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 10,
+      "wisdom": 9,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 0,
+      "cmb": 0,
+      "cmd": 12
+    },
+    "specialQualities": [
+      ""
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Monitor Lizard",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 8,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 12,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 30,
+      "swim": 30
+    },
+    "meleeAttacks": "Bite +5   (x2)  plus grab, poison",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 17,
+      "dexterity": 15,
+      "constitution": 17,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 5,
+      "cmd": 17
+    },
+    "specialQualities": [
+      "grab",
+      "poison"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Mothman",
+    "summonLevel": 6,
+    "cr": "6",
+    "size": "medium",
+    "alignment": "Chaotic Neutral",
+    "creatureType": "monstrous humanoid",
+    "creatureSubtypes": [],
+    "initiative": 8,
+    "perception": 16,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 20,
+      "touch": 14,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 60
+    },
+    "meleeAttacks": "2 Claw +13   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 12,
+      "dexterity": 19,
+      "constitution": 16,
+      "intelligence": 17,
+      "wisdom": 19,
+      "charisma": 18
+    },
+    "attackBonus": {
+      "base": 9,
+      "cmb": 13,
+      "cmd": 24
+    },
+    "specialQualities": [
+      "mind-warping gaze",
+      "agent of fate"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Nalfeshnee",
+    "summonLevel": 9,
+    "cr": "14",
+    "size": "huge",
+    "alignment": "Chaotic Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "chaotic",
+      "demon",
+      "evil",
+      "extraplanar"
+    ],
+    "initiative": 5,
+    "perception": 31,
+    "senses": [
+      "Darkvision 60 ft.",
+      "True Seeing"
+    ],
+    "armourClass": {
+      "base": 25,
+      "touch": 9,
+      "flatFooted": 24
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 40
+    },
+    "meleeAttacks": "Bite +23  Chaotic, Chaotic/Evil, Evil (19-20 x2) ,  2 Claws +23  Chaotic, Chaotic/Evil, Evil (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 32,
+      "dexterity": 13,
+      "constitution": 29,
+      "intelligence": 23,
+      "wisdom": 22,
+      "charisma": 20
+    },
+    "attackBonus": {
+      "base": 14,
+      "cmb": 27,
+      "cmd": 38
+    },
+    "specialQualities": [
+      "unholy nimbus"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Nosoi",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "tiny",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "extraplanar",
+      "psychopomp"
+    ],
+    "initiative": 3,
+    "perception": 9,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Low-Light Vision",
+      "Spiritsense"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 15,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 20,
+      "fly": 50
+    },
+    "meleeAttacks": "Bite +8   (x2)  plus Psychopomp Subtype",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 8,
+      "dexterity": 16,
+      "constitution": 12,
+      "intelligence": 11,
+      "wisdom": 13,
+      "charisma": 16
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 4,
+      "cmd": 13
+    },
+    "specialQualities": [
+      "haunting melody",
+      "change shape",
+      "spirit touch"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Octopus",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [
+      "aquatic"
+    ],
+    "initiative": 3,
+    "perception": 1,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 14,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 30
+    },
+    "meleeAttacks": "Bite +5   (x2)  plus poison,  Tentacles +3   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 12,
+      "dexterity": 17,
+      "constitution": 14,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 3
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 1,
+      "cmd": 14
+    },
+    "specialQualities": [
+      "ink cloud",
+      "poison",
+      "jet"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Orca",
+    "summonLevel": 5,
+    "cr": "5",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 6,
+    "perception": 16,
+    "senses": [
+      "Blindsight 120 ft.",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 16,
+      "touch": 10,
+      "flatFooted": 14
+    },
+    "speed": {
+      "swim": 80
+    },
+    "meleeAttacks": "Bite +13   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 27,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 2,
+      "wisdom": 15,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 6,
+      "cmb": 16,
+      "cmd": 28
+    },
+    "specialQualities": [
+      "hold breath"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Poisonous Frog",
+    "summonLevel": 1,
+    "cr": "1/2",
+    "size": "tiny",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 1,
+    "perception": 3,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 13,
+      "touch": 13,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 10,
+      "swim": 20
+    },
+    "meleeAttacks": "Bite +3   (x2)  plus poison",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 2,
+      "dexterity": 12,
+      "constitution": 11,
+      "intelligence": 1,
+      "wisdom": 9,
+      "charisma": 10
+    },
+    "attackBonus": {
+      "base": 0,
+      "cmb": -1,
+      "cmd": 5
+    },
+    "specialQualities": [
+      "poison"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Pony",
+    "summonLevel": 1,
+    "cr": "1/2",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 1,
+    "perception": 5,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 11,
+      "touch": 11,
+      "flatFooted": 10
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "2 Hooves +2   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 2,
+      "wisdom": 11,
+      "charisma": 4
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 2,
+      "cmd": 13
+    },
+    "specialQualities": [
+      "docile"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Pteranodon",
+    "summonLevel": 4,
+    "cr": "3",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 8,
+    "perception": 11,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 16,
+      "touch": 14,
+      "flatFooted": 11
+    },
+    "speed": {
+      "speed": 10,
+      "fly": 50
+    },
+    "meleeAttacks": "Bite +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 16,
+      "dexterity": 19,
+      "constitution": 15,
+      "intelligence": 2,
+      "wisdom": 15,
+      "charisma": 12
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 7,
+      "cmd": 22
+    },
+    "specialQualities": [
+      ""
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Reefclaw",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "small",
+    "alignment": "Chaotic Neutral",
+    "creatureType": "aberration",
+    "creatureSubtypes": [
+      "aquatic"
+    ],
+    "initiative": 5,
+    "perception": 6,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 12,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 5,
+      "swim": 40
+    },
+    "meleeAttacks": "2 Claws +2   (x2)  plus grab, poison",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 10,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 5,
+      "wisdom": 12,
+      "charisma": 13
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 0,
+      "cmd": 11
+    },
+    "specialQualities": [
+      "death frenzy",
+      "constrict",
+      "amphibious",
+      "ferocity",
+      "grab",
+      "poison"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Rhinoceros",
+    "summonLevel": 4,
+    "cr": "4",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 0,
+    "perception": 12,
+    "senses": [
+      "Scent",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 16,
+      "touch": 9,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Gore +8   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 22,
+      "dexterity": 10,
+      "constitution": 19,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 5
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 10,
+      "cmd": 20
+    },
+    "specialQualities": [
+      "powerful charge"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Roc",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "gargantuan",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 6,
+    "perception": 15,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 22,
+      "touch": 8,
+      "flatFooted": 20
+    },
+    "speed": {
+      "speed": 20,
+      "fly": 80
+    },
+    "meleeAttacks": "2 Talons +17   (x2)  plus grab,  Bite +17   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 28,
+      "dexterity": 15,
+      "constitution": 17,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 12,
+      "cmb": 25,
+      "cmd": 37
+    },
+    "specialQualities": [
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Salamander",
+    "summonLevel": 5,
+    "cr": "6",
+    "size": "medium",
+    "alignment": "Chaotic Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "extraplanar",
+      "fire"
+    ],
+    "initiative": 1,
+    "perception": 16,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 18,
+      "touch": 11,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 20
+    },
+    "meleeAttacks": "Spear +11/+6   (x3)  + 1d6 fire,  Tail slap +11   (x2)  + 1d6 fire plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 16,
+      "dexterity": 13,
+      "constitution": 18,
+      "intelligence": 14,
+      "wisdom": 15,
+      "charisma": 13
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 11,
+      "cmd": 22
+    },
+    "specialQualities": [
+      "constrict",
+      "heat",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Saltwater Merrow",
+    "summonLevel": 5,
+    "cr": "6",
+    "size": "huge",
+    "alignment": "Neutral Evil",
+    "creatureType": "humanoid",
+    "creatureSubtypes": [
+      "aquatic",
+      "giant"
+    ],
+    "initiative": 3,
+    "perception": 10,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 19,
+      "touch": 11,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 40,
+      "swim": 40
+    },
+    "meleeAttacks": "2 Claws +11   (x2)  plus grab",
+    "rangedAttacks": "Javelin +6   (x2)",
+    "abilityScores": {
+      "strength": 25,
+      "dexterity": 16,
+      "constitution": 23,
+      "intelligence": 6,
+      "wisdom": 10,
+      "charisma": 7
+    },
+    "attackBonus": {
+      "base": 5,
+      "cmb": 14,
+      "cmd": 27
+    },
+    "specialQualities": [
+      "amphibious",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Shadow Demon",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "medium",
+    "alignment": "Chaotic Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "chaotic",
+      "demon",
+      "evil",
+      "extraplanar",
+      "incorporeal"
+    ],
+    "initiative": 8,
+    "perception": 20,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 18,
+      "touch": 18,
+      "flatFooted": 14
+    },
+    "speed": {
+      "fly": 40
+    },
+    "meleeAttacks": "2 Claws +7  Chaotic, Chaotic/Evil, Evil (x2)  + 1d6 cold,  Bite +7  Chaotic, Chaotic/Evil, Evil (x2)  + 1d6 cold",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 10,
+      "dexterity": 18,
+      "constitution": 17,
+      "intelligence": 14,
+      "wisdom": 14,
+      "charisma": 19
+    },
+    "attackBonus": {
+      "base": 7,
+      "cmb": 7,
+      "cmd": 25
+    },
+    "specialQualities": [
+      "pounce",
+      "sprint",
+      "shadow blend",
+      "sunlight powerlessness"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Shadow Mastiff",
+    "summonLevel": 6,
+    "cr": "5",
+    "size": "medium",
+    "alignment": "Neutral Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "evil",
+      "extraplanar"
+    ],
+    "initiative": 6,
+    "perception": 10,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 18,
+      "touch": 12,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 50
+    },
+    "meleeAttacks": "Bite +10  Evil (x2)  plus trip,  Tail slap +5  Evil (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 19,
+      "dexterity": 15,
+      "constitution": 17,
+      "intelligence": 4,
+      "wisdom": 12,
+      "charisma": 13
+    },
+    "attackBonus": {
+      "base": 6,
+      "cmb": 10,
+      "cmd": 22
+    },
+    "specialQualities": [
+      "bay",
+      "shadow blend",
+      "trip"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Shark",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [
+      "aquatic"
+    ],
+    "initiative": 5,
+    "perception": 8,
+    "senses": [
+      "Blindsense 30 ft.",
+      "Keen Scent",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 10,
+      "flatFooted": 13
+    },
+    "speed": {
+      "swim": 60
+    },
+    "meleeAttacks": "Bite +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 17,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 1,
+      "wisdom": 12,
+      "charisma": 2
+    },
+    "attackBonus": {
+      "base": 3,
+      "cmb": 7,
+      "cmd": 18
+    },
+    "specialQualities": [
+      ""
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Silvanshee",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "tiny",
+    "alignment": "Neutral Good",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "agathion",
+      "extraplanar",
+      "good"
+    ],
+    "initiative": 6,
+    "perception": 10,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 14,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 90
+    },
+    "meleeAttacks": "Bite +6  Good (x2) ,  2 Claws +6  Good (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 3,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 10,
+      "wisdom": 12,
+      "charisma": 13
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 2,
+      "cmd": 8
+    },
+    "specialQualities": [
+      "heroic strength",
+      "pounce",
+      "cat's luck",
+      "flight",
+      "lay on hands",
+      "spectral mist"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Small Air Elemental",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": 7,
+    "perception": 4,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 14,
+      "flatFooted": 14
+    },
+    "speed": {
+      "fly": 100
+    },
+    "meleeAttacks": "Slam +6   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 12,
+      "dexterity": 17,
+      "constitution": 12,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 2,
+      "cmd": 15
+    },
+    "specialQualities": [
+      "whirlwind",
+      "air mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Small Earth Elemental",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": -1,
+    "perception": 4,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Tremorsense 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 10,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 20,
+      "burrow": 20
+    },
+    "meleeAttacks": "Slam +6   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 16,
+      "dexterity": 8,
+      "constitution": 13,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 4,
+      "cmd": 13
+    },
+    "specialQualities": [
+      "earth mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Small Fire Elemental",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "elemental",
+      "extraplanar",
+      "fire"
+    ],
+    "initiative": 5,
+    "perception": 4,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 16,
+      "touch": 13,
+      "flatFooted": 14
+    },
+    "speed": {
+      "speed": 50
+    },
+    "meleeAttacks": "Slam +4   (x2)  plus burn",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 10,
+      "dexterity": 13,
+      "constitution": 10,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 1,
+      "cmd": 13
+    },
+    "specialQualities": [
+      "burn"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Small Ice Elemental",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "cold",
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": -1,
+    "perception": 5,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Snow Vision"
+    ],
+    "armourClass": {
+      "base": 16,
+      "touch": 10,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 60
+    },
+    "meleeAttacks": "Slam +4   (x2)  + 1d3 cold",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 12,
+      "dexterity": 8,
+      "constitution": 13,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 2,
+      "cmd": 11
+    },
+    "specialQualities": [
+      "numbing cold",
+      "ice glide",
+      "icewalking"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Small Lightning Elemental",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "air",
+      "elemental",
+      "extraplanar"
+    ],
+    "initiative": 6,
+    "perception": 5,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 13,
+      "flatFooted": 12
+    },
+    "speed": {
+      "fly": 100
+    },
+    "meleeAttacks": "Slam +5   (x2)  + 1d3 electricity",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 10,
+      "dexterity": 15,
+      "constitution": 10,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 1,
+      "cmd": 13
+    },
+    "specialQualities": [
+      "metal mastery",
+      "spark leap"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Small Magma Elemental",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar",
+      "fire"
+    ],
+    "initiative": 3,
+    "perception": 5,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 15,
+      "touch": 10,
+      "flatFooted": 15
+    },
+    "speed": {
+      "speed": 20,
+      "burrow": 20
+    },
+    "meleeAttacks": "Slam +3   (x2)  plus burn",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 10,
+      "dexterity": 8,
+      "constitution": 11,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 1,
+      "cmd": 10
+    },
+    "specialQualities": [
+      "burn",
+      "lava puddle",
+      "earth glide"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Small Mud Elemental",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "earth",
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": -1,
+    "perception": 5,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Tremorsense 30 ft."
+    ],
+    "armourClass": {
+      "base": 16,
+      "touch": 10,
+      "flatFooted": 16
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 30,
+      "burrow": 10
+    },
+    "meleeAttacks": "Slam +5   (x2)  plus entrap",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 14,
+      "dexterity": 8,
+      "constitution": 13,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 3,
+      "cmd": 12
+    },
+    "specialQualities": [
+      "entrap",
+      "earth glide"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Small Water Elemental",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "small",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "elemental",
+      "extraplanar",
+      "water"
+    ],
+    "initiative": 0,
+    "perception": 4,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 17,
+      "touch": 11,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 90
+    },
+    "meleeAttacks": "Slam +5   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 14,
+      "dexterity": 10,
+      "constitution": 13,
+      "intelligence": 4,
+      "wisdom": 11,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 3,
+      "cmd": 13
+    },
+    "specialQualities": [
+      "drench",
+      "vortex",
+      "water mastery"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Squid",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [
+      "aquatic"
+    ],
+    "initiative": 6,
+    "perception": 7,
+    "senses": [
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 13,
+      "touch": 12,
+      "flatFooted": 11
+    },
+    "speed": {
+      "swim": 60
+    },
+    "meleeAttacks": "Bite +4   (x2) ,  Tentacles +2   (x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 15,
+      "dexterity": 15,
+      "constitution": 11,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 2
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 4,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "ink cloud",
+      "grab",
+      "jet"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Succubus",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "medium",
+    "alignment": "Chaotic Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "chaotic",
+      "demon",
+      "evil",
+      "extraplanar"
+    ],
+    "initiative": 3,
+    "perception": 21,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Detect Good"
+    ],
+    "armourClass": {
+      "base": 20,
+      "touch": 13,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 50
+    },
+    "meleeAttacks": "2 Claws +11  Chaotic, Chaotic/Evil, Evil (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 17,
+      "constitution": 20,
+      "intelligence": 18,
+      "wisdom": 14,
+      "charisma": 27
+    },
+    "attackBonus": {
+      "base": 8,
+      "cmb": 11,
+      "cmd": 22
+    },
+    "specialQualities": [
+      "energy drain",
+      "profane gift",
+      "change shape"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Tiger",
+    "summonLevel": 4,
+    "cr": "4",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 6,
+    "perception": 8,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 11,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "2 Claws +10   (x2)  plus grab,  Bite +9   (x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 23,
+      "dexterity": 15,
+      "constitution": 17,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 4,
+      "cmb": 11,
+      "cmd": 23
+    },
+    "specialQualities": [
+      "pounce",
+      "rake",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Triceratops",
+    "summonLevel": 6,
+    "cr": "8",
+    "size": "huge",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": -1,
+    "perception": 24,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 21,
+      "touch": 7,
+      "flatFooted": 22
+    },
+    "speed": {
+      "speed": 30
+    },
+    "meleeAttacks": "Gore +17   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 26,
+      "dexterity": 9,
+      "constitution": 19,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 7
+    },
+    "attackBonus": {
+      "base": 10,
+      "cmb": 20,
+      "cmd": 29
+    },
+    "specialQualities": [
+      "powerful charge",
+      "trample"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Trumpet Archon",
+    "summonLevel": 9,
+    "cr": "14",
+    "size": "medium",
+    "alignment": "Lawful Good",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "archon",
+      "extraplanar",
+      "good",
+      "lawful"
+    ],
+    "initiative": 7,
+    "perception": 22,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 27,
+      "touch": 13,
+      "flatFooted": 24
+    },
+    "speed": {
+      "speed": 40,
+      "fly": 90
+    },
+    "meleeAttacks": "+4  Greatsword +23/+18/+13  Good, Lawful (19-20 x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 20,
+      "dexterity": 17,
+      "constitution": 25,
+      "intelligence": 16,
+      "wisdom": 20,
+      "charisma": 17
+    },
+    "attackBonus": {
+      "base": 14,
+      "cmb": 19,
+      "cmd": 32
+    },
+    "specialQualities": [
+      "trumpet"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Tylosaurus",
+    "summonLevel": 6,
+    "cr": "8",
+    "size": "gargantuan",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 1,
+    "perception": 14,
+    "senses": [
+      "Low-Light Vision",
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 20,
+      "touch": 8,
+      "flatFooted": 18
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 50
+    },
+    "meleeAttacks": "Bite +15   (x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 34,
+      "dexterity": 13,
+      "constitution": 22,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 9
+    },
+    "attackBonus": {
+      "base": 7,
+      "cmb": 23,
+      "cmd": 35
+    },
+    "specialQualities": [
+      "swallow whole",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Tyrannosaurus",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "gargantuan",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 5,
+    "perception": 37,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 21,
+      "touch": 7,
+      "flatFooted": 20
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "Bite +20   (19-20 x2)  plus grab",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 32,
+      "dexterity": 13,
+      "constitution": 19,
+      "intelligence": 2,
+      "wisdom": 15,
+      "charisma": 10
+    },
+    "attackBonus": {
+      "base": 13,
+      "cmb": 28,
+      "cmd": 39
+    },
+    "specialQualities": [
+      "swallow whole",
+      "powerful bite",
+      "grab"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Vanth",
+    "summonLevel": 6,
+    "cr": "7",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "extraplanar",
+      "psychopomp"
+    ],
+    "initiative": 3,
+    "perception": 16,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Low-Light Vision",
+      "Spiritsense"
+    ],
+    "armourClass": {
+      "base": 20,
+      "touch": 13,
+      "flatFooted": 17
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 50
+    },
+    "meleeAttacks": "+1  Scythe +14/+9   (x4)  plus Psychopomp Subtype,  2 Claws +13   (x2)  plus Psychopomp Subtype",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 18,
+      "dexterity": 16,
+      "constitution": 17,
+      "intelligence": 13,
+      "wisdom": 19,
+      "charisma": 17
+    },
+    "attackBonus": {
+      "base": 9,
+      "cmb": 13,
+      "cmd": 26
+    },
+    "specialQualities": [
+      "reaper's scythe",
+      "spirit touch",
+      "fear aura"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Venomous Snake",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 5,
+    "perception": 9,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 11,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 20,
+      "climb": 20
+    },
+    "meleeAttacks": "Bite +2   (x2)  plus poison",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 8,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 1,
+      "wisdom": 13,
+      "charisma": 2
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 0,
+      "cmd": 11
+    },
+    "specialQualities": [
+      "poison"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Viper",
+    "summonLevel": 1,
+    "cr": "1/2",
+    "size": "tiny",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 3,
+    "perception": 9,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 16,
+      "touch": 15,
+      "flatFooted": 13
+    },
+    "speed": {
+      "speed": 20,
+      "swim": 20,
+      "climb": 20
+    },
+    "meleeAttacks": "Bite +5   (x2)  plus poison",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 4,
+      "dexterity": 17,
+      "constitution": 8,
+      "intelligence": 1,
+      "wisdom": 13,
+      "charisma": 2
+    },
+    "attackBonus": {
+      "base": 0,
+      "cmb": 1,
+      "cmd": 8
+    },
+    "specialQualities": [
+      "poison"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Vrock",
+    "summonLevel": 7,
+    "cr": "9",
+    "size": "large",
+    "alignment": "Chaotic Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "chaotic",
+      "demon",
+      "evil",
+      "extraplanar"
+    ],
+    "initiative": 6,
+    "perception": 23,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 22,
+      "touch": 11,
+      "flatFooted": 20
+    },
+    "speed": {
+      "speed": 30,
+      "fly": 50
+    },
+    "meleeAttacks": "2 Claws +13  Chaotic, Chaotic/Evil, Evil (x2) ,  Bite +13  Chaotic, Chaotic/Evil, Evil (x2) ,  2 Talons +13  Chaotic, Chaotic/Evil, Evil (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 21,
+      "dexterity": 15,
+      "constitution": 25,
+      "intelligence": 14,
+      "wisdom": 16,
+      "charisma": 16
+    },
+    "attackBonus": {
+      "base": 9,
+      "cmb": 15,
+      "cmd": 27
+    },
+    "specialQualities": [
+      "dance of ruin",
+      "spores",
+      "stunning screech"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Vulpinal",
+    "summonLevel": 5,
+    "cr": "6",
+    "size": "small",
+    "alignment": "Neutral Good",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "agathion",
+      "extraplanar",
+      "good"
+    ],
+    "initiative": 7,
+    "perception": 12,
+    "senses": [
+      "Darkvision 60 ft.",
+      "Detect Evil",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 18,
+      "touch": 14,
+      "flatFooted": 15
+    },
+    "speed": {
+      "speed": 30
+    },
+    "meleeAttacks": "Bite +11  Good (x2) ,  2 Claws +11  Good (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 12,
+      "dexterity": 16,
+      "constitution": 17,
+      "intelligence": 19,
+      "wisdom": 15,
+      "charisma": 16
+    },
+    "attackBonus": {
+      "base": 7,
+      "cmb": 7,
+      "cmd": 20
+    },
+    "specialQualities": [
+      "pounce",
+      "bardic knowledge +7",
+      "lay on hands",
+      "calm emotions aura"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Wolf",
+    "summonLevel": 2,
+    "cr": "1",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 8,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 12,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 50
+    },
+    "meleeAttacks": "Bite +2   (x2)  plus trip",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 6
+    },
+    "attackBonus": {
+      "base": 1,
+      "cmb": 2,
+      "cmd": 14
+    },
+    "specialQualities": [
+      "trip"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Wolverine",
+    "summonLevel": 3,
+    "cr": "2",
+    "size": "medium",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 2,
+    "perception": 10,
+    "senses": [
+      "Low-Light Vision",
+      "Scent"
+    ],
+    "armourClass": {
+      "base": 14,
+      "touch": 12,
+      "flatFooted": 12
+    },
+    "speed": {
+      "speed": 30,
+      "climb": 10,
+      "burrow": 10
+    },
+    "meleeAttacks": "2 Claws +4   (x2) ,  Bite +4   (x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 15,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 10
+    },
+    "attackBonus": {
+      "base": 2,
+      "cmb": 4,
+      "cmd": 16
+    },
+    "specialQualities": [
+      "rage"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Woolly Rhinoceros",
+    "summonLevel": 5,
+    "cr": "6",
+    "size": "large",
+    "alignment": "Neutral",
+    "creatureType": "animal",
+    "creatureSubtypes": [],
+    "initiative": 0,
+    "perception": 15,
+    "senses": [
+      "Scent",
+      "Low-Light Vision"
+    ],
+    "armourClass": {
+      "base": 19,
+      "touch": 9,
+      "flatFooted": 19
+    },
+    "speed": {
+      "speed": 30
+    },
+    "meleeAttacks": "Gore +14   (19-20 x2)",
+    "rangedAttacks": null,
+    "abilityScores": {
+      "strength": 28,
+      "dexterity": 10,
+      "constitution": 21,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 3
+    },
+    "attackBonus": {
+      "base": 6,
+      "cmb": 16,
+      "cmd": 26
+    },
+    "specialQualities": [
+      "powerful charge",
+      "trample"
+    ],
+    "specialAbilities": {}
+  },
+  {
+    "name": "Xill",
+    "summonLevel": 5,
+    "cr": "6",
+    "size": "medium",
+    "alignment": "Lawful Evil",
+    "creatureType": "outsider",
+    "creatureSubtypes": [
+      "evil",
+      "extraplanar"
+    ],
+    "initiative": 8,
+    "perception": 13,
+    "senses": [
+      "Darkvision 60 ft."
+    ],
+    "armourClass": {
+      "base": 19,
+      "touch": 14,
+      "flatFooted": 15
+    },
+    "speed": {
+      "speed": 40
+    },
+    "meleeAttacks": "2 Short swords +13/+8  Evil (19-20 x2) ,  4 Claw +12  Evil (x2)  plus grab,  4 Bite +12  Evil (x2)  plus paralysis",
+    "rangedAttacks": "2 Longbows +13/+8  Evil (x3)",
+    "abilityScores": {
+      "strength": 17,
+      "dexterity": 18,
+      "constitution": 14,
+      "intelligence": 15,
+      "wisdom": 12,
+      "charisma": 11
+    },
+    "attackBonus": {
+      "base": 9,
+      "cmb": 12,
+      "cmd": 26
+    },
+    "specialQualities": [
+      "implant",
+      "paralysis",
+      "multiweapon mastery",
+      "planewalk",
+      "grab"
+    ],
+    "specialAbilities": {}
+  }
+]

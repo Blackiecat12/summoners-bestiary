@@ -21,12 +21,26 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
+import androidx.sqlite.db.SupportSQLiteDatabase
+import com.example.summonapp.R
 import com.example.summonapp.data.converters.AbilityScoreConverter
+import com.example.summonapp.data.converters.AlignmentConverter
 import com.example.summonapp.data.converters.ArmourClassConverter
 import com.example.summonapp.data.converters.AttackBonusConverter
 import com.example.summonapp.data.converters.ListStringConverter
+import com.example.summonapp.data.converters.SizeConverter
 import com.example.summonapp.data.converters.SpecialAbilitiesConverter
 import com.example.summonapp.data.converters.SpeedConverter
+import com.example.summonapp.models.enums.Alignment
+import com.example.summonapp.models.enums.Size
+import com.google.gson.GsonBuilder
+import com.google.gson.JsonDeserializationContext
+import com.google.gson.JsonDeserializer
+import com.google.gson.JsonElement
+import com.google.gson.reflect.TypeToken
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.lang.reflect.Type
 
 /**
  * Database class with a singleton Instance object.
@@ -34,6 +48,8 @@ import com.example.summonapp.data.converters.SpeedConverter
 @Database(entities = [Monster::class], version = 1, exportSchema = false)
 @TypeConverters(
     ListStringConverter::class,
+    AlignmentConverter::class,
+    SizeConverter::class,
     ArmourClassConverter::class,
     AbilityScoreConverter::class,
     AttackBonusConverter::class,
@@ -42,7 +58,7 @@ import com.example.summonapp.data.converters.SpeedConverter
 )
 abstract class MonsterDatabase : RoomDatabase() {
 
-    abstract fun itemDao(): MonsterDao
+    abstract fun monsterDao(): MonsterDao
 
     companion object {
         @Volatile
@@ -58,9 +74,44 @@ abstract class MonsterDatabase : RoomDatabase() {
                      * attempts to perform a migration with no defined migration path.
                      */
                     .fallbackToDestructiveMigration()
+                    .addCallback(object : Callback() {
+                        override fun onOpen(db: SupportSQLiteDatabase) {
+                            super.onCreate(db)
+                            // Insert default monsters when DB is created
+                            Thread {
+                                val database = getDatabase(context)
+                                val monsterDao = database.monsterDao()
+                                val monsters = loadMonstersFromJson(context)
+                                monsterDao.insertAll(monsters)
+                            }.start()
+                        }
+                    })
                     .build()
                     .also { Instance = it }
             }
         }
+    }
+}
+
+fun loadMonstersFromJson(context: Context): List<Monster> {
+    val inputStream = context.resources.openRawResource(R.raw.bestiary)
+    val reader = BufferedReader(InputStreamReader(inputStream))
+    val type = object : TypeToken<List<Monster>>() {}.type
+    val gson = GsonBuilder()
+        .registerTypeAdapter(Size::class.java, SizeDeserializer())
+        .registerTypeAdapter(Alignment::class.java, AlignmentDeserializer())
+        .create()
+    return gson.fromJson(reader, type)
+}
+
+class SizeDeserializer : JsonDeserializer<Size> {
+    override fun deserialize(json: JsonElement, typeOfT: Type, context: JsonDeserializationContext): Size {
+        return Size.valueOf(json.asString.uppercase())
+    }
+}
+
+class AlignmentDeserializer : JsonDeserializer<Alignment> {
+    override fun deserialize(json: JsonElement, typeOfT: Type, context: JsonDeserializationContext): Alignment {
+        return Alignment.valueOf(json.asString.uppercase().replace(" ", "_"))
     }
 }

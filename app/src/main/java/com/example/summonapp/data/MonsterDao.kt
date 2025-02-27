@@ -46,4 +46,7 @@ interface MonsterDao {
 
     @Delete
     suspend fun delete(item: Monster)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertAll(monsters: List<Monster>)
 }

@@ -38,7 +38,7 @@ import com.example.summonapp.models.enums.Size
 data class Monster(
     @PrimaryKey val name: String, // Unique identifier
     val summonLevel: Int,
-    val cr: Int,
+    val cr: String,
     val size: Size,
     val alignment: Alignment,
     val creatureType: String,

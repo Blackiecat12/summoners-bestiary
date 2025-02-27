@@ -195,7 +195,7 @@ private fun MonsterItem(
                 )
             }
             Text(
-                text = stringResource(R.string.in_stock, item.cr),
+                text = stringResource(R.string.in_stock, item.initiative),
                 style = MaterialTheme.typography.titleMedium
             )
         }
@@ -234,7 +234,7 @@ fun getPreviewMonster(): Monster {
     val previewMonster = Monster(
         name = "Fire Drake",
         summonLevel = 5,
-        cr = 5,
+        cr = "5",
         size = CreatureSize.MEDIUM,
         alignment = CreatureAlignment.CHAOTIC_EVIL,
         creatureType = "Dragon",
