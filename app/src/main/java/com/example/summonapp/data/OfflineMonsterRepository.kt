@@ -21,7 +21,7 @@ import kotlinx.coroutines.flow.Flow
 class OfflineMonsterRepository(private val monsterDao: MonsterDao) : MonsterRepository {
     override fun getAllMonstersStream(): Flow<List<Monster>> = monsterDao.getAllMonsters()
 
-    override fun getMonsterStream(id: Int): Flow<Monster?> = monsterDao.getMonster(id)
+    override fun getMonsterStream(name: String): Flow<Monster?> = monsterDao.getMonster(name)
 
     override suspend fun insertMonster(item: Monster) = monsterDao.insert(item)
 

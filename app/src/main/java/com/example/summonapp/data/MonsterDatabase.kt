@@ -20,11 +20,26 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.room.TypeConverters
+import com.example.summonapp.data.converters.AbilityScoreConverter
+import com.example.summonapp.data.converters.ArmourClassConverter
+import com.example.summonapp.data.converters.AttackBonusConverter
+import com.example.summonapp.data.converters.ListStringConverter
+import com.example.summonapp.data.converters.SpecialAbilitiesConverter
+import com.example.summonapp.data.converters.SpeedConverter
 
 /**
  * Database class with a singleton Instance object.
  */
 @Database(entities = [Monster::class], version = 1, exportSchema = false)
+@TypeConverters(
+    ListStringConverter::class,
+    ArmourClassConverter::class,
+    AbilityScoreConverter::class,
+    AttackBonusConverter::class,
+    SpecialAbilitiesConverter::class,
+    SpeedConverter::class
+)
 abstract class MonsterDatabase : RoomDatabase() {
 
     abstract fun itemDao(): MonsterDao

@@ -59,7 +59,11 @@ import com.example.summonapp.MonsterTopAppBar
 import com.example.summonapp.R
 import com.example.summonapp.ui.AppViewModelProvider
 import com.example.summonapp.data.Monster
-//import com.example.summonapp.ui.item.formatedPrice
+import com.example.summonapp.models.AbilityScore
+import com.example.summonapp.models.ArmourClass
+import com.example.summonapp.models.AttackBonus
+import com.example.summonapp.models.enums.Alignment as CreatureAlignment
+import com.example.summonapp.models.enums.Size as CreatureSize
 import com.example.summonapp.ui.navigation.NavigationDestination
 import com.example.summonapp.ui.theme.SummonAppTheme
 
@@ -75,7 +79,7 @@ object HomeDestination : NavigationDestination {
 @Composable
 fun HomeScreen(
     navigateToItemEntry: () -> Unit,
-    navigateToItemUpdate: (Int) -> Unit,
+    navigateToItemUpdate: (String) -> Unit,
     modifier: Modifier = Modifier,
     viewModel: HomeViewModel = viewModel(factory = AppViewModelProvider.Factory)
 ) {
@@ -110,7 +114,7 @@ fun HomeScreen(
     ) { innerPadding ->
         HomeBody(
             itemList = homeUiState.itemList,
-            onItemClick = navigateToItemUpdate,
+            onItemClick = { navigateToItemUpdate },
             modifier = modifier.fillMaxSize(),
             contentPadding = innerPadding,
         )
@@ -120,7 +124,7 @@ fun HomeScreen(
 @Composable
 private fun HomeBody(
     itemList: List<Monster>,
-    onItemClick: (Int) -> Unit,
+    onItemClick: (String) -> Unit,
     modifier: Modifier = Modifier,
     contentPadding: PaddingValues = PaddingValues(0.dp),
 ) {
@@ -138,7 +142,7 @@ private fun HomeBody(
         } else {
             SummonList(
                 itemList = itemList,
-                onItemClick = { onItemClick(it.id) },
+                onItemClick = { onItemClick(it.name) },
                 contentPadding = contentPadding,
                 modifier = Modifier.padding(horizontal = dimensionResource(id = R.dimen.padding_small))
             )
@@ -157,7 +161,7 @@ private fun SummonList(
         modifier = modifier,
         contentPadding = contentPadding
     ) {
-        items(items = itemList, key = { it.id }) { item ->
+        items(items = itemList, key = { it.name }) { item ->
             MonsterItem(item = item,
                 modifier = Modifier
                     .padding(dimensionResource(id = R.dimen.padding_small))
@@ -191,7 +195,7 @@ private fun MonsterItem(
                 )
             }
             Text(
-                text = stringResource(R.string.in_stock, item.quantity),
+                text = stringResource(R.string.in_stock, item.cr),
                 style = MaterialTheme.typography.titleMedium
             )
         }
@@ -221,7 +225,41 @@ fun HomeBodyEmptyListPreview() {
 fun MonsterItemPreview() {
     SummonAppTheme {
         MonsterItem(
-            Monster(1, "Game", 100.0, 20),
+            getPreviewMonster()
         )
     }
+}
+
+fun getPreviewMonster(): Monster {
+    val previewMonster = Monster(
+        name = "Fire Drake",
+        summonLevel = 5,
+        cr = 5,
+        size = CreatureSize.MEDIUM,
+        alignment = CreatureAlignment.CHAOTIC_EVIL,
+        creatureType = "Dragon",
+        creatureSubtypes = listOf(),
+        initiative = 3,
+        perception = 10,
+        senses = listOf("Darkvision 60ft", "Scent"),
+        armourClass = ArmourClass(base = 18, touch = 12, flatFooted = 16),
+        speed = mapOf("land" to 30, "fly" to 60),
+        meleeAttacks = "Bite +10 (1d8+5), 2 Claws +8 (1d6+3)",
+        rangedAttacks = "Fire Breath (30ft cone, 3d6 fire damage)",
+        abilityScores = AbilityScore(
+            strength = 18,
+            dexterity = 14,
+            constitution = 16,
+            intelligence = 10,
+            wisdom = 12,
+            charisma = 14
+        ),
+        attackBonus = AttackBonus(base = 10, cmd = 18, cmb = 12),
+        specialQualities = listOf("Fire Resistance 10", "Draconic Senses"),
+        specialAbilities = mapOf(
+            "Fire Breath" to "Deals 3d6 fire damage in a 30ft cone (once per 1d4 rounds)",
+            "Wing Buffet" to "Can push enemies back 5ft when attacking with wings"
+        )
+    )
+    return previewMonster
 }

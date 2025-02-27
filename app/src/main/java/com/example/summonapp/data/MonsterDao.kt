@@ -30,11 +30,11 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 interface MonsterDao {
 
-    @Query("SELECT * from items ORDER BY name ASC")
+    @Query("SELECT * from monsters ORDER BY name ASC")
     fun getAllMonsters(): Flow<List<Monster>>
 
-    @Query("SELECT * from items WHERE id = :id")
-    fun getMonster(id: Int): Flow<Monster>
+    @Query("SELECT * from monsters WHERE name = :name")
+    fun getMonster(name: String): Flow<Monster>
 
     // Specify the conflict strategy as IGNORE, when the user tries to add an
     // existing Item into the database Room ignores the conflict.

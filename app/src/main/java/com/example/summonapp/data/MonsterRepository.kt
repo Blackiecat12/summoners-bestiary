@@ -30,7 +30,7 @@ interface MonsterRepository {
     /**
      * Retrieve an item from the given data source that matches with the [id].
      */
-    fun getMonsterStream(id: Int): Flow<Monster?>
+    fun getMonsterStream(name: String): Flow<Monster?>
 
     /**
      * Insert item in the data source
