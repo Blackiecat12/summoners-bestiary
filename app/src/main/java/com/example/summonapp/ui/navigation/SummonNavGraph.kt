@@ -45,10 +45,7 @@ fun MonsterNavHost(
     ) {
         composable(route = HomeDestination.route) {
             HomeScreen(
-                navigateToItemEntry = {
-//                    navController.navigate(ItemEntryDestination.route)
-                                      },
-                navigateToItemUpdate = {
+                navigateToMonsterInfo = {
 //                    navController.navigate("${ItemDetailsDestination.route}/${it}")
                 }
             )

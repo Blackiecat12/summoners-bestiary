@@ -16,32 +16,25 @@
 
 package com.example.summonapp.ui.home
 
-import androidx.compose.animation.animateContentSize
-import androidx.compose.animation.core.tween
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.shrinkVertically
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.WindowInsets
-import androidx.compose.foundation.layout.asPaddingValues
-import androidx.compose.foundation.layout.calculateEndPadding
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ArrowDropDown
-import androidx.compose.material.icons.outlined.ArrowDropDown
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -55,7 +48,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
-import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -67,16 +59,16 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.summonapp.MonsterTopAppBar
 import com.example.summonapp.R
-import com.example.summonapp.ui.AppViewModelProvider
 import com.example.summonapp.data.Monster
 import com.example.summonapp.models.AbilityScore
 import com.example.summonapp.models.ArmourClass
 import com.example.summonapp.models.AttackBonus
-import com.example.summonapp.models.enums.Alignment as CreatureAlignment
-import com.example.summonapp.models.enums.Size as CreatureSize
+import com.example.summonapp.ui.AppViewModelProvider
 import com.example.summonapp.ui.navigation.NavigationDestination
 import com.example.summonapp.ui.theme.SummonAppTheme
 import java.util.Locale
+import com.example.summonapp.models.enums.Alignment as CreatureAlignment
+import com.example.summonapp.models.enums.Size as CreatureSize
 
 object HomeDestination : NavigationDestination {
     override val route = "home"
@@ -89,8 +81,7 @@ object HomeDestination : NavigationDestination {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
-    navigateToItemEntry: () -> Unit,
-    navigateToItemUpdate: (String) -> Unit,
+    navigateToMonsterInfo: (String) -> Unit,
     modifier: Modifier = Modifier,
     viewModel: HomeViewModel = viewModel(factory = AppViewModelProvider.Factory)
 ) {
@@ -105,27 +96,11 @@ fun HomeScreen(
                 canNavigateBack = false,
                 scrollBehavior = scrollBehavior
             )
-        },
-        floatingActionButton = {
-            FloatingActionButton(
-                onClick = navigateToItemEntry,
-                shape = MaterialTheme.shapes.medium,
-                modifier = Modifier
-                    .padding(
-                        end = WindowInsets.safeDrawing.asPaddingValues()
-                            .calculateEndPadding(LocalLayoutDirection.current)
-                    )
-            ) {
-                Icon(
-                    imageVector = Icons.Default.Add,
-                    contentDescription = stringResource(R.string.item_entry_title)
-                )
-            }
-        },
+        }
     ) { innerPadding ->
         HomeBody(
             itemList = homeUiState.itemList,
-            onItemClick = { navigateToItemUpdate },
+            onItemClick = { navigateToMonsterInfo },
             modifier = modifier.fillMaxSize(),
             contentPadding = innerPadding,
         )
@@ -172,7 +147,7 @@ private fun SummonList(
         allMonsters.groupBy { it.summonLevel }
             .toSortedMap() // Ensures summon levels are sorted
     }
-    val expandedStates = remember { mutableStateMapOf<Int, Boolean>() }
+    val expandedSections = remember { mutableStateMapOf<Int, Boolean>() }
 
     LazyColumn(
         modifier = modifier,
@@ -180,25 +155,39 @@ private fun SummonList(
     ) {
         groupedMonsters.forEach { (summonLevel, monsters) ->
             // Section Header
-            val isExpanded = expandedStates[summonLevel] ?: true
+            val isExpanded = expandedSections[summonLevel] ?: true
 
             item {
                 SummonLevelHeader(
                     summonLevel = summonLevel,
                     isExpanded = isExpanded,
                     onToggleExpand = {
-                        expandedStates[summonLevel] = !isExpanded
+                        expandedSections[summonLevel] = !isExpanded
                     }
                 )
             }
             // Monster List (sorted by name)
-            if (isExpanded) {
-                items(monsters.sortedBy { it.name }) { monster ->
-                    MonsterItem(
-                        monster = monster,
+            item {
+                AnimatedVisibility(
+                    visible = isExpanded,
+                    enter = expandVertically(),
+                    exit = shrinkVertically()
+                ) {
+                    Column (
                         modifier = Modifier
-                            .padding(dimensionResource(id = R.dimen.padding_small))
-                            .clickable { onItemClick(monster) })
+                            .fillMaxWidth()
+                            .padding(start = 16.dp),
+                    ) {
+                        monsters.sortedBy { it.name }.forEach { monster ->
+                            MonsterItem(
+                                monster = monster,
+                                modifier = Modifier
+                                    .padding(dimensionResource(id = R.dimen.padding_small))
+                                    .clickable { onItemClick(monster) }
+                            )
+                        }
+                    }
+
                 }
             }
         }
@@ -290,7 +279,9 @@ fun monsterDescription(monster: Monster): String {
 fun HomeBodyPreview() {
     SummonAppTheme {
         HomeBody(listOf(
-            getPreviewMonster()
+            getPreviewMonster(1),
+            getPreviewMonster(2),
+            getPreviewMonster(2)
         ), onItemClick = {})
     }
 }
@@ -308,15 +299,15 @@ fun HomeBodyEmptyListPreview() {
 fun MonsterItemPreview() {
     SummonAppTheme {
         MonsterItem(
-            getPreviewMonster()
+            getPreviewMonster(1)
         )
     }
 }
 
-fun getPreviewMonster(): Monster {
+fun getPreviewMonster(summonLevel: Int): Monster {
     val previewMonster = Monster(
         name = "Fire Drake",
-        summonLevel = 5,
+        summonLevel = summonLevel,
         cr = "5",
         size = CreatureSize.MEDIUM,
         alignment = CreatureAlignment.CHAOTIC_EVIL,
