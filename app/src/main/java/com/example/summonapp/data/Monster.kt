@@ -22,12 +22,14 @@ import androidx.room.TypeConverters
 import com.example.summonapp.data.converters.AbilityScoreConverter
 import com.example.summonapp.data.converters.ArmourClassConverter
 import com.example.summonapp.data.converters.AttackBonusConverter
+import com.example.summonapp.data.converters.HealthConverter
 import com.example.summonapp.data.converters.ListStringConverter
 import com.example.summonapp.data.converters.SpecialAbilitiesConverter
 import com.example.summonapp.data.converters.SpeedConverter
 import com.example.summonapp.models.AbilityScore
 import com.example.summonapp.models.ArmourClass
 import com.example.summonapp.models.AttackBonus
+import com.example.summonapp.models.Health
 import com.example.summonapp.models.enums.Alignment
 import com.example.summonapp.models.enums.Size
 
@@ -46,6 +48,7 @@ data class Monster(
     val initiative: Int,
     val perception: Int,
     @TypeConverters(ListStringConverter::class) val senses: List<String>,
+    @TypeConverters(HealthConverter::class) val health: Health,
     @TypeConverters(ArmourClassConverter::class) val armourClass: ArmourClass,
     @TypeConverters(SpeedConverter::class) val speed: Map<String, Int>,
     val meleeAttacks: String?,

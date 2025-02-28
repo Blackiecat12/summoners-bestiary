@@ -27,6 +27,7 @@ import com.example.summonapp.data.converters.AbilityScoreConverter
 import com.example.summonapp.data.converters.AlignmentConverter
 import com.example.summonapp.data.converters.ArmourClassConverter
 import com.example.summonapp.data.converters.AttackBonusConverter
+import com.example.summonapp.data.converters.HealthConverter
 import com.example.summonapp.data.converters.ListStringConverter
 import com.example.summonapp.data.converters.SizeConverter
 import com.example.summonapp.data.converters.SpecialAbilitiesConverter
@@ -50,6 +51,7 @@ import java.lang.reflect.Type
     ListStringConverter::class,
     AlignmentConverter::class,
     SizeConverter::class,
+    HealthConverter::class,
     ArmourClassConverter::class,
     AbilityScoreConverter::class,
     AttackBonusConverter::class,

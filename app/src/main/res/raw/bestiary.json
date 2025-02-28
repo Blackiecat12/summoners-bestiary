@@ -18,6 +18,10 @@
       "touch": 12,
       "flatFooted": 11
     },
+    "health": {
+      "total": 15,
+      "hitDice": "2d8+6"
+    },
     "speed": {
       "speed": 40,
       "climb": 20
@@ -65,6 +69,10 @@
       "touch": 11,
       "flatFooted": 17
     },
+    "health": {
+      "total": 37,
+      "hitDice": "5d10+5"
+    },
     "speed": {
       "speed": 20,
       "swim": 20,
@@ -110,6 +118,10 @@
       "touch": 8,
       "flatFooted": 22
     },
+    "health": {
+      "total": 75,
+      "hitDice": "10d8+30"
+    },
     "speed": {
       "speed": 30
     },
@@ -152,6 +164,10 @@
       "base": 14,
       "touch": 11,
       "flatFooted": 12
+    },
+    "health": {
+      "total": 19,
+      "hitDice": "3d8+6"
     },
     "speed": {
       "speed": 30,
@@ -200,6 +216,10 @@
       "touch": 14,
       "flatFooted": 25
     },
+    "health": {
+      "total": 172,
+      "hitDice": "15d10+75"
+    },
     "speed": {
       "speed": 50,
       "fly": 100
@@ -244,6 +264,10 @@
       "base": 13,
       "touch": 9,
       "flatFooted": 13
+    },
+    "health": {
+      "total": 22,
+      "hitDice": "3d8+9"
     },
     "speed": {
       "speed": 40
@@ -293,6 +317,10 @@
       "touch": 11,
       "flatFooted": 18
     },
+    "health": {
+      "total": 73,
+      "hitDice": "7d10+35"
+    },
     "speed": {
       "speed": 30
     },
@@ -340,6 +368,10 @@
       "base": 26,
       "touch": 16,
       "flatFooted": 20
+    },
+    "health": {
+      "total": 138,
+      "hitDice": "12d10+72"
     },
     "speed": {
       "speed": 30
@@ -391,6 +423,10 @@
       "touch": 12,
       "flatFooted": 17
     },
+    "health": {
+      "total": 57,
+      "hitDice": "6d10+24"
+    },
     "speed": {
       "speed": 40
     },
@@ -438,6 +474,10 @@
       "touch": 9,
       "flatFooted": 21
     },
+    "health": {
+      "total": 150,
+      "hitDice": "12d10+84"
+    },
     "speed": {
       "speed": 40,
       "climb": 20
@@ -483,6 +523,10 @@
       "base": 21,
       "touch": 9,
       "flatFooted": 20
+    },
+    "health": {
+      "total": 105,
+      "hitDice": "10d10+50"
     },
     "speed": {
       "speed": 40,
@@ -531,6 +575,10 @@
       "touch": 9,
       "flatFooted": 17
     },
+    "health": {
+      "total": 42,
+      "hitDice": "5d8+20"
+    },
     "speed": {
       "speed": 40
     },
@@ -575,6 +623,10 @@
       "touch": 12,
       "flatFooted": 12
     },
+    "health": {
+      "total": 22,
+      "hitDice": "3d10+6"
+    },
     "speed": {
       "speed": 40
     },
@@ -616,6 +668,10 @@
       "base": 14,
       "touch": 10,
       "flatFooted": 14
+    },
+    "health": {
+      "total": 18,
+      "hitDice": "2d8+6"
     },
     "speed": {
       "speed": 40
@@ -664,6 +720,10 @@
       "touch": 14,
       "flatFooted": 20
     },
+    "health": {
+      "total": 105,
+      "hitDice": "10d10+50"
+    },
     "speed": {
       "speed": 40,
       "fly": 60
@@ -707,6 +767,10 @@
       "base": 18,
       "touch": 6,
       "flatFooted": 18
+    },
+    "health": {
+      "total": 171,
+      "hitDice": "18d8+90"
     },
     "speed": {
       "speed": 30
@@ -755,6 +819,10 @@
       "touch": 14,
       "flatFooted": 16
     },
+    "health": {
+      "total": 66,
+      "hitDice": "7d10+28"
+    },
     "speed": {
       "speed": 40,
       "fly": 100
@@ -800,6 +868,10 @@
       "base": 22,
       "touch": 10,
       "flatFooted": 20
+    },
+    "health": {
+      "total": 84,
+      "hitDice": "8d10+40"
     },
     "speed": {
       "speed": 40,
@@ -849,6 +921,10 @@
       "touch": 12,
       "flatFooted": 16
     },
+    "health": {
+      "total": 76,
+      "hitDice": "8d10+32"
+    },
     "speed": {
       "speed": 40
     },
@@ -894,6 +970,10 @@
       "touch": 13,
       "flatFooted": 17
     },
+    "health": {
+      "total": 85,
+      "hitDice": "9d10+27"
+    },
     "speed": {
       "speed": 20
     },
@@ -938,6 +1018,10 @@
       "touch": 14,
       "flatFooted": 11
     },
+    "health": {
+      "total": 19,
+      "hitDice": "3d8+6"
+    },
     "speed": {
       "speed": 50
     },
@@ -979,6 +1063,10 @@
       "base": 17,
       "touch": 13,
       "flatFooted": 15
+    },
+    "health": {
+      "total": 16,
+      "hitDice": "3d8+3"
     },
     "speed": {
       "speed": 20,
@@ -1024,6 +1112,10 @@
       "base": 19,
       "touch": 12,
       "flatFooted": 16
+    },
+    "health": {
+      "total": 51,
+      "hitDice": "6d8+24"
     },
     "speed": {
       "speed": 10,
@@ -1072,6 +1164,10 @@
       "touch": 9,
       "flatFooted": 20
     },
+    "health": {
+      "total": 168,
+      "hitDice": "16d8+96"
+    },
     "speed": {
       "speed": 50
     },
@@ -1116,6 +1212,10 @@
       "touch": 13,
       "flatFooted": 12
     },
+    "health": {
+      "total": 19,
+      "hitDice": "3d8+3"
+    },
     "speed": {
       "speed": 20,
       "swim": 20,
@@ -1159,6 +1259,10 @@
       "base": 14,
       "touch": 10,
       "flatFooted": 13
+    },
+    "health": {
+      "total": 22,
+      "hitDice": "3d8+9"
     },
     "speed": {
       "speed": 20,
@@ -1206,6 +1310,10 @@
       "touch": 12,
       "flatFooted": 13
     },
+    "health": {
+      "total": 34,
+      "hitDice": "4d8+16"
+    },
     "speed": {
       "speed": 60
     },
@@ -1247,6 +1355,10 @@
       "base": 15,
       "touch": 11,
       "flatFooted": 13
+    },
+    "health": {
+      "total": 30,
+      "hitDice": "4d8+12"
     },
     "speed": {
       "speed": 30,
@@ -1291,6 +1403,10 @@
       "touch": 11,
       "flatFooted": 12
     },
+    "health": {
+      "total": 22,
+      "hitDice": "4d8+4"
+    },
     "speed": {
       "speed": 20,
       "fly": 40
@@ -1334,6 +1450,10 @@
       "touch": 10,
       "flatFooted": 17
     },
+    "health": {
+      "total": 95,
+      "hitDice": "10d8+50"
+    },
     "speed": {
       "speed": 40
     },
@@ -1376,6 +1496,10 @@
       "touch": 9,
       "flatFooted": 15
     },
+    "health": {
+      "total": 42,
+      "hitDice": "5d8+15"
+    },
     "speed": {
       "speed": 40
     },
@@ -1416,6 +1540,10 @@
       "base": 21,
       "touch": 6,
       "flatFooted": 21
+    },
+    "health": {
+      "total": 138,
+      "hitDice": "12d8+84"
     },
     "speed": {
       "speed": 20,
@@ -1464,6 +1592,10 @@
       "touch": 11,
       "flatFooted": 13
     },
+    "health": {
+      "total": 60,
+      "hitDice": "8d8+24"
+    },
     "speed": {
       "speed": 40
     },
@@ -1507,6 +1639,10 @@
       "base": 14,
       "touch": 14,
       "flatFooted": 11
+    },
+    "health": {
+      "total": 5,
+      "hitDice": "1d8+1"
     },
     "speed": {
       "speed": 40,
@@ -1555,6 +1691,10 @@
       "touch": 8,
       "flatFooted": 21
     },
+    "health": {
+      "total": 112,
+      "hitDice": "15d8+45"
+    },
     "speed": {
       "swim": 60
     },
@@ -1597,6 +1737,10 @@
       "base": 17,
       "touch": 11,
       "flatFooted": 15
+    },
+    "health": {
+      "total": 105,
+      "hitDice": "14d8+42"
     },
     "speed": {
       "speed": 40
@@ -1642,6 +1786,10 @@
       "touch": 11,
       "flatFooted": 12
     },
+    "health": {
+      "total": 37,
+      "hitDice": "5d8+15"
+    },
     "speed": {
       "speed": 50
     },
@@ -1684,6 +1832,10 @@
       "touch": 12,
       "flatFooted": 12
     },
+    "health": {
+      "total": 6,
+      "hitDice": "1d8+2"
+    },
     "speed": {
       "speed": 40
     },
@@ -1725,6 +1877,10 @@
       "base": 13,
       "touch": 12,
       "flatFooted": 11
+    },
+    "health": {
+      "total": 11,
+      "hitDice": "2d8+2"
     },
     "speed": {
       "swim": 80
@@ -1772,6 +1928,10 @@
       "touch": 11,
       "flatFooted": 14
     },
+    "health": {
+      "total": 18,
+      "hitDice": "2d10+4"
+    },
     "speed": {
       "speed": 20
     },
@@ -1812,6 +1972,10 @@
       "base": 14,
       "touch": 13,
       "flatFooted": 12
+    },
+    "health": {
+      "total": 5,
+      "hitDice": "1d8+1"
     },
     "speed": {
       "speed": 10,
@@ -1855,6 +2019,10 @@
       "base": 20,
       "touch": 11,
       "flatFooted": 17
+    },
+    "health": {
+      "total": 105,
+      "hitDice": "10d8+50"
     },
     "speed": {
       "speed": 20,
@@ -1902,6 +2070,10 @@
       "touch": 20,
       "flatFooted": 16
     },
+    "health": {
+      "total": 152,
+      "hitDice": "16d10+64"
+    },
     "speed": {
       "fly": 100
     },
@@ -1948,6 +2120,10 @@
       "base": 23,
       "touch": 7,
       "flatFooted": 23
+    },
+    "health": {
+      "total": 168,
+      "hitDice": "16d10+80"
     },
     "speed": {
       "speed": 20,
@@ -1998,6 +2174,10 @@
       "touch": 14,
       "flatFooted": 18
     },
+    "health": {
+      "total": 152,
+      "hitDice": "16d10+64"
+    },
     "speed": {
       "speed": 20,
       "swim": 60
@@ -2046,6 +2226,10 @@
       "touch": 19,
       "flatFooted": 14
     },
+    "health": {
+      "total": 136,
+      "hitDice": "16d10+48"
+    },
     "speed": {
       "fly": 100
     },
@@ -2092,6 +2276,10 @@
       "base": 25,
       "touch": 7,
       "flatFooted": 25
+    },
+    "health": {
+      "total": 152,
+      "hitDice": "16d10+64"
     },
     "speed": {
       "speed": 20,
@@ -2143,6 +2331,10 @@
       "touch": 14,
       "flatFooted": 17
     },
+    "health": {
+      "total": 152,
+      "hitDice": "16d10+64"
+    },
     "speed": {
       "speed": 20,
       "swim": 30,
@@ -2191,6 +2383,10 @@
       "touch": 15,
       "flatFooted": 17
     },
+    "health": {
+      "total": 152,
+      "hitDice": "16d10+64"
+    },
     "speed": {
       "speed": 20,
       "swim": 90
@@ -2237,6 +2433,10 @@
       "touch": 13,
       "flatFooted": 13
     },
+    "health": {
+      "total": 17,
+      "hitDice": "2d8+8"
+    },
     "speed": {
       "swim": 30
     },
@@ -2279,6 +2479,10 @@
       "touch": 8,
       "flatFooted": 17
     },
+    "health": {
+      "total": 93,
+      "hitDice": "11d8+44"
+    },
     "speed": {
       "speed": 40
     },
@@ -2319,6 +2523,10 @@
       "base": 13,
       "touch": 13,
       "flatFooted": 10
+    },
+    "health": {
+      "total": 15,
+      "hitDice": "2d8+6"
     },
     "speed": {
       "speed": 50
@@ -2361,6 +2569,10 @@
       "base": 18,
       "touch": 11,
       "flatFooted": 16
+    },
+    "health": {
+      "total": 51,
+      "hitDice": "6d8+24"
     },
     "speed": {
       "speed": 30,
@@ -2412,6 +2624,10 @@
       "touch": 17,
       "flatFooted": 16
     },
+    "health": {
+      "total": 94,
+      "hitDice": "9d10+45"
+    },
     "speed": {
       "speed": 30,
       "fly": 50
@@ -2454,6 +2670,10 @@
       "base": 12,
       "touch": 11,
       "flatFooted": 12
+    },
+    "health": {
+      "total": 4,
+      "hitDice": "1d8+0"
     },
     "speed": {
       "speed": 30,
@@ -2499,6 +2719,10 @@
       "base": 17,
       "touch": 8,
       "flatFooted": 18
+    },
+    "health": {
+      "total": 133,
+      "hitDice": "14d8+70"
     },
     "speed": {
       "speed": 40
@@ -2550,6 +2774,10 @@
       "touch": 12,
       "flatFooted": 22
     },
+    "health": {
+      "total": 136,
+      "hitDice": "13d10+65"
+    },
     "speed": {
       "speed": 50,
       "fly": 150
@@ -2594,6 +2822,10 @@
       "base": 25,
       "touch": 9,
       "flatFooted": 22
+    },
+    "health": {
+      "total": 126,
+      "hitDice": "12d8+72"
     },
     "speed": {
       "speed": 20,
@@ -2640,6 +2872,10 @@
       "touch": 10,
       "flatFooted": 17
     },
+    "health": {
+      "total": 22,
+      "hitDice": "2d8+10"
+    },
     "speed": {
       "speed": 50,
       "fly": 30,
@@ -2685,6 +2921,10 @@
       "touch": 10,
       "flatFooted": 15
     },
+    "health": {
+      "total": 18,
+      "hitDice": "2d8+6"
+    },
     "speed": {
       "speed": 50,
       "climb": 20
@@ -2729,6 +2969,10 @@
       "touch": 10,
       "flatFooted": 15
     },
+    "health": {
+      "total": 18,
+      "hitDice": "2d8+6"
+    },
     "speed": {
       "speed": 50,
       "climb": 20
@@ -2770,6 +3014,10 @@
       "base": 14,
       "touch": 12,
       "flatFooted": 12
+    },
+    "health": {
+      "total": 5,
+      "hitDice": "1d8+1"
     },
     "speed": {
       "speed": 40,
@@ -2813,6 +3061,10 @@
       "base": 12,
       "touch": 11,
       "flatFooted": 11
+    },
+    "health": {
+      "total": 15,
+      "hitDice": "2d8+6"
     },
     "speed": {
       "speed": 30,
@@ -2858,6 +3110,10 @@
       "base": 15,
       "touch": 10,
       "flatFooted": 14
+    },
+    "health": {
+      "total": 30,
+      "hitDice": "4d8+12"
     },
     "speed": {
       "speed": 30,
@@ -2907,6 +3163,10 @@
       "touch": 11,
       "flatFooted": 17
     },
+    "health": {
+      "total": 52,
+      "hitDice": "7d8+21"
+    },
     "speed": {
       "speed": 5,
       "swim": 30
@@ -2951,6 +3211,10 @@
       "base": 18,
       "touch": 11,
       "flatFooted": 16
+    },
+    "health": {
+      "total": 90,
+      "hitDice": "12d8+36"
     },
     "speed": {
       "speed": 20,
@@ -2999,6 +3263,10 @@
       "touch": 9,
       "flatFooted": 9
     },
+    "health": {
+      "total": 37,
+      "hitDice": "5d8+15"
+    },
     "speed": {
       "speed": 50
     },
@@ -3042,6 +3310,10 @@
       "base": 13,
       "touch": 13,
       "flatFooted": 10
+    },
+    "health": {
+      "total": 16,
+      "hitDice": "3d8+3"
     },
     "speed": {
       "speed": 30,
@@ -3088,6 +3360,10 @@
       "touch": 11,
       "flatFooted": 17
     },
+    "health": {
+      "total": 102,
+      "hitDice": "12d8+48"
+    },
     "speed": {
       "swim": 60
     },
@@ -3132,6 +3408,10 @@
       "touch": 10,
       "flatFooted": 13
     },
+    "health": {
+      "total": 34,
+      "hitDice": "4d8+16"
+    },
     "speed": {
       "speed": 20,
       "fly": 60
@@ -3174,6 +3454,10 @@
       "base": 19,
       "touch": 13,
       "flatFooted": 16
+    },
+    "health": {
+      "total": 46,
+      "hitDice": "4d8+28"
     },
     "speed": {
       "speed": 10,
@@ -3228,6 +3512,10 @@
       "touch": 8,
       "flatFooted": 28
     },
+    "health": {
+      "total": 186,
+      "hitDice": "12d10+120"
+    },
     "speed": {
       "speed": 40
     },
@@ -3269,6 +3557,10 @@
       "base": 13,
       "touch": 12,
       "flatFooted": 11
+    },
+    "health": {
+      "total": 9,
+      "hitDice": "1d8+2"
     },
     "speed": {
       "speed": 50
@@ -3312,6 +3604,10 @@
       "base": 20,
       "touch": 9,
       "flatFooted": 20
+    },
+    "health": {
+      "total": 100,
+      "hitDice": "8d10+56"
     },
     "speed": {
       "speed": 30
@@ -3358,6 +3654,10 @@
       "base": 25,
       "touch": 19,
       "flatFooted": 14
+    },
+    "health": {
+      "total": 123,
+      "hitDice": "13d10+52"
     },
     "speed": {
       "fly": 100
@@ -3406,6 +3706,10 @@
       "touch": 7,
       "flatFooted": 21
     },
+    "health": {
+      "total": 136,
+      "hitDice": "13d10+65"
+    },
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -3451,6 +3755,10 @@
       "base": 23,
       "touch": 17,
       "flatFooted": 14
+    },
+    "health": {
+      "total": 123,
+      "hitDice": "13d10+52"
     },
     "speed": {
       "speed": 60
@@ -3500,6 +3808,10 @@
       "touch": 13,
       "flatFooted": 18
     },
+    "health": {
+      "total": 123,
+      "hitDice": "13d10+52"
+    },
     "speed": {
       "speed": 20,
       "swim": 60
@@ -3548,6 +3860,10 @@
       "touch": 18,
       "flatFooted": 12
     },
+    "health": {
+      "total": 110,
+      "hitDice": "13d10+39"
+    },
     "speed": {
       "fly": 100
     },
@@ -3594,6 +3910,10 @@
       "base": 19,
       "touch": 7,
       "flatFooted": 19
+    },
+    "health": {
+      "total": 123,
+      "hitDice": "13d10+52"
     },
     "speed": {
       "speed": 20,
@@ -3645,6 +3965,10 @@
       "touch": 13,
       "flatFooted": 17
     },
+    "health": {
+      "total": 123,
+      "hitDice": "13d10+52"
+    },
     "speed": {
       "speed": 20,
       "swim": 30,
@@ -3693,6 +4017,10 @@
       "touch": 14,
       "flatFooted": 17
     },
+    "health": {
+      "total": 123,
+      "hitDice": "13d10+52"
+    },
     "speed": {
       "speed": 20,
       "swim": 90
@@ -3738,6 +4066,10 @@
       "touch": 12,
       "flatFooted": 13
     },
+    "health": {
+      "total": 27,
+      "hitDice": "5d8+5"
+    },
     "speed": {
       "speed": 30,
       "climb": 20
@@ -3782,6 +4114,10 @@
       "touch": 11,
       "flatFooted": 15
     },
+    "health": {
+      "total": 42,
+      "hitDice": "5d10+15"
+    },
     "speed": {
       "speed": 30,
       "fly": 80
@@ -3825,6 +4161,10 @@
       "touch": 17,
       "flatFooted": 12
     },
+    "health": {
+      "total": 4,
+      "hitDice": "1d6+1"
+    },
     "speed": {
       "speed": 30,
       "fly": 40
@@ -3867,6 +4207,10 @@
       "base": 16,
       "touch": 10,
       "flatFooted": 15
+    },
+    "health": {
+      "total": 42,
+      "hitDice": "5d8+20"
     },
     "speed": {
       "speed": 40
@@ -3915,6 +4259,10 @@
       "touch": 11,
       "flatFooted": 15
     },
+    "health": {
+      "total": 30,
+      "hitDice": "4d10+8"
+    },
     "speed": {
       "speed": 40
     },
@@ -3962,6 +4310,10 @@
       "touch": 9,
       "flatFooted": 25
     },
+    "health": {
+      "total": 145,
+      "hitDice": "10d10+90"
+    },
     "speed": {
       "speed": 30,
       "swim": 30
@@ -4007,6 +4359,10 @@
       "base": 11,
       "touch": 11,
       "flatFooted": 9
+    },
+    "health": {
+      "total": 15,
+      "hitDice": "2d8+6"
     },
     "speed": {
       "speed": 50
@@ -4057,6 +4413,10 @@
       "touch": 10,
       "flatFooted": 10
     },
+    "health": {
+      "total": 39,
+      "hitDice": "6d10+6"
+    },
     "speed": {
       "speed": 40
     },
@@ -4101,6 +4461,10 @@
       "base": 22,
       "touch": 18,
       "flatFooted": 12
+    },
+    "health": {
+      "total": 95,
+      "hitDice": "10d10+40"
     },
     "speed": {
       "fly": 100
@@ -4149,6 +4513,10 @@
       "touch": 7,
       "flatFooted": 19
     },
+    "health": {
+      "total": 95,
+      "hitDice": "10d10+40"
+    },
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -4195,6 +4563,10 @@
       "touch": 16,
       "flatFooted": 13
     },
+    "health": {
+      "total": 85,
+      "hitDice": "10d10+30"
+    },
     "speed": {
       "speed": 60
     },
@@ -4239,6 +4611,10 @@
       "base": 19,
       "touch": 17,
       "flatFooted": 10
+    },
+    "health": {
+      "total": 85,
+      "hitDice": "10d10+30"
     },
     "speed": {
       "fly": 100
@@ -4286,6 +4662,10 @@
       "base": 17,
       "touch": 7,
       "flatFooted": 17
+    },
+    "health": {
+      "total": 85,
+      "hitDice": "10d10+30"
     },
     "speed": {
       "speed": 20,
@@ -4337,6 +4717,10 @@
       "touch": 12,
       "flatFooted": 16
     },
+    "health": {
+      "total": 95,
+      "hitDice": "10d10+40"
+    },
     "speed": {
       "speed": 20,
       "swim": 30,
@@ -4385,6 +4769,10 @@
       "touch": 13,
       "flatFooted": 16
     },
+    "health": {
+      "total": 95,
+      "hitDice": "10d10+40"
+    },
     "speed": {
       "speed": 20,
       "swim": 90
@@ -4429,6 +4817,10 @@
       "base": 14,
       "touch": 12,
       "flatFooted": 12
+    },
+    "health": {
+      "total": 13,
+      "hitDice": "2d8+4"
     },
     "speed": {
       "speed": 50
@@ -4476,6 +4868,10 @@
       "base": 32,
       "touch": 14,
       "flatFooted": 27
+    },
+    "health": {
+      "total": 161,
+      "hitDice": "14d10+84"
     },
     "speed": {
       "speed": 40,
@@ -4525,6 +4921,10 @@
       "touch": 14,
       "flatFooted": 16
     },
+    "health": {
+      "total": 80,
+      "hitDice": "7d10+42"
+    },
     "speed": {
       "speed": 30,
       "fly": 30
@@ -4572,6 +4972,10 @@
       "base": 17,
       "touch": 13,
       "flatFooted": 14
+    },
+    "health": {
+      "total": 60,
+      "hitDice": "8d10+16"
     },
     "speed": {
       "speed": 30
@@ -4623,6 +5027,10 @@
       "touch": 11,
       "flatFooted": 15
     },
+    "health": {
+      "total": 13,
+      "hitDice": "2d10+2"
+    },
     "speed": {
       "fly": 60
     },
@@ -4668,6 +5076,10 @@
       "base": 21,
       "touch": 17,
       "flatFooted": 13
+    },
+    "health": {
+      "total": 68,
+      "hitDice": "8d10+24"
     },
     "speed": {
       "fly": 100
@@ -4716,6 +5128,10 @@
       "touch": 8,
       "flatFooted": 18
     },
+    "health": {
+      "total": 68,
+      "hitDice": "8d10+24"
+    },
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -4761,6 +5177,10 @@
       "base": 19,
       "touch": 15,
       "flatFooted": 13
+    },
+    "health": {
+      "total": 60,
+      "hitDice": "8d10+16"
     },
     "speed": {
       "speed": 50
@@ -4810,6 +5230,10 @@
       "touch": 10,
       "flatFooted": 16
     },
+    "health": {
+      "total": 68,
+      "hitDice": "8d10+24"
+    },
     "speed": {
       "speed": 20,
       "swim": 60
@@ -4858,6 +5282,10 @@
       "touch": 16,
       "flatFooted": 11
     },
+    "health": {
+      "total": 60,
+      "hitDice": "8d10+16"
+    },
     "speed": {
       "fly": 100
     },
@@ -4904,6 +5332,10 @@
       "base": 16,
       "touch": 8,
       "flatFooted": 16
+    },
+    "health": {
+      "total": 60,
+      "hitDice": "8d10+16"
     },
     "speed": {
       "speed": 20,
@@ -4955,6 +5387,10 @@
       "touch": 10,
       "flatFooted": 16
     },
+    "health": {
+      "total": 68,
+      "hitDice": "8d10+24"
+    },
     "speed": {
       "speed": 20,
       "swim": 30,
@@ -5002,6 +5438,10 @@
       "base": 18,
       "touch": 12,
       "flatFooted": 15
+    },
+    "health": {
+      "total": 68,
+      "hitDice": "8d10+24"
     },
     "speed": {
       "speed": 20,
@@ -5053,6 +5493,10 @@
       "touch": 10,
       "flatFooted": 14
     },
+    "health": {
+      "total": 13,
+      "hitDice": "2d10+2"
+    },
     "speed": {
       "speed": 20
     },
@@ -5094,6 +5538,10 @@
       "base": 15,
       "touch": 14,
       "flatFooted": 11
+    },
+    "health": {
+      "total": 19,
+      "hitDice": "3d8+6"
     },
     "speed": {
       "speed": 30,
@@ -5145,6 +5593,10 @@
       "touch": 12,
       "flatFooted": 17
     },
+    "health": {
+      "total": 73,
+      "hitDice": "7d10+35"
+    },
     "speed": {
       "speed": 30,
       "fly": 70
@@ -5190,6 +5642,10 @@
       "touch": 12,
       "flatFooted": 12
     },
+    "health": {
+      "total": 32,
+      "hitDice": "5d8+10"
+    },
     "speed": {
       "speed": 40
     },
@@ -5233,6 +5689,10 @@
       "base": 21,
       "touch": 9,
       "flatFooted": 20
+    },
+    "health": {
+      "total": 133,
+      "hitDice": "14d8+70"
     },
     "speed": {
       "speed": 40
@@ -5278,6 +5738,10 @@
       "base": 19,
       "touch": 16,
       "flatFooted": 13
+    },
+    "health": {
+      "total": 30,
+      "hitDice": "4d10+8"
     },
     "speed": {
       "fly": 100
@@ -5326,6 +5790,10 @@
       "touch": 9,
       "flatFooted": 18
     },
+    "health": {
+      "total": 34,
+      "hitDice": "4d10+12"
+    },
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -5371,6 +5839,10 @@
       "base": 17,
       "touch": 14,
       "flatFooted": 13
+    },
+    "health": {
+      "total": 30,
+      "hitDice": "4d10+8"
     },
     "speed": {
       "speed": 50
@@ -5420,6 +5892,10 @@
       "touch": 10,
       "flatFooted": 16
     },
+    "health": {
+      "total": 30,
+      "hitDice": "4d10+8"
+    },
     "speed": {
       "speed": 20,
       "swim": 60
@@ -5468,6 +5944,10 @@
       "touch": 15,
       "flatFooted": 11
     },
+    "health": {
+      "total": 26,
+      "hitDice": "4d10+4"
+    },
     "speed": {
       "fly": 100
     },
@@ -5514,6 +5994,10 @@
       "base": 16,
       "touch": 9,
       "flatFooted": 16
+    },
+    "health": {
+      "total": 30,
+      "hitDice": "4d10+8"
     },
     "speed": {
       "speed": 20,
@@ -5565,6 +6049,10 @@
       "touch": 10,
       "flatFooted": 16
     },
+    "health": {
+      "total": 30,
+      "hitDice": "4d10+8"
+    },
     "speed": {
       "speed": 20,
       "swim": 30,
@@ -5613,6 +6101,10 @@
       "touch": 11,
       "flatFooted": 16
     },
+    "health": {
+      "total": 30,
+      "hitDice": "4d10+8"
+    },
     "speed": {
       "speed": 20,
       "swim": 90
@@ -5659,6 +6151,10 @@
       "touch": 14,
       "flatFooted": 14
     },
+    "health": {
+      "total": 19,
+      "hitDice": "3d10+3"
+    },
     "speed": {
       "speed": 30,
       "fly": 60
@@ -5704,6 +6200,10 @@
       "touch": 14,
       "flatFooted": 14
     },
+    "health": {
+      "total": 19,
+      "hitDice": "3d10+3"
+    },
     "speed": {
       "speed": 30,
       "fly": 50
@@ -5748,6 +6248,10 @@
       "base": 17,
       "touch": 14,
       "flatFooted": 14
+    },
+    "health": {
+      "total": 19,
+      "hitDice": "3d10+3"
     },
     "speed": {
       "speed": 30,
@@ -5795,6 +6299,10 @@
       "touch": 14,
       "flatFooted": 14
     },
+    "health": {
+      "total": 19,
+      "hitDice": "3d10+3"
+    },
     "speed": {
       "speed": 30,
       "fly": 40
@@ -5839,6 +6347,10 @@
       "base": 17,
       "touch": 14,
       "flatFooted": 14
+    },
+    "health": {
+      "total": 19,
+      "hitDice": "3d10+3"
     },
     "speed": {
       "speed": 30,
@@ -5887,6 +6399,10 @@
       "touch": 14,
       "flatFooted": 14
     },
+    "health": {
+      "total": 19,
+      "hitDice": "3d10+3"
+    },
     "speed": {
       "speed": 30,
       "fly": 60
@@ -5932,6 +6448,10 @@
       "base": 17,
       "touch": 14,
       "flatFooted": 14
+    },
+    "health": {
+      "total": 19,
+      "hitDice": "3d10+3"
     },
     "speed": {
       "speed": 30,
@@ -5979,6 +6499,10 @@
       "touch": 14,
       "flatFooted": 14
     },
+    "health": {
+      "total": 19,
+      "hitDice": "3d10+3"
+    },
     "speed": {
       "speed": 30,
       "swim": 30
@@ -6023,6 +6547,10 @@
       "base": 17,
       "touch": 14,
       "flatFooted": 14
+    },
+    "health": {
+      "total": 19,
+      "hitDice": "3d10+3"
     },
     "speed": {
       "speed": 30,
@@ -6072,6 +6600,10 @@
       "touch": 14,
       "flatFooted": 14
     },
+    "health": {
+      "total": 19,
+      "hitDice": "3d10+3"
+    },
     "speed": {
       "speed": 30,
       "fly": 50
@@ -6117,6 +6649,10 @@
       "base": 17,
       "touch": 14,
       "flatFooted": 14
+    },
+    "health": {
+      "total": 19,
+      "hitDice": "3d10+3"
     },
     "speed": {
       "speed": 30,
@@ -6164,6 +6700,10 @@
       "touch": 14,
       "flatFooted": 14
     },
+    "health": {
+      "total": 19,
+      "hitDice": "3d10+3"
+    },
     "speed": {
       "speed": 30,
       "swim": 30
@@ -6209,6 +6749,10 @@
       "touch": 12,
       "flatFooted": 12
     },
+    "health": {
+      "total": 5,
+      "hitDice": "1d8+1"
+    },
     "speed": {
       "speed": 5,
       "swim": 50
@@ -6252,6 +6796,10 @@
       "touch": 12,
       "flatFooted": 13
     },
+    "health": {
+      "total": 22,
+      "hitDice": "3d8+9"
+    },
     "speed": {
       "speed": 30,
       "swim": 30
@@ -6294,6 +6842,10 @@
       "base": 20,
       "touch": 14,
       "flatFooted": 16
+    },
+    "health": {
+      "total": 76,
+      "hitDice": "9d10+27"
     },
     "speed": {
       "speed": 30,
@@ -6344,6 +6896,10 @@
       "touch": 9,
       "flatFooted": 24
     },
+    "health": {
+      "total": 203,
+      "hitDice": "14d10+126"
+    },
     "speed": {
       "speed": 30,
       "fly": 40
@@ -6391,6 +6947,10 @@
       "touch": 15,
       "flatFooted": 12
     },
+    "health": {
+      "total": 19,
+      "hitDice": "3d10+3"
+    },
     "speed": {
       "speed": 20,
       "fly": 50
@@ -6437,6 +6997,10 @@
       "touch": 14,
       "flatFooted": 12
     },
+    "health": {
+      "total": 13,
+      "hitDice": "2d8+4"
+    },
     "speed": {
       "speed": 20,
       "swim": 30
@@ -6482,6 +7046,10 @@
       "touch": 10,
       "flatFooted": 14
     },
+    "health": {
+      "total": 67,
+      "hitDice": "9d8+27"
+    },
     "speed": {
       "swim": 80
     },
@@ -6522,6 +7090,10 @@
       "base": 13,
       "touch": 13,
       "flatFooted": 12
+    },
+    "health": {
+      "total": 4,
+      "hitDice": "1d8+0"
     },
     "speed": {
       "speed": 10,
@@ -6566,6 +7138,10 @@
       "touch": 11,
       "flatFooted": 10
     },
+    "health": {
+      "total": 13,
+      "hitDice": "2d8+4"
+    },
     "speed": {
       "speed": 40
     },
@@ -6607,6 +7183,10 @@
       "base": 16,
       "touch": 14,
       "flatFooted": 11
+    },
+    "health": {
+      "total": 32,
+      "hitDice": "5d8+10"
     },
     "speed": {
       "speed": 10,
@@ -6652,6 +7232,10 @@
       "base": 14,
       "touch": 12,
       "flatFooted": 13
+    },
+    "health": {
+      "total": 13,
+      "hitDice": "2d8+4"
     },
     "speed": {
       "speed": 5,
@@ -6701,6 +7285,10 @@
       "touch": 9,
       "flatFooted": 16
     },
+    "health": {
+      "total": 42,
+      "hitDice": "5d8+20"
+    },
     "speed": {
       "speed": 40
     },
@@ -6741,6 +7329,10 @@
       "base": 22,
       "touch": 8,
       "flatFooted": 20
+    },
+    "health": {
+      "total": 120,
+      "hitDice": "16d8+48"
     },
     "speed": {
       "speed": 20,
@@ -6787,6 +7379,10 @@
       "touch": 11,
       "flatFooted": 17
     },
+    "health": {
+      "total": 76,
+      "hitDice": "8d10+32"
+    },
     "speed": {
       "speed": 20
     },
@@ -6832,6 +7428,10 @@
       "base": 19,
       "touch": 11,
       "flatFooted": 16
+    },
+    "health": {
+      "total": 73,
+      "hitDice": "7d8+42"
     },
     "speed": {
       "speed": 40,
@@ -6882,6 +7482,10 @@
       "touch": 18,
       "flatFooted": 14
     },
+    "health": {
+      "total": 59,
+      "hitDice": "7d10+21"
+    },
     "speed": {
       "fly": 40
     },
@@ -6930,6 +7534,10 @@
       "touch": 12,
       "flatFooted": 16
     },
+    "health": {
+      "total": 51,
+      "hitDice": "6d10+18"
+    },
     "speed": {
       "speed": 50
     },
@@ -6977,6 +7585,10 @@
       "touch": 10,
       "flatFooted": 13
     },
+    "health": {
+      "total": 22,
+      "hitDice": "4d8+4"
+    },
     "speed": {
       "swim": 60
     },
@@ -7022,6 +7634,10 @@
       "base": 15,
       "touch": 14,
       "flatFooted": 13
+    },
+    "health": {
+      "total": 13,
+      "hitDice": "2d10+2"
     },
     "speed": {
       "speed": 30,
@@ -7074,6 +7690,10 @@
       "touch": 14,
       "flatFooted": 14
     },
+    "health": {
+      "total": 13,
+      "hitDice": "2d10+2"
+    },
     "speed": {
       "fly": 100
     },
@@ -7121,6 +7741,10 @@
       "touch": 10,
       "flatFooted": 17
     },
+    "health": {
+      "total": 13,
+      "hitDice": "2d10+2"
+    },
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -7166,6 +7790,10 @@
       "base": 16,
       "touch": 13,
       "flatFooted": 14
+    },
+    "health": {
+      "total": 11,
+      "hitDice": "2d10+0"
     },
     "speed": {
       "speed": 50
@@ -7215,6 +7843,10 @@
       "touch": 10,
       "flatFooted": 16
     },
+    "health": {
+      "total": 13,
+      "hitDice": "2d10+2"
+    },
     "speed": {
       "speed": 20,
       "swim": 60
@@ -7263,6 +7895,10 @@
       "touch": 13,
       "flatFooted": 12
     },
+    "health": {
+      "total": 11,
+      "hitDice": "2d10+0"
+    },
     "speed": {
       "fly": 100
     },
@@ -7309,6 +7945,10 @@
       "base": 15,
       "touch": 10,
       "flatFooted": 15
+    },
+    "health": {
+      "total": 11,
+      "hitDice": "2d10+0"
     },
     "speed": {
       "speed": 20,
@@ -7360,6 +8000,10 @@
       "touch": 10,
       "flatFooted": 16
     },
+    "health": {
+      "total": 13,
+      "hitDice": "2d10+2"
+    },
     "speed": {
       "speed": 20,
       "swim": 30,
@@ -7408,6 +8052,10 @@
       "touch": 11,
       "flatFooted": 17
     },
+    "health": {
+      "total": 13,
+      "hitDice": "2d10+2"
+    },
     "speed": {
       "speed": 20,
       "swim": 90
@@ -7453,6 +8101,10 @@
       "base": 13,
       "touch": 12,
       "flatFooted": 11
+    },
+    "health": {
+      "total": 13,
+      "hitDice": "3d8+0"
     },
     "speed": {
       "swim": 60
@@ -7503,6 +8155,10 @@
       "touch": 13,
       "flatFooted": 17
     },
+    "health": {
+      "total": 84,
+      "hitDice": "8d10+40"
+    },
     "speed": {
       "speed": 30,
       "fly": 50
@@ -7548,6 +8204,10 @@
       "touch": 11,
       "flatFooted": 12
     },
+    "health": {
+      "total": 45,
+      "hitDice": "6d8+18"
+    },
     "speed": {
       "speed": 40
     },
@@ -7591,6 +8251,10 @@
       "base": 21,
       "touch": 7,
       "flatFooted": 22
+    },
+    "health": {
+      "total": 119,
+      "hitDice": "14d8+56"
     },
     "speed": {
       "speed": 30
@@ -7640,6 +8304,10 @@
       "touch": 13,
       "flatFooted": 24
     },
+    "health": {
+      "total": 175,
+      "hitDice": "14d10+98"
+    },
     "speed": {
       "speed": 40,
       "fly": 90
@@ -7682,6 +8350,10 @@
       "base": 20,
       "touch": 8,
       "flatFooted": 18
+    },
+    "health": {
+      "total": 105,
+      "hitDice": "10d8+60"
     },
     "speed": {
       "speed": 20,
@@ -7726,6 +8398,10 @@
       "base": 21,
       "touch": 7,
       "flatFooted": 20
+    },
+    "health": {
+      "total": 153,
+      "hitDice": "18d8+72"
     },
     "speed": {
       "speed": 40
@@ -7775,6 +8451,10 @@
       "touch": 13,
       "flatFooted": 17
     },
+    "health": {
+      "total": 76,
+      "hitDice": "9d10+27"
+    },
     "speed": {
       "speed": 30,
       "fly": 50
@@ -7820,6 +8500,10 @@
       "touch": 11,
       "flatFooted": 13
     },
+    "health": {
+      "total": 13,
+      "hitDice": "2d8+4"
+    },
     "speed": {
       "speed": 20,
       "swim": 20,
@@ -7863,6 +8547,10 @@
       "base": 16,
       "touch": 15,
       "flatFooted": 13
+    },
+    "health": {
+      "total": 3,
+      "hitDice": "1d8-1"
     },
     "speed": {
       "speed": 20,
@@ -7911,6 +8599,10 @@
       "base": 22,
       "touch": 11,
       "flatFooted": 20
+    },
+    "health": {
+      "total": 112,
+      "hitDice": "9d10+63"
     },
     "speed": {
       "speed": 30,
@@ -7962,6 +8654,10 @@
       "touch": 14,
       "flatFooted": 15
     },
+    "health": {
+      "total": 59,
+      "hitDice": "7d10+21"
+    },
     "speed": {
       "speed": 30
     },
@@ -8007,6 +8703,10 @@
       "touch": 12,
       "flatFooted": 12
     },
+    "health": {
+      "total": 13,
+      "hitDice": "2d8+4"
+    },
     "speed": {
       "speed": 50
     },
@@ -8048,6 +8748,10 @@
       "base": 14,
       "touch": 12,
       "flatFooted": 12
+    },
+    "health": {
+      "total": 22,
+      "hitDice": "3d8+6"
     },
     "speed": {
       "speed": 30,
@@ -8093,6 +8797,10 @@
       "touch": 9,
       "flatFooted": 19
     },
+    "health": {
+      "total": 76,
+      "hitDice": "8d8+40"
+    },
     "speed": {
       "speed": 30
     },
@@ -8137,6 +8845,10 @@
       "base": 19,
       "touch": 14,
       "flatFooted": 15
+    },
+    "health": {
+      "total": 67,
+      "hitDice": "9d10+18"
     },
     "speed": {
       "speed": 40
