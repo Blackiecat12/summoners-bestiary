@@ -16,6 +16,8 @@
 
 package com.example.summonapp.ui.home
 
+import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -29,10 +31,13 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawing
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.ArrowDropDown
+import androidx.compose.material.icons.outlined.ArrowDropDown
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -45,15 +50,20 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateMapOf
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.dimensionResource
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.summonapp.MonsterTopAppBar
 import com.example.summonapp.R
@@ -66,6 +76,7 @@ import com.example.summonapp.models.enums.Alignment as CreatureAlignment
 import com.example.summonapp.models.enums.Size as CreatureSize
 import com.example.summonapp.ui.navigation.NavigationDestination
 import com.example.summonapp.ui.theme.SummonAppTheme
+import java.util.Locale
 
 object HomeDestination : NavigationDestination {
     override val route = "home"
@@ -134,14 +145,14 @@ private fun HomeBody(
     ) {
         if (itemList.isEmpty()) {
             Text(
-                text = stringResource(R.string.no_item_description),
+                text = stringResource(R.string.empty_bestiary_description),
                 textAlign = TextAlign.Center,
                 style = MaterialTheme.typography.titleLarge,
                 modifier = Modifier.padding(contentPadding),
             )
         } else {
             SummonList(
-                itemList = itemList,
+                allMonsters = itemList,
                 onItemClick = { onItemClick(it.name) },
                 contentPadding = contentPadding,
                 modifier = Modifier.padding(horizontal = dimensionResource(id = R.dimen.padding_small))
@@ -152,27 +163,85 @@ private fun HomeBody(
 
 @Composable
 private fun SummonList(
-    itemList: List<Monster>,
+    allMonsters: List<Monster>,
     onItemClick: (Monster) -> Unit,
     contentPadding: PaddingValues,
     modifier: Modifier = Modifier
 ) {
+    val groupedMonsters = remember(allMonsters) {
+        allMonsters.groupBy { it.summonLevel }
+            .toSortedMap() // Ensures summon levels are sorted
+    }
+    val expandedStates = remember { mutableStateMapOf<Int, Boolean>() }
+
     LazyColumn(
         modifier = modifier,
         contentPadding = contentPadding
     ) {
-        items(items = itemList, key = { it.name }) { item ->
-            MonsterItem(item = item,
-                modifier = Modifier
-                    .padding(dimensionResource(id = R.dimen.padding_small))
-                    .clickable { onItemClick(item) })
+        groupedMonsters.forEach { (summonLevel, monsters) ->
+            // Section Header
+            val isExpanded = expandedStates[summonLevel] ?: true
+
+            item {
+                SummonLevelHeader(
+                    summonLevel = summonLevel,
+                    isExpanded = isExpanded,
+                    onToggleExpand = {
+                        expandedStates[summonLevel] = !isExpanded
+                    }
+                )
+            }
+            // Monster List (sorted by name)
+            if (isExpanded) {
+                items(monsters.sortedBy { it.name }) { monster ->
+                    MonsterItem(
+                        monster = monster,
+                        modifier = Modifier
+                            .padding(dimensionResource(id = R.dimen.padding_small))
+                            .clickable { onItemClick(monster) })
+                }
+            }
         }
     }
 }
 
 @Composable
+fun SummonLevelHeader(summonLevel: Int, isExpanded: Boolean, onToggleExpand: () -> Unit) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(8.dp)
+            .clickable { onToggleExpand() } // Toggle expand/collapse
+            .padding(12.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Text(
+            text = "Summon Level $summonLevel",
+            fontSize = 20.sp,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.weight(1f)
+        )
+        if (isExpanded) {
+            Icon(
+                imageVector = Icons.Default.ArrowDropDown,
+                contentDescription = "Expand/Collapse",
+                modifier = Modifier.size(24.dp)
+            )
+        } else {
+            Icon(
+                painter = painterResource(id = R.drawable.arrow_left_24px),
+                contentDescription = "Expand/Collapse",
+                modifier = Modifier.size(24.dp)
+            )
+        }
+
+    }
+}
+
+
+@Composable
 private fun MonsterItem(
-    item: Monster, modifier: Modifier = Modifier
+    monster: Monster, modifier: Modifier = Modifier
 ) {
     Card(
         modifier = modifier, elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
@@ -185,21 +254,35 @@ private fun MonsterItem(
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Text(
-                    text = item.name,
+                    text = monster.name,
                     style = MaterialTheme.typography.titleLarge,
                 )
                 Spacer(Modifier.weight(1f))
                 Text(
-                    text = "temp",
+                    text = monster.summonLevel.toString(),
                     style = MaterialTheme.typography.titleMedium
                 )
             }
             Text(
-                text = stringResource(R.string.in_stock, item.initiative),
+                text = monsterDescription(monster),
                 style = MaterialTheme.typography.titleMedium
             )
         }
     }
+}
+
+fun monsterDescription(monster: Monster): String {
+    val alignment = monster.alignment.toString().lowercase().replace("_", " ")
+        .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
+    val creatureType = monster.creatureType.lowercase()
+        .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
+    val size = monster.size.toString().lowercase()
+    val subtypes = if (monster.creatureSubtypes.isNotEmpty()) {
+        "(" + monster.creatureSubtypes.joinToString(", ") + ")"
+    } else {
+        ""
+    }
+    return "%s %s %s %s".format(alignment, size, creatureType, subtypes)
 }
 
 @Preview(showBackground = true)
@@ -207,7 +290,7 @@ private fun MonsterItem(
 fun HomeBodyPreview() {
     SummonAppTheme {
         HomeBody(listOf(
-//            Item(1, "Game", 100.0, 20), Item(2, "Pen", 200.0, 30), Item(3, "TV", 300.0, 50)
+            getPreviewMonster()
         ), onItemClick = {})
     }
 }
@@ -238,7 +321,7 @@ fun getPreviewMonster(): Monster {
         size = CreatureSize.MEDIUM,
         alignment = CreatureAlignment.CHAOTIC_EVIL,
         creatureType = "Dragon",
-        creatureSubtypes = listOf(),
+        creatureSubtypes = listOf("Something", "Something else"),
         initiative = 3,
         perception = 10,
         senses = listOf("Darkvision 60ft", "Scent"),
