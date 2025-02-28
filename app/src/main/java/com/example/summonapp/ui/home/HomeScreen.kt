@@ -24,7 +24,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -55,7 +54,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.summonapp.MonsterTopAppBar
 import com.example.summonapp.R
@@ -63,6 +61,7 @@ import com.example.summonapp.data.Monster
 import com.example.summonapp.models.AbilityScore
 import com.example.summonapp.models.ArmourClass
 import com.example.summonapp.models.AttackBonus
+import com.example.summonapp.models.Health
 import com.example.summonapp.ui.AppViewModelProvider
 import com.example.summonapp.ui.navigation.NavigationDestination
 import com.example.summonapp.ui.theme.SummonAppTheme
@@ -176,12 +175,12 @@ private fun SummonList(
                     Column (
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(start = 16.dp),
                     ) {
                         monsters.sortedBy { it.name }.forEach { monster ->
                             MonsterItem(
                                 monster = monster,
                                 modifier = Modifier
+                                    .fillMaxWidth()
                                     .padding(dimensionResource(id = R.dimen.padding_small))
                                     .clickable { onItemClick(monster) }
                             )
@@ -206,7 +205,7 @@ fun SummonLevelHeader(summonLevel: Int, isExpanded: Boolean, onToggleExpand: () 
     ) {
         Text(
             text = "Summon Level $summonLevel",
-            fontSize = 20.sp,
+            style = MaterialTheme.typography.titleLarge,
             fontWeight = FontWeight.Bold,
             modifier = Modifier.weight(1f)
         )
@@ -237,30 +236,63 @@ private fun MonsterItem(
     ) {
         Column(
             modifier = Modifier.padding(dimensionResource(id = R.dimen.padding_large)),
-            verticalArrangement = Arrangement.spacedBy(dimensionResource(id = R.dimen.padding_small))
         ) {
+            // Name of monster
+            Text(
+                text = monster.name,
+                style = MaterialTheme.typography.titleMedium,
+            )
+//            Spacer(modifier.padding(dimensionResource(id = R.dimen.padding_small)))
+            Text(
+                text = formatMonsterBasicDescription(monster),
+                style = MaterialTheme.typography.bodySmall
+            )
             Row(
-                modifier = Modifier.fillMaxWidth()
+                horizontalArrangement = Arrangement.spacedBy(12.dp)
             ) {
                 Text(
-                    text = monster.name,
-                    style = MaterialTheme.typography.titleLarge,
+                    text = "HP: %d".format(monster.health.total),
+                    style = MaterialTheme.typography.bodyMedium
                 )
-                Spacer(Modifier.weight(1f))
                 Text(
-                    text = monster.summonLevel.toString(),
-                    style = MaterialTheme.typography.titleMedium
+                    text = "AC: %d".format(monster.armourClass.base),
+                    style = MaterialTheme.typography.bodyMedium
                 )
             }
-            Text(
-                text = monsterDescription(monster),
-                style = MaterialTheme.typography.titleMedium
-            )
+            Row(
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                Text(
+                    text = "Str %d".format(monster.abilityScores.strength),
+                    style = MaterialTheme.typography.bodyMedium
+                )
+                Text(
+                    text = "Dex %d".format(monster.abilityScores.dexterity),
+                    style = MaterialTheme.typography.bodyMedium
+                )
+                Text(
+                    text = "Con %d".format(monster.abilityScores.constitution),
+                    style = MaterialTheme.typography.bodyMedium
+                )
+                Text(
+                    text = "Int %d".format(monster.abilityScores.intelligence),
+                    style = MaterialTheme.typography.bodyMedium
+                )
+                Text(
+                    text = "Wis %d".format(monster.abilityScores.wisdom),
+                    style = MaterialTheme.typography.bodyMedium
+                )
+                Text(
+                    text = "Cha %d".format(monster.abilityScores.charisma),
+                    style = MaterialTheme.typography.bodyMedium
+                )
+            }
+
         }
     }
 }
 
-fun monsterDescription(monster: Monster): String {
+fun formatMonsterBasicDescription(monster: Monster): String {
     val alignment = monster.alignment.toString().lowercase().replace("_", " ")
         .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
     val creatureType = monster.creatureType.lowercase()
@@ -271,13 +303,13 @@ fun monsterDescription(monster: Monster): String {
     } else {
         ""
     }
-    return "%s %s %s %s".format(alignment, size, creatureType, subtypes)
+    return "%s, %s, %s %s".format(alignment, size, creatureType, subtypes)
 }
 
 @Preview(showBackground = true)
 @Composable
 fun HomeBodyPreview() {
-    SummonAppTheme {
+    SummonAppTheme() {
         HomeBody(listOf(
             getPreviewMonster(1),
             getPreviewMonster(2),
@@ -286,7 +318,7 @@ fun HomeBodyPreview() {
     }
 }
 
-@Preview(showBackground = true)
+//@Preview(showBackground = true)
 @Composable
 fun HomeBodyEmptyListPreview() {
     SummonAppTheme {
@@ -316,6 +348,7 @@ fun getPreviewMonster(summonLevel: Int): Monster {
         initiative = 3,
         perception = 10,
         senses = listOf("Darkvision 60ft", "Scent"),
+        health = Health(total=100, hitDice = "8d8+4"),
         armourClass = ArmourClass(base = 18, touch = 12, flatFooted = 16),
         speed = mapOf("land" to 30, "fly" to 60),
         meleeAttacks = "Bite +10 (1d8+5), 2 Claws +8 (1d6+3)",
