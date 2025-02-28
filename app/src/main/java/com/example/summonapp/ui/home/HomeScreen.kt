@@ -153,8 +153,8 @@ private fun SummonList(
         contentPadding = contentPadding
     ) {
         groupedMonsters.forEach { (summonLevel, monsters) ->
-            // Section Header
-            val isExpanded = expandedSections[summonLevel] ?: true
+            // Section Header, default is not expanded
+            val isExpanded = expandedSections[summonLevel] ?: false
 
             item {
                 SummonLevelHeader(
