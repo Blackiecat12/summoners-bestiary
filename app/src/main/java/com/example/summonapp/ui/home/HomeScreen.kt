@@ -42,7 +42,6 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -98,7 +97,9 @@ fun HomeScreen(
         }
     ) { innerPadding ->
         HomeBody(
-            itemList = homeUiState.itemList,
+            monsterList = homeUiState.monsterList,
+            isExpandedSections = viewModel.expandedStates,
+            toggleExpansion = { viewModel.toggleExpansion(it) },
             onItemClick = navigateToMonsterInfo,
             modifier = modifier.fillMaxSize(),
             contentPadding = innerPadding,
@@ -108,7 +109,9 @@ fun HomeScreen(
 
 @Composable
 private fun HomeBody(
-    itemList: List<Monster>,
+    monsterList: List<Monster>,
+    isExpandedSections: Map<Int, Boolean>,
+    toggleExpansion: (Int) -> Unit,
     onItemClick: (String) -> Unit,
     modifier: Modifier = Modifier,
     contentPadding: PaddingValues = PaddingValues(0.dp),
@@ -117,7 +120,7 @@ private fun HomeBody(
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = modifier,
     ) {
-        if (itemList.isEmpty()) {
+        if (monsterList.isEmpty()) {
             Text(
                 text = stringResource(R.string.empty_bestiary_description),
                 textAlign = TextAlign.Center,
@@ -126,7 +129,9 @@ private fun HomeBody(
             )
         } else {
             SummonList(
-                allMonsters = itemList,
+                monsterList = monsterList,
+                isExpandedSections = isExpandedSections,
+                toggleExpansion = toggleExpansion,
                 onItemClick = { onItemClick(it.name) },
                 contentPadding = contentPadding,
                 modifier = Modifier.padding(horizontal = dimensionResource(id = R.dimen.padding_small))
@@ -137,16 +142,17 @@ private fun HomeBody(
 
 @Composable
 private fun SummonList(
-    allMonsters: List<Monster>,
+    monsterList: List<Monster>,
+    isExpandedSections: Map<Int, Boolean>,
+    toggleExpansion: (Int) -> Unit,
     onItemClick: (Monster) -> Unit,
     contentPadding: PaddingValues,
     modifier: Modifier = Modifier
 ) {
-    val groupedMonsters = remember(allMonsters) {
-        allMonsters.groupBy { it.summonLevel }
+    val groupedMonsters = remember(monsterList) {
+        monsterList.groupBy { it.summonLevel }
             .toSortedMap() // Ensures summon levels are sorted
     }
-    val expandedSections = remember { mutableStateMapOf<Int, Boolean>() }
 
     LazyColumn(
         modifier = modifier,
@@ -154,14 +160,14 @@ private fun SummonList(
     ) {
         groupedMonsters.forEach { (summonLevel, monsters) ->
             // Section Header, default is not expanded
-            val isExpanded = expandedSections[summonLevel] ?: false
+            val isExpanded = isExpandedSections[summonLevel] ?: false
 
             item {
                 SummonLevelHeader(
                     summonLevel = summonLevel,
                     isExpanded = isExpanded,
                     onToggleExpand = {
-                        expandedSections[summonLevel] = !isExpanded
+                        toggleExpansion(summonLevel)
                     }
                 )
             }
@@ -309,11 +315,16 @@ fun formatMonsterBasicDescription(monster: Monster): String {
 @Composable
 fun HomeBodyPreview() {
     SummonAppTheme() {
-        HomeBody(listOf(
-            getPreviewMonster(1),
-            getPreviewMonster(2),
-            getPreviewMonster(2)
-        ), onItemClick = {})
+        HomeBody(
+            listOf(
+                getPreviewMonster(1),
+                getPreviewMonster(2),
+                getPreviewMonster(2)
+            ),
+            isExpandedSections = mapOf(1 to true),
+            toggleExpansion = {},
+            onItemClick = {}
+        )
     }
 }
 
@@ -321,7 +332,11 @@ fun HomeBodyPreview() {
 @Composable
 fun HomeBodyEmptyListPreview() {
     SummonAppTheme {
-        HomeBody(listOf(), onItemClick = {})
+        HomeBody(
+            listOf(),
+            isExpandedSections = mapOf(),
+            toggleExpansion = {},
+            onItemClick = {})
     }
 }
 

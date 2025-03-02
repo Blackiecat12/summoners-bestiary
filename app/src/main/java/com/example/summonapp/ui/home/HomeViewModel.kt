@@ -16,6 +16,7 @@
 
 package com.example.summonapp.ui.home
 
+import androidx.compose.runtime.mutableStateMapOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.summonapp.data.Monster
@@ -42,6 +43,13 @@ class HomeViewModel(monsterRepository: MonsterRepository) : ViewModel() {
                 initialValue = HomeUiState()
             )
 
+    private val _expandedStates = mutableStateMapOf<Int, Boolean>()
+    val expandedStates: Map<Int, Boolean> = _expandedStates
+
+    fun toggleExpansion(monsterId: Int) {
+        _expandedStates[monsterId] = !(_expandedStates[monsterId] ?: false)
+    }
+
     companion object {
         private const val TIMEOUT_MILLIS = 5_000L
     }
@@ -50,4 +58,4 @@ class HomeViewModel(monsterRepository: MonsterRepository) : ViewModel() {
 /**
  * Ui State for HomeScreen
  */
-data class HomeUiState(val itemList: List<Monster> = listOf())
+data class HomeUiState(val monsterList: List<Monster> = listOf())
