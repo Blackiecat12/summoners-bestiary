@@ -293,8 +293,7 @@ private fun MonsterItem(
 }
 
 fun formatMonsterBasicDescription(monster: Monster): String {
-    val alignment = monster.alignment.toString().lowercase().replace("_", " ")
-        .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
+    val alignment = monster.alignment.displayString()
     val creatureType = monster.creatureType.lowercase()
         .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
     val size = monster.size.toString().lowercase()

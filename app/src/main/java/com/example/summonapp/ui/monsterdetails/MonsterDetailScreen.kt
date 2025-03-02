@@ -6,24 +6,29 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.calculateEndPadding
 import androidx.compose.foundation.layout.calculateStartPadding
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Card
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -34,6 +39,7 @@ import com.example.summonapp.ui.AppViewModelProvider
 import com.example.summonapp.ui.home.getPreviewMonster
 import com.example.summonapp.ui.navigation.NavigationDestination
 import com.example.summonapp.ui.theme.SummonAppTheme
+import java.util.Locale
 
 object MonsterDetailDestination : NavigationDestination {
     override val route = "monsterDetail"
@@ -67,6 +73,7 @@ fun MonsterDetailScreen(
                 top = innerPadding.calculateTopPadding(),
                 end = innerPadding.calculateEndPadding(LocalLayoutDirection.current),
             )
+            .padding(24.dp)
             .verticalScroll(rememberScrollState())
         if (uiState.monster != null) {
             MonsterDetailsBody(
@@ -83,6 +90,10 @@ fun MonsterDetailScreen(
     }
 }
 
+private fun formatBonusValue(value: Int): String {
+    return if (value >= 0) "+${value}" else "${value}"
+}
+
 @Composable
 private fun MonsterDetailsBody(
     monster: Monster,
@@ -90,56 +101,131 @@ private fun MonsterDetailsBody(
 ) {
     Column(
         modifier = modifier
+            .padding(24.dp)
     ) {
         Row(
             modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceBetween
+            horizontalArrangement = Arrangement.spacedBy(24.dp),
+            verticalAlignment = Alignment.CenterVertically
         ) {
-            Text(text = monster.name, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-            Text(text = "CR ${monster.cr}", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+            Icon(
+                painter = painterResource(id = R.drawable.image_24px),
+                contentDescription = "Default Image",
+                modifier = Modifier.size(80.dp)
+            )
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth(),
+                horizontalAlignment = Alignment.Start,
+            ) {
+                Text(
+                    text = monster.name,
+                    style = MaterialTheme.typography.headlineSmall,
+                    fontWeight = FontWeight.Bold
+                )
+                Text(
+                    text = monster.alignment.displayString(),
+                    style = MaterialTheme.typography.titleMedium
+                )
+                Text(
+                    text = monster.size.toString().lowercase(),
+                    style = MaterialTheme.typography.titleMedium
+                )
+                val creatureType = monster.creatureType.lowercase()
+                    .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
+                val subtypes = if (monster.creatureSubtypes.isNotEmpty()) {
+                    "(" + monster.creatureSubtypes.joinToString(", ") + ")"
+                } else {
+                    ""
+                }
+                Text(
+                    text = "%s %s".format(creatureType, subtypes),
+                    style = MaterialTheme.typography.titleMedium
+                )
+            }
+        }
+        Spacer(modifier = Modifier.height(12.dp))
+
+        SectionHeader(title = "Basic Info")
+        Column(modifier = Modifier.fillMaxWidth()) {
+            BoldLabelToValue("Initiative", formatBonusValue(monster.initiative))
+            BoldLabelToValue("Perception", formatBonusValue(monster.perception))
+            BoldLabelToValue("Senses", monster.senses.joinToString())
         }
 
-        Text(text = "XP ???", style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Bold)
-        Text(text = "${monster.alignment} ${monster.size} ${monster.creatureType}", style = MaterialTheme.typography.bodyLarge)
-        Text(text = "Init +${monster.initiative}; Senses ${monster.senses.joinToString()}", style = MaterialTheme.typography.bodyLarge)
-        Spacer(modifier = Modifier.height(4.dp))
+        SectionHeader(title = "Defense")
+        Column(modifier = Modifier.fillMaxWidth()) {
+            BoldLabelToValue("AC", "${monster.armourClass.base} (touch ${monster.armourClass.touch}, flat-footed ${monster.armourClass.flatFooted})")
+            BoldLabelToValue("Health", "${monster.health.total} (${monster.health.hitDice})")
+            BoldLabelToValue("Resistances", "None")
+            BoldLabelToValue("Immunities", "None")
+        }
 
-        Text(text = "Languages ???", style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Bold)
-        Spacer(modifier = Modifier.height(8.dp))
+        SectionHeader(title = "Offense")
+        Column(modifier = Modifier.fillMaxWidth()) {
+            BoldLabelToValue("Speed", monster.speed.entries.joinToString { "${it.key} ${it.value} ft." })
+            monster.meleeAttacks?.let { BoldLabelToValue("Melee", it) }
+            monster.rangedAttacks?.let { BoldLabelToValue("Melee", it) }
+            BoldLabelToValue("Resistances", "None")
+            BoldLabelToValue("Immunities", "None")
+        }
 
-        Text(text = "DEFENSE", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
-        Text(text = "AC ${monster.armourClass.base}, touch ${monster.armourClass.touch}, flat-footed ${monster.armourClass.flatFooted}",
-            style = MaterialTheme.typography.bodyMedium)
-        Text(text = "HP ${monster.health.total} (${monster.health.hitDice})", style = MaterialTheme.typography.bodyMedium)
-        Spacer(modifier = Modifier.height(8.dp))
+        SectionHeader(title = "Statistics")
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            BoldLabelToValue("Str", monster.abilityScores.strength.toString())
+            BoldLabelToValue("Dex", monster.abilityScores.dexterity.toString())
+            BoldLabelToValue("Con", monster.abilityScores.constitution.toString())
+            BoldLabelToValue("Int", monster.abilityScores.intelligence.toString())
+            BoldLabelToValue("Wis", monster.abilityScores.wisdom.toString())
+            BoldLabelToValue("Cha", monster.abilityScores.charisma.toString())
+        }
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            BoldLabelToValue("Base Atk", formatBonusValue(monster.attackBonus.base))
+            BoldLabelToValue("CMB", formatBonusValue(monster.attackBonus.cmb))
+            BoldLabelToValue("CMD", monster.attackBonus.cmd.toString())
+        }
 
-        Text(text = "OFFENSE", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
-        Text(text = "Speed ${monster.speed.entries.joinToString { "${it.key} ${it.value} ft." }}", style = MaterialTheme.typography.bodyMedium)
-        Text(text = "Melee ${monster.meleeAttacks}", style = MaterialTheme.typography.bodyMedium)
-        Text(text = "Ranged ${monster.rangedAttacks}", style = MaterialTheme.typography.bodyMedium)
-        Spacer(modifier = Modifier.height(8.dp))
-
-        Text(text = "STATISTICS", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
-        Text(text = "Str ${monster.abilityScores.strength}, Dex ${monster.abilityScores.dexterity}, Con ${monster.abilityScores.constitution}, Int ${monster.abilityScores.intelligence}, Wis ${monster.abilityScores.wisdom}, Cha ${monster.abilityScores.charisma}",
-            style = MaterialTheme.typography.bodyMedium)
-        Text(text = "Base Atk +${monster.attackBonus.base}; CMB +${monster.attackBonus.cmb}; CMD ${monster.attackBonus.cmd}",
-            style = MaterialTheme.typography.bodyMedium)
-        Spacer(modifier = Modifier.height(8.dp))
-
-        Text(text = "Feats", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
-        Spacer(modifier = Modifier.height(4.dp))
-
-        Text(text = "Special Qualities", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+        SectionHeader(title = "Special Qualities")
         monster.specialQualities?.forEach { quality ->
-            Text(text = "- $quality", style = MaterialTheme.typography.bodyMedium)
+            Text(
+                text = "$quality",
+                style = MaterialTheme.typography.bodyMedium
+            )
         }
-        Spacer(modifier = Modifier.height(8.dp))
 
-        Text(text = "Special Abilities", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+        SectionHeader(title = "Special Abilities")
         monster.specialAbilities?.forEach { (name, description) ->
-            Text(text = "$name: $description", style = MaterialTheme.typography.bodyMedium)
+            BoldLabelToValue(name, description)
         }
+
         Spacer(modifier = Modifier.height(16.dp))
+    }
+}
+
+@Composable
+private fun SectionHeader(title: String, modifier: Modifier = Modifier) {
+    Text(
+        text = title,
+        style = MaterialTheme.typography.titleLarge,
+        modifier = modifier.padding(top = 12.dp, bottom = 12.dp)
+    )
+}
+
+@Composable
+private fun BoldLabelToValue(label: String, value: String) {
+    Row {
+        Text(
+            buildAnnotatedString {
+            withStyle(style = SpanStyle(fontWeight = FontWeight.Bold)) {
+                append("$label ")
+            }
+            append(value)
+        },
+            style = MaterialTheme.typography.bodyMedium)
     }
 }
 
@@ -166,7 +252,6 @@ private fun MonsterDetailPreview() {
 @Preview
 @Composable
 private fun MonsterNotFoundPreview() {
-    val monster = getPreviewMonster(1)
     SummonAppTheme {
         MonsterNotFoundMessage("Fire Drake")
     }
