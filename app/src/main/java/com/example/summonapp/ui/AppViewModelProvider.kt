@@ -18,11 +18,14 @@ package com.example.summonapp.ui
 
 import android.app.Application
 import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory
+import androidx.lifecycle.createSavedStateHandle
 import androidx.lifecycle.viewmodel.CreationExtras
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.example.summonapp.SummonApplication
 import com.example.summonapp.ui.home.HomeViewModel
+import com.example.summonapp.ui.monsterdetails.MonsterDetailViewModel
+
 //import com.example.inventory.ui.item.ItemDetailsViewModel
 //import com.example.inventory.ui.item.ItemEditViewModel
 //import com.example.inventory.ui.item.ItemEntryViewModel
@@ -55,6 +58,14 @@ object AppViewModelProvider {
         // Initializer for HomeViewModel
         initializer {
             HomeViewModel(summonApplication().container.monsterRepository)
+        }
+
+        // Initializer for MonsterDetailModel
+        initializer {
+            MonsterDetailViewModel(
+                this.createSavedStateHandle(),
+                summonApplication().container.monsterRepository
+            )
         }
     }
 }

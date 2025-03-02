@@ -2,4 +2,5 @@
     <string name="app_name">Summoners Bestiary</string>
     <string name="empty_bestiary_description">Uh Oh!\nNo monsters in the Bestiary.</string>
     <string name="back_button">Back</string>
+    <string name="monster_details">Monster Details</string>
 </resources>

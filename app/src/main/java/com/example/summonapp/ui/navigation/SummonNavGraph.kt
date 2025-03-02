@@ -19,10 +19,15 @@ package com.example.summonapp.ui.navigation
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.navArgument
 import com.example.summonapp.ui.home.HomeDestination
 import com.example.summonapp.ui.home.HomeScreen
+import com.example.summonapp.ui.monsterdetails.MonsterDetailDestination
+import com.example.summonapp.ui.monsterdetails.MonsterDetailScreen
+
 //import com.example.inventory.ui.item.ItemDetailsDestination
 //import com.example.inventory.ui.item.ItemDetailsScreen
 //import com.example.inventory.ui.item.ItemEditDestination
@@ -46,8 +51,18 @@ fun MonsterNavHost(
         composable(route = HomeDestination.route) {
             HomeScreen(
                 navigateToMonsterInfo = {
-//                    navController.navigate("${ItemDetailsDestination.route}/${it}")
+                    navController.navigate("${MonsterDetailDestination.route}/$it")
                 }
+            )
+        }
+        composable(
+            route = MonsterDetailDestination.routeWithArgs,
+            arguments = listOf(navArgument(MonsterDetailDestination.monsterIdArg) {
+                type = NavType.StringType
+            })
+        ){
+            MonsterDetailScreen(
+                navigateBack = { navController.navigateUp() }
             )
         }
 //        composable(route = ItemEntryDestination.route) {

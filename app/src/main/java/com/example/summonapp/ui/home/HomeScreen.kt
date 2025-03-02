@@ -99,7 +99,7 @@ fun HomeScreen(
     ) { innerPadding ->
         HomeBody(
             itemList = homeUiState.itemList,
-            onItemClick = { navigateToMonsterInfo },
+            onItemClick = navigateToMonsterInfo,
             modifier = modifier.fillMaxSize(),
             contentPadding = innerPadding,
         )
