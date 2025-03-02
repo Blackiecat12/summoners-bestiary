@@ -1,14 +1,20 @@
 package com.example.summonapp.ui.monsterdetails
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.calculateEndPadding
 import androidx.compose.foundation.layout.calculateStartPadding
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Card
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -17,7 +23,9 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.summonapp.MonsterTopAppBar
 import com.example.summonapp.R
@@ -80,14 +88,58 @@ private fun MonsterDetailsBody(
     monster: Monster,
     modifier: Modifier = Modifier
 ) {
-    Card (
+    Column(
         modifier = modifier
-            .fillMaxWidth()
-    )
-    {
-        Text(
-            text = monster.name,
-        )
+    ) {
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            Text(text = monster.name, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+            Text(text = "CR ${monster.cr}", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+        }
+
+        Text(text = "XP ???", style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Bold)
+        Text(text = "${monster.alignment} ${monster.size} ${monster.creatureType}", style = MaterialTheme.typography.bodyLarge)
+        Text(text = "Init +${monster.initiative}; Senses ${monster.senses.joinToString()}", style = MaterialTheme.typography.bodyLarge)
+        Spacer(modifier = Modifier.height(4.dp))
+
+        Text(text = "Languages ???", style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Bold)
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Text(text = "DEFENSE", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+        Text(text = "AC ${monster.armourClass.base}, touch ${monster.armourClass.touch}, flat-footed ${monster.armourClass.flatFooted}",
+            style = MaterialTheme.typography.bodyMedium)
+        Text(text = "HP ${monster.health.total} (${monster.health.hitDice})", style = MaterialTheme.typography.bodyMedium)
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Text(text = "OFFENSE", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+        Text(text = "Speed ${monster.speed.entries.joinToString { "${it.key} ${it.value} ft." }}", style = MaterialTheme.typography.bodyMedium)
+        Text(text = "Melee ${monster.meleeAttacks}", style = MaterialTheme.typography.bodyMedium)
+        Text(text = "Ranged ${monster.rangedAttacks}", style = MaterialTheme.typography.bodyMedium)
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Text(text = "STATISTICS", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+        Text(text = "Str ${monster.abilityScores.strength}, Dex ${monster.abilityScores.dexterity}, Con ${monster.abilityScores.constitution}, Int ${monster.abilityScores.intelligence}, Wis ${monster.abilityScores.wisdom}, Cha ${monster.abilityScores.charisma}",
+            style = MaterialTheme.typography.bodyMedium)
+        Text(text = "Base Atk +${monster.attackBonus.base}; CMB +${monster.attackBonus.cmb}; CMD ${monster.attackBonus.cmd}",
+            style = MaterialTheme.typography.bodyMedium)
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Text(text = "Feats", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+        Spacer(modifier = Modifier.height(4.dp))
+
+        Text(text = "Special Qualities", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+        monster.specialQualities?.forEach { quality ->
+            Text(text = "- $quality", style = MaterialTheme.typography.bodyMedium)
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Text(text = "Special Abilities", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold)
+        monster.specialAbilities?.forEach { (name, description) ->
+            Text(text = "$name: $description", style = MaterialTheme.typography.bodyMedium)
+        }
+        Spacer(modifier = Modifier.height(16.dp))
     }
 }
 
@@ -102,7 +154,7 @@ fun MonsterNotFoundMessage(
     }
 }
 
-@Preview
+@Preview(showBackground = true)
 @Composable
 private fun MonsterDetailPreview() {
     val monster = getPreviewMonster(1)
