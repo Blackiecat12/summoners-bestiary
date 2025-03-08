@@ -1,6 +1,6 @@
 package com.example.summonapp.models.enums
 
-import java.util.Locale
+import com.example.summonapp.capitalise
 
 enum class Alignment {
     LAWFUL_GOOD, NEUTRAL_GOOD, CHAOTIC_GOOD,
@@ -8,7 +8,6 @@ enum class Alignment {
     LAWFUL_EVIL, NEUTRAL_EVIL, CHAOTIC_EVIL;
 
     fun displayString(): String {
-        return this.toString().lowercase().replace("_", " ")
-            .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
+        return this.toString().lowercase().replace("_", " ").capitalise()
     }
 }

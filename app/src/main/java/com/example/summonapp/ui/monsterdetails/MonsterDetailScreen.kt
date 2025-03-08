@@ -34,12 +34,14 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.summonapp.MonsterTopAppBar
 import com.example.summonapp.R
+import com.example.summonapp.capitalise
+import com.example.summonapp.capitaliseWords
 import com.example.summonapp.data.Monster
+import com.example.summonapp.formatAsModifier
 import com.example.summonapp.ui.AppViewModelProvider
 import com.example.summonapp.ui.home.getPreviewMonster
 import com.example.summonapp.ui.navigation.NavigationDestination
 import com.example.summonapp.ui.theme.SummonAppTheme
-import java.util.Locale
 
 object MonsterDetailDestination : NavigationDestination {
     override val route = "monsterDetail"
@@ -90,10 +92,6 @@ fun MonsterDetailScreen(
     }
 }
 
-private fun formatBonusValue(value: Int): String {
-    return if (value >= 0) "+${value}" else "${value}"
-}
-
 @Composable
 private fun MonsterDetailsBody(
     monster: Monster,
@@ -131,8 +129,7 @@ private fun MonsterDetailsBody(
                     text = monster.size.toString().lowercase(),
                     style = MaterialTheme.typography.titleMedium
                 )
-                val creatureType = monster.creatureType.lowercase()
-                    .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
+                val creatureType = monster.creatureType.capitalise()
                 val subtypes = if (monster.creatureSubtypes.isNotEmpty()) {
                     "(" + monster.creatureSubtypes.joinToString(", ") + ")"
                 } else {
@@ -148,8 +145,8 @@ private fun MonsterDetailsBody(
 
         SectionHeader(title = "Basic Info")
         Column(modifier = Modifier.fillMaxWidth()) {
-            BoldLabelToValue("Initiative", formatBonusValue(monster.initiative))
-            BoldLabelToValue("Perception", formatBonusValue(monster.perception))
+            BoldLabelToValue("Initiative", monster.initiative.formatAsModifier())
+            BoldLabelToValue("Perception", monster.perception.formatAsModifier())
             BoldLabelToValue("Senses", monster.senses.joinToString())
         }
 
@@ -166,8 +163,8 @@ private fun MonsterDetailsBody(
             BoldLabelToValue("Speed", monster.speed.entries.joinToString { "${it.key} ${it.value} ft." })
             monster.meleeAttacks?.let { BoldLabelToValue("Melee", it) }
             monster.rangedAttacks?.let { BoldLabelToValue("Melee", it) }
-            BoldLabelToValue("Resistances", "None")
-            BoldLabelToValue("Immunities", "None")
+            BoldLabelToValue("Resistances", monster.resistances ?: "None")
+            BoldLabelToValue("Immunities", monster.immunities ?: "None")
         }
 
         SectionHeader(title = "Statistics")
@@ -184,22 +181,29 @@ private fun MonsterDetailsBody(
         Row(
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            BoldLabelToValue("Base Atk", formatBonusValue(monster.attackBonus.base))
-            BoldLabelToValue("CMB", formatBonusValue(monster.attackBonus.cmb))
+            BoldLabelToValue("Fortitude", monster.savingThrows.fortitude.formatAsModifier())
+            BoldLabelToValue("Reflex", monster.savingThrows.reflex.formatAsModifier())
+            BoldLabelToValue("Will", monster.savingThrows.will.formatAsModifier())
+        }
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            BoldLabelToValue("Base Atk", monster.attackBonus.base.formatAsModifier())
+            BoldLabelToValue("CMB", monster.attackBonus.cmb.formatAsModifier())
             BoldLabelToValue("CMD", monster.attackBonus.cmd.toString())
         }
 
         SectionHeader(title = "Special Qualities")
         monster.specialQualities?.forEach { quality ->
             Text(
-                text = "$quality",
+                text = quality.capitaliseWords(),
                 style = MaterialTheme.typography.bodyMedium
             )
         }
 
         SectionHeader(title = "Special Abilities")
         monster.specialAbilities?.forEach { (name, description) ->
-            BoldLabelToValue(name, description)
+            BoldLabelToValue("${name.capitaliseWords()}:", description)
         }
 
         Spacer(modifier = Modifier.height(16.dp))

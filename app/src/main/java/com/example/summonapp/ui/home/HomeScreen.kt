@@ -56,6 +56,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.summonapp.MonsterTopAppBar
 import com.example.summonapp.R
+import com.example.summonapp.capitalise
 import com.example.summonapp.data.Monster
 import com.example.summonapp.models.AbilityScore
 import com.example.summonapp.models.ArmourClass
@@ -302,8 +303,7 @@ private fun MonsterItem(
 
 fun formatMonsterBasicDescription(monster: Monster): String {
     val alignment = monster.alignment.displayString()
-    val creatureType = monster.creatureType.lowercase()
-        .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
+    val creatureType = monster.creatureType.capitalise()
     val size = monster.size.toString().lowercase()
     val subtypes = if (monster.creatureSubtypes.isNotEmpty()) {
         "(" + monster.creatureSubtypes.joinToString(", ") + ")"
@@ -330,7 +330,7 @@ fun HomeBodyPreview() {
     }
 }
 
-//@Preview(showBackground = true)
+@Preview(showBackground = true)
 @Composable
 fun HomeBodyEmptyListPreview() {
     SummonAppTheme {
