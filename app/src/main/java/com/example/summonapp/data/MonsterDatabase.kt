@@ -1,22 +1,7 @@
-/*
- * Copyright (C) 2023 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     https://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package com.example.summonapp.data
 
 import android.content.Context
+import android.util.Log
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
@@ -27,8 +12,10 @@ import com.example.summonapp.data.converters.AbilityScoreConverter
 import com.example.summonapp.data.converters.AlignmentConverter
 import com.example.summonapp.data.converters.ArmourClassConverter
 import com.example.summonapp.data.converters.AttackBonusConverter
+import com.example.summonapp.data.converters.DamageResistConvertor
 import com.example.summonapp.data.converters.HealthConverter
 import com.example.summonapp.data.converters.ListStringConverter
+import com.example.summonapp.data.converters.SavingThrowsConvertor
 import com.example.summonapp.data.converters.SizeConverter
 import com.example.summonapp.data.converters.SpecialAbilitiesConverter
 import com.example.summonapp.data.converters.SpeedConverter
@@ -43,20 +30,19 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.lang.reflect.Type
 
-/**
- * Database class with a singleton Instance object.
- */
-@Database(entities = [Monster::class], version = 1, exportSchema = false)
+@Database(entities = [Monster::class], version = 2, exportSchema = false)
 @TypeConverters(
     ListStringConverter::class,
     AlignmentConverter::class,
     SizeConverter::class,
+    SpeedConverter::class,
     HealthConverter::class,
     ArmourClassConverter::class,
+    SavingThrowsConvertor::class,
+    DamageResistConvertor::class,
     AbilityScoreConverter::class,
     AttackBonusConverter::class,
-    SpecialAbilitiesConverter::class,
-    SpeedConverter::class
+    SpecialAbilitiesConverter::class
 )
 abstract class MonsterDatabase : RoomDatabase() {
 
@@ -84,6 +70,7 @@ abstract class MonsterDatabase : RoomDatabase() {
                                 val database = getDatabase(context)
                                 val monsterDao = database.monsterDao()
                                 val monsters = loadMonstersFromJson(context)
+                                Log.d("DATABASE", "Loaded Monsters")
                                 monsterDao.insertAll(monsters)
                             }.start()
                         }

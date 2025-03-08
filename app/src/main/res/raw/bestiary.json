@@ -22,6 +22,15 @@
       "total": 15,
       "hitDice": "2d8+6"
     },
+    "savingThrows": {
+      "fortitude": 3,
+      "reflex": 2,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": "fire 30,  deaf,vulnerable to salt water,  The monster does not breathe, and is immune to effects that require breathing (such as inhaled poison). This does not give immunity to cloud or gas attacks that do not require breathing.",
+    "immunities": "Immune to cold, disease, poison",
     "speed": {
       "speed": 40,
       "climb": 20
@@ -46,7 +55,10 @@
       "no breath",
       "void bite"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "hibernation (Ex)": "Akatas can enter a state of hibernation for an indefinite period of time when food is scarce. When an akata wishes to enter hibernation, it seeks out a den and surrounds itself in a layer of fibrous material excreted from its mouth-these fibers quickly harden into a dense, almost metallic cocoon. While hibernating, an akata does not need to drink or eat. The cocoon has hardness 10 and 60 hit points, and is immune to fire and bludgeoning (including falling) damage. As long as the cocoon remains intact, the akata within remains unharmed. The akata remains in a state of hibernation until it senses another living creature within 10 feet or is exposed to extreme heat, at which point it claws its way to freedom in 1d4 minutes as its cocoon degrades to fragments of strange metal. Salt Water Vulnerability (Ex) Salt water acts as an extremely strong acid to akatas. A splash of salt water deals 1d6 points of damage to an akata, and full immersion in salt water deals 4d6 points of damage per round.",
+      "void bite (Ex)": "Akatas hold hundreds of invisibly small larval young within their mouths, spreading these parasitic creatures to hosts through their bite. Only humanoids make suitable hosts for akata young-all other creature types are immune to this parasitic infection. The disease itself is known as void death. Disease (Ex) Void Death: Bite-injury; save Fort DC 12; onset 1 hour; frequency 1/day; effect 1d2 Dex and 1d2 Con damage; an infected creature who dies rises as a void zombie 2d4 hours later (see below); cure 2 consecutive saves."
+    }
   },
   {
     "name": "Amphisbaena",
@@ -73,6 +85,15 @@
       "total": 37,
       "hitDice": "5d10+5"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 6,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": "cold 10",
+    "immunities": "Immune to petrification",
     "speed": {
       "speed": 20,
       "swim": 20,
@@ -97,7 +118,9 @@
       "split",
       "poison"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "split (Ex)": "An amphisbaena functions normally even if cut in half. If dealt a critical hit with a slashing weapon, the creature is cut in half but continues to function as two separate creatures, each with half the original amphisbaena's current hit points (rounded down). Once split, an amphisbaena cannot be split again. If left alone for 1 minute, the split amphisbaena can rejoin its two halves and become a single whole creature again (add the two creatures' hit points together). If one of the split creatures is slain, the amphisbaena can regrow the lost portion over the course of a few weeks."
+    }
   },
   {
     "name": "Ankylosaurus",
@@ -122,6 +145,15 @@
       "total": 75,
       "hitDice": "10d8+30"
     },
+    "savingThrows": {
+      "fortitude": 12,
+      "reflex": 7,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30
     },
@@ -143,7 +175,9 @@
     "specialQualities": [
       "stun"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "stun (Ex)": "The ankylosaurus's tail can deliver a powerful, stunning blow. A creature struck by this attack must make a DC 23 save or be dazed for 1 round. If the strike is a critical hit and the target fails its save, it is instead stunned for 1d4 rounds. The save DC is Strength-based."
+    }
   },
   {
     "name": "Ape",
@@ -169,6 +203,15 @@
       "total": 19,
       "hitDice": "3d8+6"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 5,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "climb": 30
@@ -191,7 +234,7 @@
     "specialQualities": [
       ""
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Astral Deva",
@@ -220,6 +263,18 @@
       "total": 172,
       "hitDice": "15d10+75"
     },
+    "savingThrows": {
+      "fortitude": 12,
+      "reflex": 13,
+      "will": 15
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "evil"
+    },
+    "spellResistance": 25,
+    "resistances": "Electricity 10, Fire 10",
+    "immunities": "Immune to Acid, Cold and Petrification, Cannot be caught flat-footed. Cannot lose Dexterity bonus to AC if immobilized, unless feinted successfully.",
     "speed": {
       "speed": 50,
       "fly": 100
@@ -244,7 +299,9 @@
       "uncanny dodge",
       "stun"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "stun (Su)": "If an astral deva strikes an opponent twice in one round with its warhammer, that creature must succeed on a DC 25 Fortitude save or be stunned for 1d6 rounds. The save DC is Strength-based."
+    }
   },
   {
     "name": "Aurochs",
@@ -269,6 +326,15 @@
       "total": 22,
       "hitDice": "3d8+9"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 3,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -291,7 +357,9 @@
       "stampede",
       "trample"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "stampede (Ex)": "A stampede occurs if three or more creatures with stampede make a trample attack while remaining adjacent to each other. While stampeding, the creatures can trample foes of their size or smaller, and the trample's save DC increases by +2."
+    }
   },
   {
     "name": "Babau",
@@ -321,6 +389,18 @@
       "total": 73,
       "hitDice": "7d10+35"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 6,
+      "will": 8
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "cold iron or good"
+    },
+    "spellResistance": 17,
+    "resistances": "Acid 10, Cold 10, Fire 10",
+    "immunities": "Immune to Electricity and Poison",
     "speed": {
       "speed": 30
     },
@@ -343,7 +423,9 @@
       "sneak attack",
       "protective slime"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "protective slime (Su)": "A layer of acidic slime coats a babau's skin. Any creature that strikes a babau with a natural attack or unarmed strike takes 1d8 points of acid damage from this slime if it fails a DC 18 Reflex save. A creature that strikes a babau with a melee weapon must make a DC 18 Reflex save or the weapon takes 1d8 points of acid damage; if this damage penetrates the weapon's hardness, the weapon gains the broken condition. Ammunition that strikes a babau is automatically destroyed after it inflicts its damage."
+    }
   },
   {
     "name": "Barbed Devil",
@@ -373,6 +455,18 @@
       "total": 138,
       "hitDice": "12d10+72"
     },
+    "savingThrows": {
+      "fortitude": 10,
+      "reflex": 14,
+      "will": 12
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "good"
+    },
+    "spellResistance": 22,
+    "resistances": "Acid 10, Cold 10",
+    "immunities": "Immune to Fire and Poison",
     "speed": {
       "speed": 30
     },
@@ -397,7 +491,11 @@
       "barbed defense",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "fear (Su)": "A barbed devil's fear attack affects any creature it damages with its claws. A DC 20 Will save resists this effect, otherwise the victim becomes frightened for 1d4 rounds. This is a mind-affecting fear effect. The save DC is Charisma-based.",
+      "impale (Ex)": "A barbed devil deals 3d8+9 points of piercing damage to a grabbed opponent with a successful grapple check.",
+      "barbed defense (Su)": "A creature that strikes a hamatula with a melee weapon, an unarmed strike, or a natural weapon takes 1d8+6 points of piercing damage from the devil's barbs. Melee weapons with reach do not endanger a user in this way."
+    }
   },
   {
     "name": "Bearded Devil",
@@ -427,6 +525,18 @@
       "total": 57,
       "hitDice": "6d10+24"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 7,
+      "will": 6
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "good or silver"
+    },
+    "spellResistance": 16,
+    "resistances": "Acid 10, Cold 10",
+    "immunities": "Immune to Fire and Poison",
     "speed": {
       "speed": 40
     },
@@ -449,7 +559,10 @@
       "beard",
       "infernal wound"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "beard (Ex)": "If a bearded devil hits a single opponent with both claw attacks, it also lashes at the same target with its spiky, filthy beard. The victim takes 1d8+2 points of damage and must succeed on a DC 17 Fortitude save or contract devil chills. The save DC is Constitution-based. Devil Chills: Disease-injury; save Fort DC 17; onset 1d4 days; frequency 1/day; effect 1d4 Str damage; cure 3 consecutive saves.",
+      "infernal wound (Su)": "The damage a bearded devil deals with its glaive inflicts persistent wounds that cause 2 points of bleed damage. Bleed caused from an infernal wound is particularly difficult to stanch-a DC 17 Heal check stops the damage, and any attempt to heal a creature suffering from an infernal wound must succeed on a DC 16 caster level check or the spell does not function. Success indicates the healing works normally and stops all bleed effects on the victim. The infernal wounds caused by a bearded devil are a supernatural ability of the devil, not of the weapon."
+    }
   },
   {
     "name": "Bebilith",
@@ -478,6 +591,18 @@
       "total": 150,
       "hitDice": "12d10+84"
     },
+    "savingThrows": {
+      "fortitude": 11,
+      "reflex": 11,
+      "will": 11
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "good"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40,
       "climb": 20
@@ -503,7 +628,11 @@
       "web",
       "rot"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "dismantle armor (Ex)": "If a bebilith hits a foe with both claw attacks, it can attempt to peel away the target's armor and shield as a free action by making a CMB check. If the bebilith is successful, the target's armor and shield are torn from his body and dismantled, falling to the ground. Armor subjected to this attack loses half its hit points and gains the broken condition if the target fails a DC 25 Reflex save. The save DC is Strength-based.",
+      "penetrating strike (Su)": "A bebilith's natural weapons are treated as chaotic and magical for the purposes of penetrating damage reduction. Against creatures with the demon type, its natural weapons are also treated as cold iron and good.",
+      "rot (Su)": "A bebilith's bite causes a horrible withering and weakening of the flesh, resulting in a hideous melting and foul rotting effect. This catastrophic withering begins on the round the creature is bitten and continues for another 4 rounds thereafter, for 5 rounds of withering in all. Each round the rot persists, the target must succeed on a DC 23 Fortitude save or take 2 points of Constitution damage. If the target makes two consecutive saving throws in a row, the effect is cured. Heal can also halt the rot effect. The save DC is Constitution-based."
+    }
   },
   {
     "name": "Behir",
@@ -528,6 +657,15 @@
       "total": 105,
       "hitDice": "10d10+50"
     },
+    "savingThrows": {
+      "fortitude": 12,
+      "reflex": 8,
+      "will": 5
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to electricity",
     "speed": {
       "speed": 40,
       "climb": 20
@@ -554,7 +692,7 @@
       "swallow whole",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Bison",
@@ -579,6 +717,15 @@
       "total": 42,
       "hitDice": "5d8+20"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 4,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -601,7 +748,9 @@
       "stampede",
       "trample"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "stampede (Ex)": "A stampede occurs if three or more creatures with stampede make a trample attack while remaining adjacent to each other. While stampeding, the creatures can trample foes of their size or smaller, and the trample's save DC increases by +2."
+    }
   },
   {
     "name": "Blink Dog",
@@ -627,6 +776,15 @@
       "total": 22,
       "hitDice": "3d10+6"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 5,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -648,7 +806,7 @@
     "specialQualities": [
       ""
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Boar",
@@ -673,6 +831,15 @@
       "total": 18,
       "hitDice": "2d8+6"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 3,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -694,7 +861,7 @@
     "specialQualities": [
       "ferocity"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Bone Devil",
@@ -724,6 +891,18 @@
       "total": 105,
       "hitDice": "10d10+50"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 12,
+      "will": 11
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "good"
+    },
+    "spellResistance": 20,
+    "resistances": "Acid 10, Cold 10",
+    "immunities": "Immune to Fire and Poison",
     "speed": {
       "speed": 40,
       "fly": 60
@@ -747,7 +926,7 @@
       "fear aura",
       "poison"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Brachiosaurus",
@@ -772,6 +951,15 @@
       "total": 171,
       "hitDice": "18d8+90"
     },
+    "savingThrows": {
+      "fortitude": 18,
+      "reflex": 11,
+      "will": 9
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30
     },
@@ -793,7 +981,7 @@
     "specialQualities": [
       "trample"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Bralani Azata",
@@ -823,6 +1011,18 @@
       "total": 66,
       "hitDice": "7d10+28"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 9,
+      "will": 9
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "cold iron or evil"
+    },
+    "spellResistance": 17,
+    "resistances": "Cold 10, Fire 10",
+    "immunities": "Immune to Electricity and Petrification",
     "speed": {
       "speed": 40,
       "fly": 100
@@ -846,7 +1046,10 @@
       "whirlwind blast",
       "wind form"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "whirlwind blast (Su)": "When in wind form, a bralani can attack with a scouring blast of wind, dealing 3d6 points of damage in a 20-foot line (Reflex DC 17 half). The save DC is Constitution-based.",
+      "wind form (Su)": "A bralani can shift between its humanoid body and a body made of wind and mist as a standard action. In humanoid form, it cannot fly or use its whirlwind blast. In wind form, it functions as if under the effects of a wind walk spell. It can make slam attacks and use spelllike abilities in either form. A bralani remains in one form until it chooses to assume its other form. A change in form cannot be dispelled, nor does the bralani revert to any particular form when killed (both shapes are its true form). A true seeing spell reveals both forms simultaneously."
+    }
   },
   {
     "name": "Bulette",
@@ -873,6 +1076,15 @@
       "total": 84,
       "hitDice": "8d10+40"
     },
+    "savingThrows": {
+      "fortitude": 11,
+      "reflex": 8,
+      "will": 5
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40,
       "burrow": 20
@@ -896,7 +1108,10 @@
       "leap",
       "savage bite"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "leap (Ex)": "A bulette can perform a special kind of pounce attack by jumping into combat. When a bulette charges, it can make a DC 20 Acrobatics check to jump into the air and land next to its enemies. If it makes the Acrobatics check, it can follow up with four claw attacks against foes in reach, but cannot make a bite attack.",
+      "savage bite (Ex)": "A bulette's bite is particularly dangerous. It applies 1-1/2 times its Strength modifier to damage inflicted with its bite attack, and threatens a critical hit on a 19-20."
+    }
   },
   {
     "name": "Cerberi",
@@ -925,6 +1140,15 @@
       "total": 76,
       "hitDice": "8d10+32"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 8,
+      "will": 8
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -947,7 +1171,9 @@
       "rend",
       "cerberus's jaws"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "cerberus's jaws (Su)": "Curse-bite; save Fort DC 18; effect dimensional anchoring. A creature affected by this curse cannot utilize extradimensional travel such as teleport, as if it were under the effect of a dimensional anchor spell. The save DC is Constitution-based. Soul Scent (Su) This ability functions as the scent ability, save that it also grants the cerberi a +4 racial bonus on Survival checks made to track undead. This ability even allows a cerberi to track the passage of an incorporeal creature."
+    }
   },
   {
     "name": "Chaos Beast",
@@ -974,6 +1200,15 @@
       "total": 85,
       "hitDice": "9d10+27"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 8,
+      "will": 7
+    },
+    "damageResistance": null,
+    "spellResistance": 18,
+    "resistances": null,
+    "immunities": "Immune to precision damage and critical hits.",
     "speed": {
       "speed": 20
     },
@@ -997,7 +1232,10 @@
       "resistant to transformation",
       "corporeal instability"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "resistant to transformation (Ex)": "Transmutation effects, such as polymorphing or petrification, force a chaos beast into a new shape, but at the start of its next turn, it immediately returns to its normal form as a free action.",
+      "corporeal instability (Su)": "Claw-contact (curse); save Fort DC 17; effect amorphous body and 1 Wisdom drain per round (see below); cure 3 consecutive saves. The save DC is Con-based. A creature cursed with an amorphous body becomes a spongy, shapeless mass. Unless the victim manages to control the effect (see below), its shape constantly melts, flows, writhes, and boils. An affected creature is unable to hold or use any item. Clothing, armor, helmets, and rings become useless. Large items worn or carried-armor, backpacks, even shirts-hamper more than help, reducing the victim's Dexterity score by 4. Speed is reduced to 10 feet or one-quarter normal, whichever is less. The victim gains the amorphous quality, but cannot cast spells or use magic items, and it attacks blindly, unable to distinguish friend from foe (-4 penalty on attack rolls and a 50% miss chance, regardless of the attack roll). A victim can temporarily regain its own shape by taking a standard action to attempt a DC 15 Will save (this check DC does not vary for a chaos beast with different Hit Dice or ability scores). A success reestablishes the creature's normal form for 1 minute. Spells that change the victim's shape (such as alter self, beast shape, elemental body, and polymorph) do not remove the curse, but hold the creature in a stable form (which might not be its own form, depending on the spell) and prevent additional Wisdom drain for the duration of the spell; shapechange and stoneskin have a similar effect. The victim takes 1 point of Wisdom drain from mental shock every round that it ends its turn in an amorphous shape-upon being drained to 1 Wisdom, further Wisdom drain ceases and the amorphous body effect is permanent until removed via magic (no further number of saving throws can cure the condition at this time)."
+    }
   },
   {
     "name": "Cheetah",
@@ -1022,6 +1260,15 @@
       "total": 19,
       "hitDice": "3d8+6"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 7,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 50
     },
@@ -1044,7 +1291,9 @@
       "sprint",
       "trip"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "sprint (Ex)": "Once per hour, a cheetah can move at 10 times its normal speed (500 feet) when it makes a charge."
+    }
   },
   {
     "name": "Choker",
@@ -1068,6 +1317,15 @@
       "total": 16,
       "hitDice": "3d8+3"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 3,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 20,
       "climb": 10
@@ -1093,7 +1351,10 @@
       "strangle",
       "quickness"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "strangle (Ex)": "Chokers have an unerring talent for seizing their victims by the neck. A creature that is grappled by a choker cannot speak or cast spells with verbal components.",
+      "quickness (Su)": "A choker is supernaturally quick. It can take an extra move action during its turn each round."
+    }
   },
   {
     "name": "Cloaker",
@@ -1117,6 +1378,15 @@
       "total": 51,
       "hitDice": "6d8+24"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 5,
+      "will": 7
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 10,
       "fly": 40
@@ -1141,7 +1411,11 @@
       "moan",
       "shadow shift"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "engulf (Ex)": "A cloaker can try to wrap a Medium or smaller creature in its body as a standard action. The cloaker attempts a grapple that does not provoke an attack of opportunity. If it wins the grapple check, it establishes a hold and bites the engulfed victim with a +4 bonus on its attack roll. It can still use its whip-like tail to strike at other targets. Attacks that hit an engulfing cloaker deal half their damage to the monster and half to the trapped victim.",
+      "moan (Ex)": "A cloaker can emit an infrasonic moan as a standard action, with one of four effects. Fear: All creatures in a 30-foot spread must save (Will negates) or become panicked for 2 rounds. Nausea: All creatures in a 30-foot cone must save (Fortitude negates) or fall prone and be nauseated for 1d4+1 rounds. Stupor: A single creature within 30 feet is affected by hold monster for 5 rounds (Will negates). Unnerve: Anyone within a 60-foot spread automatically takes a -2 penalty on attack and damage rolls. Those in the area for more than 6 consecutive rounds must save (Will negates) or enter a trance, helpless until the moaning stops. Cloakers are immune to these sonic, mind-affecting attacks. A creature that successfully saves against the cloaker's fear, nausea, or unnerve moans cannot be affected by that same moan effect from that cloaker for 24 hours. All of the save DCs against a cloaker's moan are DC 15. Save DCs are Charisma-based.",
+      "shadow shift (Su)": "When in dim illumination, a cloaker can manipulate shadows as a free action to create one of three effects: blur (lasts 1d4 rounds, self only), mirror image (CL 6th), or silent image (DC 15, CL 6th, save DC is Charisma-based)."
+    }
   },
   {
     "name": "Cloud Giant",
@@ -1168,6 +1442,15 @@
       "total": 168,
       "hitDice": "16d8+96"
     },
+    "savingThrows": {
+      "fortitude": 11,
+      "reflex": 11,
+      "will": 10
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 50
     },
@@ -1191,7 +1474,9 @@
       "oversized weapon",
       "rock catching"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "oversized weapon (Ex)": "A cloud giant can wield Gargantuan weapons without penalty. Most favor the use of immense morningstars."
+    }
   },
   {
     "name": "Constrictor Snake",
@@ -1216,6 +1501,15 @@
       "total": 19,
       "hitDice": "3d8+3"
     },
+    "savingThrows": {
+      "fortitude": 4,
+      "reflex": 6,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 20,
       "swim": 20,
@@ -1240,7 +1534,7 @@
       "constrict",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Crocodile",
@@ -1264,6 +1558,15 @@
       "total": 22,
       "hitDice": "3d8+9"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 4,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 20,
       "swim": 30
@@ -1289,7 +1592,10 @@
       "hold breath",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "death roll (Ex)": "When grappling a foe of its size or smaller, a crocodile can perform a death roll upon making a successful grapple check. As it clings to its foe, it tucks in its legs and rolls rapidly, twisting and wrenching its victim. The crocodile inflicts its bite damage and knocks the creature prone. If successful, the crocodile maintains its grapple.",
+      "sprint (Ex)": "Once per minute a crocodile may sprint, increasing its land speed to 40 feet for 1 round."
+    }
   },
   {
     "name": "Deinonychus",
@@ -1314,6 +1620,15 @@
       "total": 34,
       "hitDice": "4d8+16"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 6,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 60
     },
@@ -1335,7 +1650,7 @@
     "specialQualities": [
       "pounce"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Dire Ape",
@@ -1360,6 +1675,15 @@
       "total": 30,
       "hitDice": "4d8+12"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 6,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "climb": 30
@@ -1382,7 +1706,7 @@
     "specialQualities": [
       "rend"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Dire Bat",
@@ -1407,6 +1731,15 @@
       "total": 22,
       "hitDice": "4d8+4"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 6,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 20,
       "fly": 40
@@ -1429,7 +1762,7 @@
     "specialQualities": [
       ""
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Dire Bear",
@@ -1454,6 +1787,15 @@
       "total": 95,
       "hitDice": "10d8+50"
     },
+    "savingThrows": {
+      "fortitude": 12,
+      "reflex": 8,
+      "will": 6
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -1475,7 +1817,7 @@
     "specialQualities": [
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Dire Boar",
@@ -1500,6 +1842,15 @@
       "total": 42,
       "hitDice": "5d8+15"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 4,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -1521,7 +1872,7 @@
     "specialQualities": [
       "ferocity"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Dire Crocodile",
@@ -1545,6 +1896,15 @@
       "total": 138,
       "hitDice": "12d8+84"
     },
+    "savingThrows": {
+      "fortitude": 15,
+      "reflex": 8,
+      "will": 8
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 20,
       "swim": 30
@@ -1571,7 +1931,10 @@
       "hold breath",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "death roll (Ex)": "Upon making a successful grapple check against a foe of its size or smaller, a dire crocodile deals bite damage to the target and knocks it prone. This does not break the dire crocodile's grapple.",
+      "sprint (Ex)": "Once per minute a dire crocodile may sprint, increasing its land speed to 40 feet for 1 round."
+    }
   },
   {
     "name": "Dire Lion",
@@ -1596,6 +1959,15 @@
       "total": 60,
       "hitDice": "8d8+24"
     },
+    "savingThrows": {
+      "fortitude": 9,
+      "reflex": 8,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -1619,7 +1991,7 @@
       "rake",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Dire Rat",
@@ -1644,6 +2016,15 @@
       "total": 5,
       "hitDice": "1d8+1"
     },
+    "savingThrows": {
+      "fortitude": 3,
+      "reflex": 5,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40,
       "swim": 20,
@@ -1667,7 +2048,7 @@
     "specialQualities": [
       "disease"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Dire Shark",
@@ -1695,6 +2076,15 @@
       "total": 112,
       "hitDice": "15d8+45"
     },
+    "savingThrows": {
+      "fortitude": 14,
+      "reflex": 13,
+      "will": 8
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "swim": 60
     },
@@ -1717,7 +2107,7 @@
       "swallow whole",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Dire Tiger",
@@ -1742,6 +2132,15 @@
       "total": 105,
       "hitDice": "14d8+42"
     },
+    "savingThrows": {
+      "fortitude": 12,
+      "reflex": 11,
+      "will": 5
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -1765,7 +2164,7 @@
       "rake",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Dire Wolf",
@@ -1790,6 +2189,15 @@
       "total": 37,
       "hitDice": "5d8+15"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 6,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 50
     },
@@ -1811,7 +2219,7 @@
     "specialQualities": [
       "trip"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Dog",
@@ -1836,6 +2244,15 @@
       "total": 6,
       "hitDice": "1d8+2"
     },
+    "savingThrows": {
+      "fortitude": 4,
+      "reflex": 3,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -1857,7 +2274,7 @@
     "specialQualities": [
       ""
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Dolphin",
@@ -1882,6 +2299,15 @@
       "total": 11,
       "hitDice": "2d8+2"
     },
+    "savingThrows": {
+      "fortitude": 4,
+      "reflex": 5,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "swim": 80
     },
@@ -1903,7 +2329,7 @@
     "specialQualities": [
       "hold breath"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Dretch",
@@ -1932,6 +2358,18 @@
       "total": 18,
       "hitDice": "2d10+4"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 3,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "cold iron or good"
+    },
+    "spellResistance": null,
+    "resistances": "Acid 10, Cold 10, Fire 10",
+    "immunities": "Immune to Electricity and Poison",
     "speed": {
       "speed": 20
     },
@@ -1953,7 +2391,7 @@
     "specialQualities": [
       ""
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Eagle",
@@ -1977,6 +2415,15 @@
       "total": 5,
       "hitDice": "1d8+1"
     },
+    "savingThrows": {
+      "fortitude": 3,
+      "reflex": 4,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 10,
       "fly": 80
@@ -1999,7 +2446,7 @@
     "specialQualities": [
       ""
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Elasmosaurus",
@@ -2024,6 +2471,15 @@
       "total": 105,
       "hitDice": "10d8+50"
     },
+    "savingThrows": {
+      "fortitude": 14,
+      "reflex": 9,
+      "will": 6
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 20,
       "swim": 50
@@ -2046,7 +2502,7 @@
     "specialQualities": [
       ""
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Elder Air Elemental",
@@ -2074,6 +2530,18 @@
       "total": 152,
       "hitDice": "16d10+64"
     },
+    "savingThrows": {
+      "fortitude": 9,
+      "reflex": 21,
+      "will": 12
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "fly": 100
     },
@@ -2096,7 +2564,9 @@
       "whirlwind",
       "air mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "air mastery (Ex)": "Airborne creatures take a -1 penalty on attack and damage rolls against an air elemental."
+    }
   },
   {
     "name": "Elder Earth Elemental",
@@ -2125,6 +2595,18 @@
       "total": 168,
       "hitDice": "16d10+80"
     },
+    "savingThrows": {
+      "fortitude": 10,
+      "reflex": 9,
+      "will": 10
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -2147,7 +2629,9 @@
     "specialQualities": [
       "earth mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "earth mastery (Ex)": "An earth elemental gains a +1 bonus on attack and damage rolls if both it and its foe are touching the ground. If an opponent is airborne or waterborne, the elemental takes a -4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks. (These modifiers are not included in the statistics block.)"
+    }
   },
   {
     "name": "Elder Ice Elemental",
@@ -2178,6 +2662,18 @@
       "total": 152,
       "hitDice": "16d10+64"
     },
+    "savingThrows": {
+      "fortitude": 9,
+      "reflex": 17,
+      "will": 10
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Fire",
+    "immunities": "Immune to Cold, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 60
@@ -2202,7 +2698,11 @@
       "ice glide",
       "icewalking"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "numbing cold (Su)": "When an ice elemental deals cold damage to a creature, that creature must succeed on a Fortitude save or be staggered for 1 round. The save DC is listed in the elemental's stat block and is Constitution-based. Snow Vision (Ex) An ice elemental can see perfectly well in snowy conditions and does not take any penalties on Perception checks while in snow.",
+      "ice glide (Su)": "A burrowing ice elemental can pass through nonmagical ice and snow as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A control water spell cast on an area containing a burrowing ice elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.",
+      "icewalking (Ex)": "This ability works like the spider climb spell, but the surfaces the elemental climbs must be icy. The elemental can move across icy surfaces without penalty and does not need to make Acrobatics checks to run or charge on ice. Numbing Cold (Su) When an ice elemental deals cold damage to a creature, that creature must succeed on a Fortitude save or be staggered for 1 round. The save DC is listed in the elemental's stat block and is Constitution-based. Snow Vision (Ex) An ice elemental can see perfectly well in snowy conditions and does not take any penalties on Perception checks while in snow."
+    }
   },
   {
     "name": "Elder Lightning Elemental",
@@ -2230,6 +2730,18 @@
       "total": 136,
       "hitDice": "16d10+48"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 20,
+      "will": 12
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to electricity, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "fly": 100
     },
@@ -2252,7 +2764,10 @@
       "metal mastery",
       "spark leap"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "metal mastery (Ex)": "A lightning elemental gains a +3 bonus on attack rolls if its opponent is wearing metal armor, is wielding a metal weapon, or is made of metal (such as an iron golem).",
+      "spark leap (Ex)": "A lightning elemental gains a +10 bonus on bull rush, disarm, overrun, and trip attacks when it charges a creature against whom its metal mastery ability applies."
+    }
   },
   {
     "name": "Elder Magma Elemental",
@@ -2281,6 +2796,18 @@
       "total": 152,
       "hitDice": "16d10+64"
     },
+    "savingThrows": {
+      "fortitude": 9,
+      "reflex": 9,
+      "will": 10
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack., Immune to Fire",
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -2305,7 +2832,10 @@
       "lava puddle",
       "earth glide"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "lava puddle (Su)": "Once per day as a full-round action, a magma elemental can vomit forth a puddle of lava (Pathfinder RPG Core Rulebook 444) that fills its space to a depth of 2-3 inches and counts as difficult terrain. Any creature that moves through this puddle of lava takes 2d6 points of fire damage. This damage continues for 1d3 rounds after the creature leaves the lava pool, although then it only inflicts 1d6 points of fire damage per round. The lava puddle solidifies and is safe to touch after a number of rounds equal to the elemental's Hit Dice. At the GM's discretion, this puddle of lava could start secondary fires.",
+      "earth glide (Ex)": "A burrowing magma elemental can pass through stone, dirt, lava, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple, though the area it passes through feels warm for 1 round afterward and often retains a strangely smooth texture, as if the stone had been polished. A move earth spell cast on an area containing a burrowing magma elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save."
+    }
   },
   {
     "name": "Elder Mud Elemental",
@@ -2335,6 +2865,18 @@
       "total": 152,
       "hitDice": "16d10+64"
     },
+    "savingThrows": {
+      "fortitude": 9,
+      "reflex": 17,
+      "will": 10
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to acid, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 30,
@@ -2359,7 +2901,9 @@
       "entrap",
       "earth glide"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "earth glide (Ex)": "A burrowing mud elemental can pass through dirt, gravel, or other loose or porous solid matter as easily as a fish swims through water. It cannot use this ability to pass through a solid barrier such as a stone or brick wall. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A move earth spell cast on an area containing a burrowing mud elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save."
+    }
   },
   {
     "name": "Elder Water Elemental",
@@ -2387,6 +2931,18 @@
       "total": 152,
       "hitDice": "16d10+64"
     },
+    "savingThrows": {
+      "fortitude": 9,
+      "reflex": 18,
+      "will": 10
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 90
@@ -2411,7 +2967,11 @@
       "vortex",
       "water mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "drench (Ex)": "The elemental's touch puts out nonmagical flames of Large size or smaller. The creature can dispel magical fire it touches as dispel magic (caster level equals elemental's HD). Vortex (Su) A water elemental can create a whirlpool as a standard action, at will. This ability functions identically to the whirlwind special attack (see page 306), but can only form underwater and cannot leave the water.",
+      "vortex (Su)": "A water elemental can create a whirlpool as a standard action, at will. This ability functions identically to the whirlwind special attack (see page 306), but can only form underwater and cannot leave the water.",
+      "water mastery (Ex)": "A water elemental gains a +1 bonus on attack and damage rolls if both it and its opponent are touching water. If the opponent or the elemental is touching the ground, the elemental takes a -4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks."
+    }
   },
   {
     "name": "Electric Eel",
@@ -2437,6 +2997,15 @@
       "total": 17,
       "hitDice": "2d8+8"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 5,
+      "will": 0
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to electricity",
     "speed": {
       "swim": 30
     },
@@ -2458,7 +3027,9 @@
     "specialQualities": [
       "electricity"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "electricity (Ex)": "An electric eel can produce a powerful jolt of electricity from its tail, delivering the jolt with a successful touch attack. On a critical hit, the creature struck must make a DC 15 Fortitude save or be stunned for 1d4 rounds. The save DC is Constitution-based."
+    }
   },
   {
     "name": "Elephant",
@@ -2483,6 +3054,15 @@
       "total": 93,
       "hitDice": "11d8+44"
     },
+    "savingThrows": {
+      "fortitude": 13,
+      "reflex": 7,
+      "will": 6
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -2504,7 +3084,7 @@
     "specialQualities": [
       "trample"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Elk",
@@ -2528,6 +3108,15 @@
       "total": 15,
       "hitDice": "2d8+6"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 8,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 50
     },
@@ -2549,7 +3138,7 @@
     "specialQualities": [
       ""
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Emperor Cobra",
@@ -2574,6 +3163,15 @@
       "total": 51,
       "hitDice": "6d8+24"
     },
+    "savingThrows": {
+      "fortitude": 9,
+      "reflex": 7,
+      "will": 5
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "swim": 30,
@@ -2597,7 +3195,7 @@
     "specialQualities": [
       "poison"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Erinyes Devil",
@@ -2628,6 +3226,18 @@
       "total": 94,
       "hitDice": "9d10+45"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 12,
+      "will": 10
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "good"
+    },
+    "spellResistance": 19,
+    "resistances": "Acid 10, Cold 10",
+    "immunities": "Immune to Fire and Poison",
     "speed": {
       "speed": 30,
       "fly": 50
@@ -2650,7 +3260,7 @@
     "specialQualities": [
       ""
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Fire Beetle",
@@ -2675,6 +3285,15 @@
       "total": 4,
       "hitDice": "1d8+0"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 0,
+      "will": 0
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to mind-affecting effects, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms)",
     "speed": {
       "speed": 30,
       "fly": 30
@@ -2697,7 +3316,9 @@
     "specialQualities": [
       "luminescence"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "luminescence (Ex)": "A fire beetle's glowing glands provide light in a 10-foot radius. A dead fire beetle's luminescent glands continue to glow for 1d6 days after its death."
+    }
   },
   {
     "name": "Frost Giant",
@@ -2724,6 +3345,15 @@
       "total": 133,
       "hitDice": "14d8+70"
     },
+    "savingThrows": {
+      "fortitude": 9,
+      "reflex": 8,
+      "will": 6
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": "Vulnerable to Fire",
+    "immunities": "Immune to Cold",
     "speed": {
       "speed": 40
     },
@@ -2746,7 +3376,7 @@
       "rock throwing",
       "rock catching"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Ghaele Azata",
@@ -2778,6 +3408,18 @@
       "total": 136,
       "hitDice": "13d10+65"
     },
+    "savingThrows": {
+      "fortitude": 9,
+      "reflex": 11,
+      "will": 12
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "cold iron and evil"
+    },
+    "spellResistance": 25,
+    "resistances": "Cold 10, Fire 10",
+    "immunities": "Immune to Electricity and Petrification",
     "speed": {
       "speed": 50,
       "fly": 150
@@ -2802,7 +3444,11 @@
       "light form",
       "light ray"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "gaze (Su)": "In humanoid form, a ghaele's gaze attack slays evil creatures of 5 HD or less (range 60 feet, Will DC 18 negates, shaken for 2d10 rounds on a successful save). Nonevil creatures, and evil creatures with more than 5 HD, must succeed on a DC 18 Will save or be shaken for 2d10 rounds. A creature that saves against a ghaele's gaze is immune to that particular ghaele's gaze for 24 hours. This is a mindaffecting fear effect. The save DCs are Charisma-based.",
+      "light form (Su)": "A ghaele can shift between its solid body and one made of light as a standard action. In solid form, it cannot fly or use light rays. In light form, it can fly and gains the incorporeal quality-it can make light ray attacks or use spell-like abilities in this form, but can't make physical attacks or cast spells. This ability otherwise functions similarly to a bralani's wind form ability.",
+      "light ray (Ex)": "A ghaele's light rays have a range of 300 feet. This attack bypasses all damage reduction. Spells Ghaeles cast divine spells as 13th-level clerics. They do not gain access to domains or other cleric abilities."
+    }
   },
   {
     "name": "Giant Anaconda",
@@ -2827,6 +3473,15 @@
       "total": 126,
       "hitDice": "12d8+72"
     },
+    "savingThrows": {
+      "fortitude": 14,
+      "reflex": 10,
+      "will": 5
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 20,
       "swim": 20,
@@ -2851,7 +3506,7 @@
       "constrict",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Giant Ant, Drone",
@@ -2876,6 +3531,15 @@
       "total": 22,
       "hitDice": "2d8+10"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 0,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to mind-affecting effects, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms)",
     "speed": {
       "speed": 50,
       "fly": 30,
@@ -2900,7 +3564,7 @@
       "grab",
       "poison"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Giant Ant, Soldier",
@@ -2925,6 +3589,15 @@
       "total": 18,
       "hitDice": "2d8+6"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 0,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to mind-affecting effects, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms)",
     "speed": {
       "speed": 50,
       "climb": 20
@@ -2948,7 +3621,7 @@
       "grab",
       "poison"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Giant Ant, Worker",
@@ -2973,6 +3646,15 @@
       "total": 18,
       "hitDice": "2d8+6"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 0,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to mind-affecting effects, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms)",
     "speed": {
       "speed": 50,
       "climb": 20
@@ -2995,7 +3677,7 @@
     "specialQualities": [
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Giant Centipede",
@@ -3019,6 +3701,15 @@
       "total": 5,
       "hitDice": "1d8+1"
     },
+    "savingThrows": {
+      "fortitude": 3,
+      "reflex": 2,
+      "will": 0
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to mind-affecting effects, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms)",
     "speed": {
       "speed": 40,
       "climb": 40
@@ -3041,7 +3732,7 @@
     "specialQualities": [
       "poison"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Giant Frog",
@@ -3066,6 +3757,15 @@
       "total": 15,
       "hitDice": "2d8+6"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 6,
+      "will": -1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "swim": 30
@@ -3091,7 +3791,9 @@
       "tongue",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "tongue (Ex)": "gue (Ex): A giant frog's tongue is a primary attack with reach equal to three times the frog's normal reach (15 feet for a Medium giant frog). A giant frog's tongue deals no Damage on a hit, but can be used to grab. A giant frog does not gain the grappled condition while using its tongue in this manner."
+    }
   },
   {
     "name": "Giant Mantis",
@@ -3115,6 +3817,15 @@
       "total": 30,
       "hitDice": "4d8+12"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 2,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to mind-affecting effects, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms)",
     "speed": {
       "speed": 30,
       "climb": 30
@@ -3140,7 +3851,11 @@
       "sudden strike",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "lunge (Ex)": "A giant mantis's limbs are capable of reaching much farther than normal for a creature of its size. As a fullattack action, it can make a single attack with its claws at double its normal reach. When a giant mantis attacks with a claw in this manner, it gains a +4 bonus on its attack roll. A giant mantis cannot make attacks of opportunity with its lunge.",
+      "mandibles (Ex)": "A giant mantis that grabs a foe can make a bite attack against that foe as a secondary attack. The mantis's bite is a +0 attack that inflicts 1d6+1 points of damage on a hit.",
+      "sudden strike (Ex)": "A giant mantis is particularly adept at moving quickly when its foes are surprised. During a surprise round, a giant mantis may act as if it had a full round to act, rather than just one standard action."
+    }
   },
   {
     "name": "Giant Moray Eel",
@@ -3167,6 +3882,15 @@
       "total": 52,
       "hitDice": "7d8+21"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 9,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "",
     "speed": {
       "speed": 5,
       "swim": 30
@@ -3190,7 +3914,9 @@
       "gnaw",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "gnaw (Ex)": "If a giant moray begins a round with a grabbed foe, it inflicts automatic bite damage (2d6+9 points of damage). A giant moray eel possesses a second set of jaws in its throat that aid in swallowing\u00e2\u20ac\u201dit can make a second bite attack (+11 attack, 1d6+3) against a foe it has already grabbed."
+    }
   },
   {
     "name": "Giant Octopus",
@@ -3216,6 +3942,15 @@
       "total": 90,
       "hitDice": "12d8+36"
     },
+    "savingThrows": {
+      "fortitude": 11,
+      "reflex": 12,
+      "will": 7
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 20,
       "swim": 30
@@ -3242,7 +3977,9 @@
       "grab",
       "jet"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "ink cloud (Ex)": ""
+    }
   },
   {
     "name": "Giant Scorpion",
@@ -3267,6 +4004,15 @@
       "total": 37,
       "hitDice": "5d8+15"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 1,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to mind-affecting effects, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms)",
     "speed": {
       "speed": 50
     },
@@ -3290,7 +4036,7 @@
       "grab",
       "poison"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Giant Spider",
@@ -3315,6 +4061,15 @@
       "total": 16,
       "hitDice": "3d8+3"
     },
+    "savingThrows": {
+      "fortitude": 4,
+      "reflex": 4,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to mind-affecting effects, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms)",
     "speed": {
       "speed": 30,
       "climb": 30
@@ -3338,7 +4093,7 @@
       "web",
       "poison"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Giant Squid",
@@ -3364,6 +4119,15 @@
       "total": 102,
       "hitDice": "12d8+48"
     },
+    "savingThrows": {
+      "fortitude": 14,
+      "reflex": 13,
+      "will": 5
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "swim": 60
     },
@@ -3388,7 +4152,9 @@
       "grab",
       "jet"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "ink cloud (Ex)": ""
+    }
   },
   {
     "name": "Giant Wasp",
@@ -3412,6 +4178,15 @@
       "total": 34,
       "hitDice": "4d8+16"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 2,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to mind-affecting effects, mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms)",
     "speed": {
       "speed": 20,
       "fly": 60
@@ -3434,7 +4209,7 @@
     "specialQualities": [
       "poison"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Gibbering Mouther",
@@ -3459,6 +4234,18 @@
       "total": 46,
       "hitDice": "4d8+28"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 4,
+      "will": 5
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "bludgeoning"
+    },
+    "spellResistance": null,
+    "resistances": "Immune to precision damage and critical hits.",
+    "immunities": "Immune to critical hits, precision damage",
     "speed": {
       "speed": 10,
       "swim": 20
@@ -3486,7 +4273,12 @@
       "amorphous",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "engulf (Ex)": "This ability functions as swallow whole, except for the following changes. An engulfed creature is trapped in the gibbering mouther's body, where several of its mouths continue to feed and drain blood. A gibbering mouther can engulf only one foe of its size or smaller at a time. If an engulfed creature cuts its way free (the mouther's damage reduction still applies to those inside), the mouther simply flows together again and can still use its engulf attack.",
+      "gibbering (Su)": "As a free action, a gibbering mouther can emit a cacophony of maddening sound. All creatures other than gibbering mouthers within 60 feet must succeed on a DC 13 Will save or be confused for 1 round. This is a mindaffecting compulsion insanity effect. A creature that saves cannot be affected by the same mouther's gibbering for 24 hours. The save DC is Constitution-based.",
+      "ground manipulation (Su)": "At will as a standard action, a gibbering mouther can cause stone and earth under its body to grow soft and muddy. The ground remains muddy for 1 minute after the mouther moves off of the location. A gibbering mouther can move through these areas with ease, but other creatures treat them as difficult terrain. Spittle (Ex) Each round as a free action, a gibbering mouther can emit a stream of acidic spittle at one target within 30 feet. On a successful attack, the target is blinded for 1d4 rounds unless he succeeds on a DC 18 Fortitude save. The save DC is Constitution-based.",
+      "spittle (Ex)": "Each round as a free action, a gibbering mouther can emit a stream of acidic spittle at one target within 30 feet. On a successful attack, the target is blinded for 1d4 rounds unless he succeeds on a DC 18 Fortitude save. The save DC is Constitution-based."
+    }
   },
   {
     "name": "Glabrezu",
@@ -3516,6 +4308,18 @@
       "total": 186,
       "hitDice": "12d10+120"
     },
+    "savingThrows": {
+      "fortitude": 14,
+      "reflex": 8,
+      "will": 11
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "good"
+    },
+    "spellResistance": 24,
+    "resistances": "Acid 10, Cold 10, Fire 10",
+    "immunities": "Immune to Electricity and Poison",
     "speed": {
       "speed": 40
     },
@@ -3537,7 +4341,7 @@
     "specialQualities": [
       "rend"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Goblin Dog",
@@ -3562,6 +4366,15 @@
       "total": 9,
       "hitDice": "1d8+2"
     },
+    "savingThrows": {
+      "fortitude": 4,
+      "reflex": 4,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to disease",
     "speed": {
       "speed": 50
     },
@@ -3583,7 +4396,9 @@
     "specialQualities": [
       "allergic reaction"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "allergic reaction (Ex)": "A goblin dog's dander is highly irritating to all creatures save those with the goblinoid subtype. A non-goblinoid creature damaged by a goblin dog's bite, who deals damage to a goblin dog with a natural weapon or unarmed attack, or who otherwise comes into contact with a goblin dog (including attempts to grapple or ride the creature) must make a DC 12 Fortitude save or break out in an itching rash. A creature affected by this rash takes a -2 penalty to Dexterity and Charisma for 1 day (multiple allergic reactions do not stack). Remove disease or any magical healing removes the rash instantly. This is a disease effect. The save DC is Constitution-based."
+    }
   },
   {
     "name": "Gorgon",
@@ -3609,6 +4424,15 @@
       "total": 100,
       "hitDice": "8d10+56"
     },
+    "savingThrows": {
+      "fortitude": 13,
+      "reflex": 6,
+      "will": 7
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30
     },
@@ -3631,7 +4455,7 @@
       "breath weapon",
       "trample"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Greater Air Elemental",
@@ -3659,6 +4483,18 @@
       "total": 123,
       "hitDice": "13d10+52"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 18,
+      "will": 10
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "fly": 100
     },
@@ -3681,7 +4517,9 @@
       "whirlwind",
       "air mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "air mastery (Ex)": "Airborne creatures take a -1 penalty on attack and damage rolls against an air elemental."
+    }
   },
   {
     "name": "Greater Earth Elemental",
@@ -3710,6 +4548,18 @@
       "total": 136,
       "hitDice": "13d10+65"
     },
+    "savingThrows": {
+      "fortitude": 9,
+      "reflex": 7,
+      "will": 8
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -3732,7 +4582,9 @@
     "specialQualities": [
       "earth mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "earth mastery (Ex)": "An earth elemental gains a +1 bonus on attack and damage rolls if both it and its foe are touching the ground. If an opponent is airborne or waterborne, the elemental takes a -4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks. (These modifiers are not included in the statistics block.)"
+    }
   },
   {
     "name": "Greater Fire Elemental",
@@ -3760,6 +4612,18 @@
       "total": 123,
       "hitDice": "13d10+52"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 16,
+      "will": 10
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold,  20% concealment against ranged attacks in a round in which you move more than 5 feet",
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack., Immune to Fire",
     "speed": {
       "speed": 60
     },
@@ -3781,7 +4645,7 @@
     "specialQualities": [
       "burn"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Greater Ice Elemental",
@@ -3812,6 +4676,18 @@
       "total": 123,
       "hitDice": "13d10+52"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 14,
+      "will": 8
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Fire",
+    "immunities": "Immune to Cold, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 60
@@ -3836,7 +4712,11 @@
       "ice glide",
       "icewalking"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "numbing cold (Su)": "When an ice elemental deals cold damage to a creature, that creature must succeed on a Fortitude save or be staggered for 1 round. The save DC is listed in the elemental's stat block and is Constitution-based. Snow Vision (Ex) An ice elemental can see perfectly well in snowy conditions and does not take any penalties on Perception checks while in snow.",
+      "ice glide (Su)": "A burrowing ice elemental can pass through nonmagical ice and snow as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A control water spell cast on an area containing a burrowing ice elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.",
+      "icewalking (Ex)": "This ability works like the spider climb spell, but the surfaces the elemental climbs must be icy. The elemental can move across icy surfaces without penalty and does not need to make Acrobatics checks to run or charge on ice. Numbing Cold (Su) When an ice elemental deals cold damage to a creature, that creature must succeed on a Fortitude save or be staggered for 1 round. The save DC is listed in the elemental's stat block and is Constitution-based. Snow Vision (Ex) An ice elemental can see perfectly well in snowy conditions and does not take any penalties on Perception checks while in snow."
+    }
   },
   {
     "name": "Greater Lightning Elemental",
@@ -3864,6 +4744,18 @@
       "total": 110,
       "hitDice": "13d10+39"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 17,
+      "will": 10
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to electricity, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "fly": 100
     },
@@ -3886,7 +4778,10 @@
       "metal mastery",
       "spark leap"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "metal mastery (Ex)": "A lightning elemental gains a +3 bonus on attack rolls if its opponent is wearing metal armor, is wielding a metal weapon, or is made of metal (such as an iron golem).",
+      "spark leap (Ex)": "A lightning elemental gains a +10 bonus on bull rush, disarm, overrun, and trip attacks when it charges a creature against whom its metal mastery ability applies."
+    }
   },
   {
     "name": "Greater Magma Elemental",
@@ -3915,6 +4810,18 @@
       "total": 123,
       "hitDice": "13d10+52"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 7,
+      "will": 8
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack., Immune to Fire",
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -3939,7 +4846,10 @@
       "lava puddle",
       "earth glide"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "lava puddle (Su)": "Once per day as a full-round action, a magma elemental can vomit forth a puddle of lava (Pathfinder RPG Core Rulebook 444) that fills its space to a depth of 2-3 inches and counts as difficult terrain. Any creature that moves through this puddle of lava takes 2d6 points of fire damage. This damage continues for 1d3 rounds after the creature leaves the lava pool, although then it only inflicts 1d6 points of fire damage per round. The lava puddle solidifies and is safe to touch after a number of rounds equal to the elemental's Hit Dice. At the GM's discretion, this puddle of lava could start secondary fires.",
+      "earth glide (Ex)": "A burrowing magma elemental can pass through stone, dirt, lava, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple, though the area it passes through feels warm for 1 round afterward and often retains a strangely smooth texture, as if the stone had been polished. A move earth spell cast on an area containing a burrowing magma elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save."
+    }
   },
   {
     "name": "Greater Mud Elemental",
@@ -3969,6 +4879,18 @@
       "total": 123,
       "hitDice": "13d10+52"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 14,
+      "will": 8
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to acid, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 30,
@@ -3993,7 +4915,9 @@
       "entrap",
       "earth glide"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "earth glide (Ex)": "A burrowing mud elemental can pass through dirt, gravel, or other loose or porous solid matter as easily as a fish swims through water. It cannot use this ability to pass through a solid barrier such as a stone or brick wall. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A move earth spell cast on an area containing a burrowing mud elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save."
+    }
   },
   {
     "name": "Greater Water Elemental",
@@ -4021,6 +4945,18 @@
       "total": 123,
       "hitDice": "13d10+52"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 15,
+      "will": 8
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 90
@@ -4045,7 +4981,11 @@
       "vortex",
       "water mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "drench (Ex)": "The elemental's touch puts out nonmagical flames of Large size or smaller. The creature can dispel magical fire it touches as dispel magic (caster level equals elemental's HD). Vortex (Su) A water elemental can create a whirlpool as a standard action, at will. This ability functions identically to the whirlwind special attack (see page 306), but can only form underwater and cannot leave the water.",
+      "vortex (Su)": "A water elemental can create a whirlpool as a standard action, at will. This ability functions identically to the whirlwind special attack (see page 306), but can only form underwater and cannot leave the water.",
+      "water mastery (Ex)": "A water elemental gains a +1 bonus on attack and damage rolls if both it and its opponent are touching water. If the opponent or the elemental is touching the ground, the elemental takes a -4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks."
+    }
   },
   {
     "name": "Grick",
@@ -4070,6 +5010,18 @@
       "total": 27,
       "hitDice": "5d8+5"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 3,
+      "will": 6
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "magic"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "climb": 20
@@ -4092,7 +5044,7 @@
     "specialQualities": [
       ""
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Griffon",
@@ -4118,6 +5070,15 @@
       "total": 42,
       "hitDice": "5d10+15"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 6,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "fly": 80
@@ -4141,7 +5102,7 @@
       "pounce",
       "rake"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Grig",
@@ -4165,6 +5126,18 @@
       "total": 4,
       "hitDice": "1d6+1"
     },
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 6,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "cold iron"
+    },
+    "spellResistance": 16,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "fly": 40
@@ -4187,7 +5160,9 @@
     "specialQualities": [
       "fiddle"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "fiddle (Su)": "Grigs are capable of rubbing their legs together like a cricket to create a surprisingly pleasant sound not unlike that of a tiny fiddle. As a standard action, a grig can create a catchy tune that compels any creature within a 20-foot spread to dance and caper. A creature can resist this compulsion by making a DC 12 Will save. Creatures that fail are compelled to dance and shuffle their feet, and are effectively staggered as long as the grig continues to fiddle. A grig can maintain this effect for up to 10 rounds per day by concentrating. Once a creature makes the save against a grig's fiddle, it is immune to further fiddle effects from that grig for 24 hours. This is a sonic mind-affecting effect. The save DC is Charisma-based."
+    }
   },
   {
     "name": "Grizzly Bear",
@@ -4212,6 +5187,15 @@
       "total": 42,
       "hitDice": "5d8+20"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 5,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -4233,7 +5217,7 @@
     "specialQualities": [
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Hell Hound",
@@ -4263,6 +5247,15 @@
       "total": 30,
       "hitDice": "4d10+8"
     },
+    "savingThrows": {
+      "fortitude": 3,
+      "reflex": 5,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to Fire",
     "speed": {
       "speed": 40
     },
@@ -4284,7 +5277,7 @@
     "specialQualities": [
       "breath weapon"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Hezrou",
@@ -4314,6 +5307,18 @@
       "total": 145,
       "hitDice": "10d10+90"
     },
+    "savingThrows": {
+      "fortitude": 12,
+      "reflex": 7,
+      "will": 9
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "good"
+    },
+    "spellResistance": 22,
+    "resistances": "Acid 10, Cold 10, Fire 10",
+    "immunities": "Immune to Electricity and Poison",
     "speed": {
       "speed": 30,
       "swim": 30
@@ -4339,7 +5344,9 @@
       "stench",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "nausea (Ex)": "The noxious vapors and foul fluids that constantly weep and seethe from a hezrou's body are particularly heinous to those the creature grapples. Each round a creature is grappled by a hezrou, the grappled foe must make a DC 24 Fortitude save to avoid becoming nauseated. A creature nauseated in this manner remains nauseated until he succeeds on a DC 24 Fortitude save, or until a minute has passed during which he is not grappled by the hezrou, whichever condition comes first. The save DC is Constitution-based."
+    }
   },
   {
     "name": "Horse",
@@ -4364,6 +5371,15 @@
       "total": 15,
       "hitDice": "2d8+6"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 5,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 50
     },
@@ -4385,7 +5401,9 @@
     "specialQualities": [
       "docile"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "docile (Ex)": "Unless specifically trained for combat (see the Handle Animal skill on page 97 of the Pathfinder RPG Core Rulebook), a horse's hooves are treated as secondary attacks. Horses stand 5 to 6 feet tall at the shoulder and weigh between 1,000 and 1,500 pounds."
+    }
   },
   {
     "name": "Hound Archon",
@@ -4417,6 +5435,18 @@
       "total": 39,
       "hitDice": "6d10+6"
     },
+    "savingThrows": {
+      "fortitude": 3,
+      "reflex": 5,
+      "will": 8
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "evil"
+    },
+    "spellResistance": 15,
+    "resistances": null,
+    "immunities": "Immune to Electricity and Petrification",
     "speed": {
       "speed": 40
     },
@@ -4438,7 +5468,7 @@
     "specialQualities": [
       "change shape"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Huge Air Elemental",
@@ -4466,6 +5496,18 @@
       "total": 95,
       "hitDice": "10d10+40"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 16,
+      "will": 9
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "fly": 100
     },
@@ -4488,7 +5530,9 @@
       "whirlwind",
       "air mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "air mastery (Ex)": "Airborne creatures take a -1 penalty on attack and damage rolls against an air elemental."
+    }
   },
   {
     "name": "Huge Earth Elemental",
@@ -4517,6 +5561,18 @@
       "total": 95,
       "hitDice": "10d10+40"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 6,
+      "will": 7
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -4539,7 +5595,9 @@
     "specialQualities": [
       "earth mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "earth mastery (Ex)": "An earth elemental gains a +1 bonus on attack and damage rolls if both it and its foe are touching the ground. If an opponent is airborne or waterborne, the elemental takes a -4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks. (These modifiers are not included in the statistics block.)"
+    }
   },
   {
     "name": "Huge Fire Elemental",
@@ -4567,6 +5625,18 @@
       "total": 85,
       "hitDice": "10d10+30"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 14,
+      "will": 9
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack., Immune to Fire",
     "speed": {
       "speed": 60
     },
@@ -4588,7 +5658,7 @@
     "specialQualities": [
       "burn"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Huge Lightning Elemental",
@@ -4616,6 +5686,18 @@
       "total": 85,
       "hitDice": "10d10+30"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 15,
+      "will": 9
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to electricity, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "fly": 100
     },
@@ -4638,7 +5720,10 @@
       "metal mastery",
       "spark leap"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "metal mastery (Ex)": "A lightning elemental gains a +3 bonus on attack rolls if its opponent is wearing metal armor, is wielding a metal weapon, or is made of metal (such as an iron golem).",
+      "spark leap (Ex)": "A lightning elemental gains a +10 bonus on bull rush, disarm, overrun, and trip attacks when it charges a creature against whom its metal mastery ability applies."
+    }
   },
   {
     "name": "Huge Magma Elemental",
@@ -4667,6 +5752,18 @@
       "total": 85,
       "hitDice": "10d10+30"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 6,
+      "will": 7
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack., Immune to Fire",
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -4691,7 +5788,10 @@
       "lava puddle",
       "earth glide"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "lava puddle (Su)": "Once per day as a full-round action, a magma elemental can vomit forth a puddle of lava (Pathfinder RPG Core Rulebook 444) that fills its space to a depth of 2-3 inches and counts as difficult terrain. Any creature that moves through this puddle of lava takes 2d6 points of fire damage. This damage continues for 1d3 rounds after the creature leaves the lava pool, although then it only inflicts 1d6 points of fire damage per round. The lava puddle solidifies and is safe to touch after a number of rounds equal to the elemental's Hit Dice. At the GM's discretion, this puddle of lava could start secondary fires.",
+      "earth glide (Ex)": "A burrowing magma elemental can pass through stone, dirt, lava, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple, though the area it passes through feels warm for 1 round afterward and often retains a strangely smooth texture, as if the stone had been polished. A move earth spell cast on an area containing a burrowing magma elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save."
+    }
   },
   {
     "name": "Huge Mud Elemental",
@@ -4721,6 +5821,18 @@
       "total": 95,
       "hitDice": "10d10+40"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 10,
+      "will": 7
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to acid, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 30,
@@ -4745,7 +5857,9 @@
       "entrap",
       "earth glide"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "earth glide (Ex)": "A burrowing mud elemental can pass through dirt, gravel, or other loose or porous solid matter as easily as a fish swims through water. It cannot use this ability to pass through a solid barrier such as a stone or brick wall. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A move earth spell cast on an area containing a burrowing mud elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save."
+    }
   },
   {
     "name": "Huge Water Elemental",
@@ -4773,6 +5887,18 @@
       "total": 95,
       "hitDice": "10d10+40"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 11,
+      "will": 7
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 90
@@ -4797,7 +5923,11 @@
       "vortex",
       "water mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "drench (Ex)": "The elemental's touch puts out nonmagical flames of Large size or smaller. The creature can dispel magical fire it touches as dispel magic (caster level equals elemental's HD). Vortex (Su) A water elemental can create a whirlpool as a standard action, at will. This ability functions identically to the whirlwind special attack (see page 306), but can only form underwater and cannot leave the water.",
+      "vortex (Su)": "A water elemental can create a whirlpool as a standard action, at will. This ability functions identically to the whirlwind special attack (see page 306), but can only form underwater and cannot leave the water.",
+      "water mastery (Ex)": "A water elemental gains a +1 bonus on attack and damage rolls if both it and its opponent are touching water. If the opponent or the elemental is touching the ground, the elemental takes a -4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks."
+    }
   },
   {
     "name": "Hyena",
@@ -4822,6 +5952,15 @@
       "total": 13,
       "hitDice": "2d8+4"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 5,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 50
     },
@@ -4843,7 +5982,7 @@
     "specialQualities": [
       "trip"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Ice Devil",
@@ -4873,6 +6012,18 @@
       "total": 161,
       "hitDice": "14d10+84"
     },
+    "savingThrows": {
+      "fortitude": 10,
+      "reflex": 14,
+      "will": 17
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "good"
+    },
+    "spellResistance": 24,
+    "resistances": "Acid 10, Cold 10,  Regeneration 5 (good weapons, good spells)",
+    "immunities": "Immune to cold, Immune to Fire and Poison",
     "speed": {
       "speed": 40,
       "fly": 60
@@ -4897,7 +6048,9 @@
       "fear aura",
       "slow"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "slow (Su)": "A hit from an ice devil's tail or spear induces numbing cold. The opponent must succeed on a DC 23 Fortitude save or be affected as though by a slow spell for 1d6 rounds. This effect comes from the devil in the case of its weapon; it is not a quality possessed by the spear itself. The save DC is Constitution-based."
+    }
   },
   {
     "name": "Invisible Stalker",
@@ -4925,6 +6078,15 @@
       "total": 80,
       "hitDice": "7d10+42"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 11,
+      "will": 7
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 30,
       "fly": 30
@@ -4948,7 +6110,10 @@
       "improved tracking",
       "natural invisibility"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "improved tracking (Ex)": "An invisible stalker takes no penalty to Survival checks when tracking and moving at any speed.",
+      "natural invisibility (Ex)": "This ability is constant-an invisible stalker remains invisible at all times, even when attacking. As this ability is inherent, it is not subject to the invisibility purge spell. Against foes that cannot pinpoint it, the invisible stalker gains a +20 bonus on Stealth checks when moving, or +40 when standing still-these bonuses are not included in the statistics above."
+    }
   },
   {
     "name": "Kyton",
@@ -4977,6 +6142,18 @@
       "total": 60,
       "hitDice": "8d10+16"
     },
+    "savingThrows": {
+      "fortitude": 4,
+      "reflex": 9,
+      "will": 7
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "silver or good"
+    },
+    "spellResistance": 17,
+    "resistances": "Regeneration 2 (good weapons and spells, silver weapons)",
+    "immunities": "Immune to Cold",
     "speed": {
       "speed": 30
     },
@@ -5001,7 +6178,11 @@
       "chain armor",
       "regeneration"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "dancing chains (Su)": "A kyton can control up to four chains within 20 feet as a standard action, making the chains dance or move as it wishes. In addition, a kyton can increase these chains' length by up to 15 feet and cause them to sprout razor-edged barbs. These chains attack as effectively as the kyton itself. If a chain is in another creature's possession, the creature can attempt a DC 15 Will save to break the kyton's power over that chain. If the save is successful, the kyton cannot attempt to control that particular chain again for 24 hours or until the chain leaves the creature's possession. A kyton can climb chains it controls at its normal speed without making Climb checks. The save DC is Charisma-based.",
+      "unnerving gaze (Su)": "Range 30 ft., Will DC 15 negates. A kyton can make its face resemble one of an opponent's departed loved ones or bitter enemies. Those who fail their saves become shaken for 1d3 rounds. This is a mind-affecting fear effect. The save DC is Charisma-based.",
+      "chain armor (Ex)": "The chains that adorn a kyton grant it a +4 armor bonus, but are not treated as armor for the purpose of arcane spell failure, armor check penalties, maximum Dexterity, weight, or proficiency."
+    }
   },
   {
     "name": "Lantern Archon",
@@ -5031,6 +6212,18 @@
       "total": 13,
       "hitDice": "2d10+2"
     },
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 3,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "evil"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to Electricity and Petrification",
     "speed": {
       "fly": 60
     },
@@ -5053,7 +6246,10 @@
       "gestalt",
       "light ray"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "gestalt (Su)": "Nine lantern archons can fuse together as a full-round action, becoming a single Large entity that is more powerful than the individual archons that make up its parts. Looking like a whirlwind of dancing firefly lights, the gestalt has all the powers and abilities of a Large air elemental plus the following: archon, good, and lawful subtypes; archon traits (aura of menace DC 16); 2 light rays (2d6); DR 5/evil and magic. The archons can remain in this form for 2d4 rounds. When the gestalt separates back into individual lantern archons, its remaining hit points are divided evenly among them; if it had less than 9 hit points, some of the component archons die when the gestalt ends.",
+      "light ray (Ex)": "A lantern archon can fire beams of light to damage foes. These light rays have a maximum range of 30 feet. This attack overcomes damage reduction of any type."
+    }
   },
   {
     "name": "Large Air Elemental",
@@ -5081,6 +6277,18 @@
       "total": 68,
       "hitDice": "8d10+24"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 13,
+      "will": 6
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "fly": 100
     },
@@ -5103,7 +6311,9 @@
       "whirlwind",
       "air mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "air mastery (Ex)": "Airborne creatures take a -1 penalty on attack and damage rolls against an air elemental."
+    }
   },
   {
     "name": "Large Earth Elemental",
@@ -5132,6 +6342,18 @@
       "total": 68,
       "hitDice": "8d10+24"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 5,
+      "will": 6
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -5154,7 +6376,9 @@
     "specialQualities": [
       "earth mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "earth mastery (Ex)": "An earth elemental gains a +1 bonus on attack and damage rolls if both it and its foe are touching the ground. If an opponent is airborne or waterborne, the elemental takes a -4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks. (These modifiers are not included in the statistics block.)"
+    }
   },
   {
     "name": "Large Fire Elemental",
@@ -5182,6 +6406,18 @@
       "total": 60,
       "hitDice": "8d10+16"
     },
+    "savingThrows": {
+      "fortitude": 4,
+      "reflex": 11,
+      "will": 8
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack., Immune to Fire",
     "speed": {
       "speed": 50
     },
@@ -5203,7 +6439,7 @@
     "specialQualities": [
       "burn"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Large Ice Elemental",
@@ -5234,6 +6470,18 @@
       "total": 68,
       "hitDice": "8d10+24"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 7,
+      "will": 6
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Fire",
+    "immunities": "Immune to Cold, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 60
@@ -5258,7 +6506,11 @@
       "ice glide",
       "icewalking"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "numbing cold (Su)": "When an ice elemental deals cold damage to a creature, that creature must succeed on a Fortitude save or be staggered for 1 round. The save DC is listed in the elemental's stat block and is Constitution-based. Snow Vision (Ex) An ice elemental can see perfectly well in snowy conditions and does not take any penalties on Perception checks while in snow.",
+      "ice glide (Su)": "A burrowing ice elemental can pass through nonmagical ice and snow as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A control water spell cast on an area containing a burrowing ice elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.",
+      "icewalking (Ex)": "This ability works like the spider climb spell, but the surfaces the elemental climbs must be icy. The elemental can move across icy surfaces without penalty and does not need to make Acrobatics checks to run or charge on ice. Numbing Cold (Su) When an ice elemental deals cold damage to a creature, that creature must succeed on a Fortitude save or be staggered for 1 round. The save DC is listed in the elemental's stat block and is Constitution-based. Snow Vision (Ex) An ice elemental can see perfectly well in snowy conditions and does not take any penalties on Perception checks while in snow."
+    }
   },
   {
     "name": "Large Lightning Elemental",
@@ -5286,6 +6538,18 @@
       "total": 60,
       "hitDice": "8d10+16"
     },
+    "savingThrows": {
+      "fortitude": 4,
+      "reflex": 12,
+      "will": 6
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to electricity, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "fly": 100
     },
@@ -5308,7 +6572,10 @@
       "metal mastery",
       "spark leap"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "metal mastery (Ex)": "A lightning elemental gains a +3 bonus on attack rolls if its opponent is wearing metal armor, is wielding a metal weapon, or is made of metal (such as an iron golem).",
+      "spark leap (Ex)": "A lightning elemental gains a +10 bonus on bull rush, disarm, overrun, and trip attacks when it charges a creature against whom its metal mastery ability applies."
+    }
   },
   {
     "name": "Large Magma Elemental",
@@ -5337,6 +6604,18 @@
       "total": 60,
       "hitDice": "8d10+16"
     },
+    "savingThrows": {
+      "fortitude": 4,
+      "reflex": 5,
+      "will": 6
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack., Immune to Fire",
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -5361,7 +6640,10 @@
       "lava puddle",
       "earth glide"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "lava puddle (Su)": "Once per day as a full-round action, a magma elemental can vomit forth a puddle of lava (Pathfinder RPG Core Rulebook 444) that fills its space to a depth of 2-3 inches and counts as difficult terrain. Any creature that moves through this puddle of lava takes 2d6 points of fire damage. This damage continues for 1d3 rounds after the creature leaves the lava pool, although then it only inflicts 1d6 points of fire damage per round. The lava puddle solidifies and is safe to touch after a number of rounds equal to the elemental's Hit Dice. At the GM's discretion, this puddle of lava could start secondary fires.",
+      "earth glide (Ex)": "A burrowing magma elemental can pass through stone, dirt, lava, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple, though the area it passes through feels warm for 1 round afterward and often retains a strangely smooth texture, as if the stone had been polished. A move earth spell cast on an area containing a burrowing magma elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save."
+    }
   },
   {
     "name": "Large Mud Elemental",
@@ -5391,6 +6673,18 @@
       "total": 68,
       "hitDice": "8d10+24"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 7,
+      "will": 6
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to acid, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 30,
@@ -5415,7 +6709,9 @@
       "entrap",
       "earth glide"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "earth glide (Ex)": "A burrowing mud elemental can pass through dirt, gravel, or other loose or porous solid matter as easily as a fish swims through water. It cannot use this ability to pass through a solid barrier such as a stone or brick wall. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A move earth spell cast on an area containing a burrowing mud elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save."
+    }
   },
   {
     "name": "Large Water Elemental",
@@ -5443,6 +6739,18 @@
       "total": 68,
       "hitDice": "8d10+24"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 8,
+      "will": 6
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "-"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 90
@@ -5467,7 +6775,11 @@
       "vortex",
       "water mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "drench (Ex)": "The elemental's touch puts out nonmagical flames of Large size or smaller. The creature can dispel magical fire it touches as dispel magic (caster level equals elemental's HD). Vortex (Su) A water elemental can create a whirlpool as a standard action, at will. This ability functions identically to the whirlwind special attack (see page 306), but can only form underwater and cannot leave the water.",
+      "vortex (Su)": "A water elemental can create a whirlpool as a standard action, at will. This ability functions identically to the whirlwind special attack (see page 306), but can only form underwater and cannot leave the water.",
+      "water mastery (Ex)": "A water elemental gains a +1 bonus on attack and damage rolls if both it and its opponent are touching water. If the opponent or the elemental is touching the ground, the elemental takes a -4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks."
+    }
   },
   {
     "name": "Lemure",
@@ -5497,6 +6809,18 @@
       "total": 13,
       "hitDice": "2d10+2"
     },
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 3,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "good or silver"
+    },
+    "spellResistance": null,
+    "resistances": "Acid 10, Cold 10",
+    "immunities": "Immune to mind-affecting effects, Immune to Fire and Poison",
     "speed": {
       "speed": 20
     },
@@ -5518,7 +6842,7 @@
     "specialQualities": [
       ""
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Leopard",
@@ -5543,6 +6867,15 @@
       "total": 19,
       "hitDice": "3d8+6"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 7,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "climb": 20
@@ -5567,7 +6900,7 @@
       "rake",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Lillend Azata",
@@ -5597,6 +6930,15 @@
       "total": 73,
       "hitDice": "7d10+35"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 10,
+      "will": 10
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": "Cold 10, Fire 10",
+    "immunities": "Immune to poison, Immune to Electricity and Petrification",
     "speed": {
       "speed": 30,
       "fly": 70
@@ -5621,7 +6963,9 @@
       "constrict",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "bardic performance (Su)": "A lillend has the bardic performance ability of a 7th-level bard, granting her access to that ability's countersong, fascinate, inspire courage, inspire competence, and suggestion aspects. Spells A lillend casts spells as a 7th-level bard. They favor enchantment and healing spells."
+    }
   },
   {
     "name": "Lion",
@@ -5646,6 +6990,15 @@
       "total": 32,
       "hitDice": "5d8+10"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 7,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -5669,7 +7022,7 @@
       "rake",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Mastodon Elephant",
@@ -5694,6 +7047,15 @@
       "total": 133,
       "hitDice": "14d8+70"
     },
+    "savingThrows": {
+      "fortitude": 14,
+      "reflex": 10,
+      "will": 7
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -5715,7 +7077,7 @@
     "specialQualities": [
       "trample"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Medium Air Elemental",
@@ -5743,6 +7105,15 @@
       "total": 30,
       "hitDice": "4d10+8"
     },
+    "savingThrows": {
+      "fortitude": 3,
+      "reflex": 9,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "fly": 100
     },
@@ -5765,7 +7136,9 @@
       "whirlwind",
       "air mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "air mastery (Ex)": "Airborne creatures take a -1 penalty on attack and damage rolls against an air elemental."
+    }
   },
   {
     "name": "Medium Earth Elemental",
@@ -5794,6 +7167,15 @@
       "total": 34,
       "hitDice": "4d10+12"
     },
+    "savingThrows": {
+      "fortitude": 4,
+      "reflex": 3,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -5816,7 +7198,9 @@
     "specialQualities": [
       "earth mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "earth mastery (Ex)": "An earth elemental gains a +1 bonus on attack and damage rolls if both it and its foe are touching the ground. If an opponent is airborne or waterborne, the elemental takes a -4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks. (These modifiers are not included in the statistics block.)"
+    }
   },
   {
     "name": "Medium Fire Elemental",
@@ -5844,6 +7228,15 @@
       "total": 30,
       "hitDice": "4d10+8"
     },
+    "savingThrows": {
+      "fortitude": 3,
+      "reflex": 7,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack., Immune to Fire",
     "speed": {
       "speed": 50
     },
@@ -5865,7 +7258,7 @@
     "specialQualities": [
       "burn"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Medium Ice Elemental",
@@ -5896,6 +7289,15 @@
       "total": 30,
       "hitDice": "4d10+8"
     },
+    "savingThrows": {
+      "fortitude": 3,
+      "reflex": 4,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": "Vulnerable to Fire",
+    "immunities": "Immune to Cold, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 60
@@ -5920,7 +7322,11 @@
       "ice glide",
       "icewalking"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "numbing cold (Su)": "When an ice elemental deals cold damage to a creature, that creature must succeed on a Fortitude save or be staggered for 1 round. The save DC is listed in the elemental's stat block and is Constitution-based. Snow Vision (Ex) An ice elemental can see perfectly well in snowy conditions and does not take any penalties on Perception checks while in snow.",
+      "ice glide (Su)": "A burrowing ice elemental can pass through nonmagical ice and snow as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A control water spell cast on an area containing a burrowing ice elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.",
+      "icewalking (Ex)": "This ability works like the spider climb spell, but the surfaces the elemental climbs must be icy. The elemental can move across icy surfaces without penalty and does not need to make Acrobatics checks to run or charge on ice. Numbing Cold (Su) When an ice elemental deals cold damage to a creature, that creature must succeed on a Fortitude save or be staggered for 1 round. The save DC is listed in the elemental's stat block and is Constitution-based. Snow Vision (Ex) An ice elemental can see perfectly well in snowy conditions and does not take any penalties on Perception checks while in snow."
+    }
   },
   {
     "name": "Medium Lightning Elemental",
@@ -5948,6 +7354,15 @@
       "total": 26,
       "hitDice": "4d10+4"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 8,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to electricity, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "fly": 100
     },
@@ -5970,7 +7385,10 @@
       "metal mastery",
       "spark leap"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "metal mastery (Ex)": "A lightning elemental gains a +3 bonus on attack rolls if its opponent is wearing metal armor, is wielding a metal weapon, or is made of metal (such as an iron golem).",
+      "spark leap (Ex)": "A lightning elemental gains a +10 bonus on bull rush, disarm, overrun, and trip attacks when it charges a creature against whom its metal mastery ability applies."
+    }
   },
   {
     "name": "Medium Magma Elemental",
@@ -5999,6 +7417,15 @@
       "total": 30,
       "hitDice": "4d10+8"
     },
+    "savingThrows": {
+      "fortitude": 3,
+      "reflex": 3,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack., Immune to Fire",
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -6023,7 +7450,10 @@
       "lava puddle",
       "earth glide"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "lava puddle (Su)": "Once per day as a full-round action, a magma elemental can vomit forth a puddle of lava (Pathfinder RPG Core Rulebook 444) that fills its space to a depth of 2-3 inches and counts as difficult terrain. Any creature that moves through this puddle of lava takes 2d6 points of fire damage. This damage continues for 1d3 rounds after the creature leaves the lava pool, although then it only inflicts 1d6 points of fire damage per round. The lava puddle solidifies and is safe to touch after a number of rounds equal to the elemental's Hit Dice. At the GM's discretion, this puddle of lava could start secondary fires.",
+      "earth glide (Ex)": "A burrowing magma elemental can pass through stone, dirt, lava, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple, though the area it passes through feels warm for 1 round afterward and often retains a strangely smooth texture, as if the stone had been polished. A move earth spell cast on an area containing a burrowing magma elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save."
+    }
   },
   {
     "name": "Medium Mud Elemental",
@@ -6053,6 +7483,15 @@
       "total": 30,
       "hitDice": "4d10+8"
     },
+    "savingThrows": {
+      "fortitude": 3,
+      "reflex": 4,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to acid, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 30,
@@ -6077,7 +7516,9 @@
       "entrap",
       "earth glide"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "earth glide (Ex)": "A burrowing mud elemental can pass through dirt, gravel, or other loose or porous solid matter as easily as a fish swims through water. It cannot use this ability to pass through a solid barrier such as a stone or brick wall. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A move earth spell cast on an area containing a burrowing mud elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save."
+    }
   },
   {
     "name": "Medium Water Elemental",
@@ -6105,6 +7546,15 @@
       "total": 30,
       "hitDice": "4d10+8"
     },
+    "savingThrows": {
+      "fortitude": 3,
+      "reflex": 5,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 90
@@ -6129,7 +7579,11 @@
       "vortex",
       "water mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "drench (Ex)": "The elemental's touch puts out nonmagical flames of Large size or smaller. The creature can dispel magical fire it touches as dispel magic (caster level equals elemental's HD). Vortex (Su) A water elemental can create a whirlpool as a standard action, at will. This ability functions identically to the whirlwind special attack (see page 306), but can only form underwater and cannot leave the water.",
+      "vortex (Su)": "A water elemental can create a whirlpool as a standard action, at will. This ability functions identically to the whirlwind special attack (see page 306), but can only form underwater and cannot leave the water.",
+      "water mastery (Ex)": "A water elemental gains a +1 bonus on attack and damage rolls if both it and its opponent are touching water. If the opponent or the elemental is touching the ground, the elemental takes a -4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks."
+    }
   },
   {
     "name": "Mephit, Air",
@@ -6155,6 +7609,18 @@
       "total": 19,
       "hitDice": "3d10+3"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 5,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "magic"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "fly": 60
@@ -6178,7 +7644,7 @@
       "breath weapon",
       "fast healing"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Mephit, Dust",
@@ -6204,6 +7670,18 @@
       "total": 19,
       "hitDice": "3d10+3"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 5,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "magic"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "fly": 50
@@ -6227,7 +7705,7 @@
       "breath weapon",
       "fast healing"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Mephit, Earth",
@@ -6253,6 +7731,18 @@
       "total": 19,
       "hitDice": "3d10+3"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 5,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "magic"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "fly": 40
@@ -6277,7 +7767,9 @@
       "fast healing",
       "change size"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "change size": "Once per day, an earth mephit can enlarge one size category, as enlarge person, except that it only works on the earth mephit. This power acts as a 2nd-level spell."
+    }
   },
   {
     "name": "Mephit, Fire",
@@ -6303,6 +7795,18 @@
       "total": 19,
       "hitDice": "3d10+3"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 5,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "magic"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to Fire",
     "speed": {
       "speed": 30,
       "fly": 40
@@ -6326,7 +7830,7 @@
       "breath weapon",
       "fast healing"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Mephit, Ice",
@@ -6352,6 +7856,18 @@
       "total": 19,
       "hitDice": "3d10+3"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 5,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "magic"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Fire",
+    "immunities": "Immune to Cold",
     "speed": {
       "speed": 30,
       "fly": 40
@@ -6375,7 +7891,7 @@
       "breath weapon",
       "fast healing"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Mephit, Lightning",
@@ -6403,6 +7919,18 @@
       "total": 19,
       "hitDice": "3d10+3"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 5,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "magic"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "fly": 60
@@ -6427,7 +7955,9 @@
       "fast healing",
       "vulnerability to water"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "vulnerability to water": "A lightning mephit takes 1d4 points of damage per gallon of water it contacts. Pouring water onto a lightning mephit requires a successful ranged touch attack. Water from other sources, such as spells or effects that create water but do not specify an amount in gallons, deal 1d4 points of damage per caster level to a lightning mephit within its area of effect. Damage from water-based attacks, like the slam attack of a water elemental, is increased by 50% against a lightning mephit."
+    }
   },
   {
     "name": "Mephit, Magma",
@@ -6453,6 +7983,18 @@
       "total": 19,
       "hitDice": "3d10+3"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 5,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "magic"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to Fire",
     "speed": {
       "speed": 30,
       "fly": 40
@@ -6477,7 +8019,9 @@
       "fast healing",
       "magma form"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "magma form": "Once per hour, a magma mephit can assume the form of a pool of lava, 3 feet in diameter and 6 inches deep. While in this form, its DR increases to 20/ magic and it cannot attack. It can move at a speed of 10 feet per round and can pass through small openings and cracks. Anything touching this pool takes 1d6 fire damage. A magma mephit may remain in this form for up to 10 minutes."
+    }
   },
   {
     "name": "Mephit, Ooze",
@@ -6503,6 +8047,18 @@
       "total": 19,
       "hitDice": "3d10+3"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 5,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "magic"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "swim": 30
@@ -6526,7 +8082,7 @@
       "breath weapon",
       "fast healing"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Mephit, Salt",
@@ -6552,6 +8108,18 @@
       "total": 19,
       "hitDice": "3d10+3"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 5,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "magic"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "fly": 40
@@ -6576,7 +8144,9 @@
       "fast healing",
       "dehydrate"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "dehydrate": "Once per day a salt mephit can draw the moisture from an area in a 20-foot radius centered on itself. Living creatures within range take 2d8 points of damage (Fortitude DC 14 half; caster level 6th). This effect is especially devastating to plant and aquatic creatures, which take a -2 penalty on their saving throws. This ability is the equivalent of a 2nd-level spell."
+    }
   },
   {
     "name": "Mephit, Smoke",
@@ -6604,6 +8174,18 @@
       "total": 19,
       "hitDice": "3d10+3"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 5,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "magic"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to Fire",
     "speed": {
       "speed": 30,
       "fly": 50
@@ -6628,7 +8210,9 @@
       "fast healing",
       "ember storm"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "ember storm (Su)": "Once per day a smoke mephit can create a downpour of white-hot embers that affects a 20- foot radius. Living creatures caught in the storm take 2d6 points of fire damage (Reflex DC 14 half, caster level 6th). This ability is the equivalent of a 2nd-level spell. The save DC is Charisma-based."
+    }
   },
   {
     "name": "Mephit, Steam",
@@ -6654,6 +8238,18 @@
       "total": 19,
       "hitDice": "3d10+3"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 5,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "magic"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to Fire",
     "speed": {
       "speed": 30,
       "fly": 40
@@ -6678,7 +8274,9 @@
       "fast healing",
       "boiling rain"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "boiling rain (Su)": "Once per day a steam mephit can create a rainstorm of boiling water in a 20-foot-square area. Living creatures within the area take 2d6 points of fire damage (Fortitude DC 14 half; caster level 6th). This ability is the equivalent of a 2nd-level spell."
+    }
   },
   {
     "name": "Mephit, Water",
@@ -6704,6 +8302,18 @@
       "total": 19,
       "hitDice": "3d10+3"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 5,
+      "will": 3
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "magic"
+    },
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "swim": 30
@@ -6727,7 +8337,7 @@
       "breath weapon",
       "fast healing"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Merfolk",
@@ -6753,6 +8363,15 @@
       "total": 5,
       "hitDice": "1d8+1"
     },
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 4,
+      "will": -1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 5,
       "swim": 50
@@ -6775,7 +8394,7 @@
     "specialQualities": [
       ""
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Monitor Lizard",
@@ -6800,6 +8419,15 @@
       "total": 22,
       "hitDice": "3d8+9"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 5,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "swim": 30
@@ -6823,7 +8451,7 @@
       "grab",
       "poison"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Mothman",
@@ -6847,6 +8475,15 @@
       "total": 76,
       "hitDice": "9d10+27"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 10,
+      "will": 10
+    },
+    "damageResistance": null,
+    "spellResistance": 17,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "fly": 60
@@ -6870,7 +8507,10 @@
       "mind-warping gaze",
       "agent of fate"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "mind-warping gaze (Su)": "Fear, 30 feet, Will DC 18 negates. A creature that fails a save against this attack becomes shaken for 1d6 rounds. A creature currently suffering from a fear effect that fails this save instead takes 1d4 points of Wisdom damage. This is a mind-affecting fear effect. The save DC is Charisma-based.",
+      "agent of fate (Sp)": "A mothman may recreate the effects of any spell of 5th level or lower once per day as a spell-like ability, but only if doing so steers the flow of fate in its proper course. What the proper flow of fate entails is determined by the GM. Typical uses of this ability include casting major image to coax someone to a portentous location, casting raise dead to return someone with an important fate to life, or using rusting grasp to weaken a structure and cause some necessary calamity."
+    }
   },
   {
     "name": "Nalfeshnee",
@@ -6900,6 +8540,18 @@
       "total": 203,
       "hitDice": "14d10+126"
     },
+    "savingThrows": {
+      "fortitude": 13,
+      "reflex": 10,
+      "will": 17
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "good"
+    },
+    "spellResistance": 25,
+    "resistances": "Acid 10, Cold 10, Fire 10",
+    "immunities": "Immune to Electricity and Poison",
     "speed": {
       "speed": 30,
       "fly": 40
@@ -6922,7 +8574,9 @@
     "specialQualities": [
       "unholy nimbus"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "unholy nimbus (Su)": "Three times per day as a free action a nalfeshnee can create a nimbus of unholy light, causing nauseating beams of writhing color to play around its body. One round later, the light bursts in a 60-foot radius. Any non-demon creature caught within this area must succeed on a DC 22 Will save or be dazed for 1d10 rounds as visions of madness hound it. The save DC is Charisma-based."
+    }
   },
   {
     "name": "Nosoi",
@@ -6951,6 +8605,18 @@
       "total": 19,
       "hitDice": "3d10+3"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 6,
+      "will": 4
+    },
+    "damageResistance": {
+      "value": 2,
+      "bypass": "adamantine"
+    },
+    "spellResistance": null,
+    "resistances": "Cold 10, Electricity 10",
+    "immunities": "Immune to Death effects, Disease and Poison",
     "speed": {
       "speed": 20,
       "fly": 50
@@ -6975,7 +8641,10 @@
       "change shape",
       "spirit touch"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "haunting melody (Su)": "A nosoi's song has the power to grip the spirits of those that hear it. All living and undead creatures within a 60-foot spread must succeed at a DC 14 Will saving throw or be fascinated. A creature that successfully saves is not subject to that nosoi's song for 24 hours. This effect continues for as long as the nosoi sings and for 1 round thereafter. A nosoi can sing for a number or rounds per day equal to twice its Hit Dice. This is a sonic mind-affecting charm effect. This ability can affect undead creatures, even though the undead subtype makes such creatures immune to mind-affecting effects (though undead creatures with immunity to mind-affecting effects from a source other than their creature type are still immune). The save DC is Charisma-based.",
+      "spirit touch (Ex)": ""
+    }
   },
   {
     "name": "Octopus",
@@ -7001,6 +8670,15 @@
       "total": 13,
       "hitDice": "2d8+4"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 6,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 20,
       "swim": 30
@@ -7025,7 +8703,9 @@
       "poison",
       "jet"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "ink cloud (Ex)": "An octopus can emit a 10-foot-radius sphere of ink once per minute as a free action. The ink provides total concealment in water, and persists for 1 minute. Jet (Ex) An octopus can jet backward once per round as a full-round action, at a speed of 200 feet. It must move in a straight line while jetting, and does not provoke attacks of opportunity when it does so."
+    }
   },
   {
     "name": "Orca",
@@ -7050,6 +8730,15 @@
       "total": 67,
       "hitDice": "9d8+27"
     },
+    "savingThrows": {
+      "fortitude": 9,
+      "reflex": 8,
+      "will": 5
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "swim": 80
     },
@@ -7071,7 +8760,7 @@
     "specialQualities": [
       "hold breath"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Poisonous Frog",
@@ -7095,6 +8784,15 @@
       "total": 4,
       "hitDice": "1d8+0"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 3,
+      "will": -1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 10,
       "swim": 20
@@ -7117,7 +8815,7 @@
     "specialQualities": [
       "poison"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Pony",
@@ -7142,6 +8840,15 @@
       "total": 13,
       "hitDice": "2d8+4"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 4,
+      "will": 0
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -7163,7 +8870,9 @@
     "specialQualities": [
       "docile"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "docile (Ex)": "Unless specifically trained for combat (see the Handle Animal skill on page 97 of the Pathfinder RPG Core Rulebook), a pony's hooves are treated as secondary attacks."
+    }
   },
   {
     "name": "Pteranodon",
@@ -7188,6 +8897,15 @@
       "total": 32,
       "hitDice": "5d8+10"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 8,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 10,
       "fly": 50
@@ -7210,7 +8928,7 @@
     "specialQualities": [
       ""
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Reefclaw",
@@ -7237,6 +8955,15 @@
       "total": 13,
       "hitDice": "2d8+4"
     },
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 1,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": "cold 5",
+    "immunities": null,
     "speed": {
       "speed": 5,
       "swim": 40
@@ -7264,7 +8991,9 @@
       "grab",
       "poison"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "death frenzy (Su)": "When a reefclaw is killed, its body spasms horrifically. Immediately upon dying, the reefclaw makes a full attack against a creature it threatens. If more than one creature is within reach, roll randomly for each attack to determine the target (which may be another reefclaw)."
+    }
   },
   {
     "name": "Rhinoceros",
@@ -7289,6 +9018,15 @@
       "total": 42,
       "hitDice": "5d8+20"
     },
+    "savingThrows": {
+      "fortitude": 10,
+      "reflex": 4,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -7310,7 +9048,7 @@
     "specialQualities": [
       "powerful charge"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Roc",
@@ -7334,6 +9072,15 @@
       "total": 120,
       "hitDice": "16d8+48"
     },
+    "savingThrows": {
+      "fortitude": 13,
+      "reflex": 14,
+      "will": 8
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 20,
       "fly": 80
@@ -7356,7 +9103,7 @@
     "specialQualities": [
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Salamander",
@@ -7383,6 +9130,18 @@
       "total": 76,
       "hitDice": "8d10+32"
     },
+    "savingThrows": {
+      "fortitude": 6,
+      "reflex": 7,
+      "will": 10
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "magic"
+    },
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to Fire",
     "speed": {
       "speed": 20
     },
@@ -7406,7 +9165,9 @@
       "heat",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "heat (Ex)": "A salamander generates so much heat that its mere touch deals an additional 1d6 points of fire damage. A salamander's metallic weapons also conduct this heat."
+    }
   },
   {
     "name": "Saltwater Merrow",
@@ -7433,6 +9194,15 @@
       "total": 73,
       "hitDice": "7d8+42"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 8,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40,
       "swim": 40
@@ -7456,7 +9226,7 @@
       "amphibious",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Shadow Demon",
@@ -7486,6 +9256,18 @@
       "total": 59,
       "hitDice": "7d10+21"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 11,
+      "will": 7
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "cold iron or good"
+    },
+    "spellResistance": 18,
+    "resistances": "Acid 10, Cold 10, Fire 10,  Half damage from all corporeal sources (except Channel Energy).,Corporeal spells and effects that do not cause damage only have a 50% chance of affecting an incorporeal creature.",
+    "immunities": "Immune to cold, Immune to Electricity and Poison, Immune to critical hits and precision-based damage (such as sneak attack damage) unless the attacks are made using a weapon with the ghost touch special weapon quality.,Immune to all nonmagical attack forms",
     "speed": {
       "fly": 40
     },
@@ -7510,7 +9292,11 @@
       "shadow blend",
       "sunlight powerlessness"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "sprint (Ex)": "Once per minute, a shadow demon increase its fly speed to 240 feet for 1 round.",
+      "shadow blend (Su)": "During any conditions other than bright light, a shadow demon can disappear into the shadows as a move-equivalent action, effectively becoming invisible. Artificial illumination or light spells of 2nd level or lower do not negate this ability.",
+      "sunlight powerlessness (Ex)": "SA shadow demon is utterly powerless in bright light or natural sunlight and flees from it. A shadow demon caught in such light cannot attack and can take only a single move or attack action. A shadow demon that is possessing a creature using magic jar is not harmed by sunlight, but if it is struck by a sunbeam or sunray spell while possessing a creature, the shadow demon is driven out of its host automatically."
+    }
   },
   {
     "name": "Shadow Mastiff",
@@ -7538,6 +9324,15 @@
       "total": 51,
       "hitDice": "6d10+18"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 7,
+      "will": 8
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 50
     },
@@ -7561,7 +9356,10 @@
       "shadow blend",
       "trip"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "bay (Su)": "When a shadow mastiff howls or barks, all creatures within a 300-foot spread except evil outsiders must succeed at a DC 16 Will save or become panicked for 1d4 rounds. This is a sonic, mind-affecting fear effect. A creature that successfully saves cannot be affected by the same mastiff's bay for 24 hours. This is a mind-affecting fear effect. The save DC is Charisma-based and includes a +2 racial bonus.",
+      "shadow blend (Su)": "In any condition of illumination other than full daylight, a shadow mastiff disappears into the shadows, giving it concealment (50% miss chance). Artificial illumination, even a light or continual flame spell, does not negate this ability; a daylight spell, however, does. A shadow mastiff can suspend or resume this ability as a free action."
+    }
   },
   {
     "name": "Shark",
@@ -7589,6 +9387,15 @@
       "total": 22,
       "hitDice": "4d8+4"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 5,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "swim": 60
     },
@@ -7610,7 +9417,7 @@
     "specialQualities": [
       ""
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Silvanshee",
@@ -7639,6 +9446,18 @@
       "total": 13,
       "hitDice": "2d10+2"
     },
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 5,
+      "will": 4
+    },
+    "damageResistance": {
+      "value": 5,
+      "bypass": "evil or silver"
+    },
+    "spellResistance": 13,
+    "resistances": "Cold 10, Sonic 10",
+    "immunities": "Immune to Electricity and Petrification",
     "speed": {
       "speed": 30,
       "fly": 90
@@ -7666,7 +9485,12 @@
       "lay on hands",
       "spectral mist"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "heroic strength (Su)": "Once per day, a silvanshee can grant itself a +8 enhancement bonus to Strength for 1 minute.",
+      "cat's luck (Su)": "A silvanshee adds its Charisma modifier as a luck bonus on all its saving throws. Once per day as a standard action, it can also grant this bonus to one ally within 30 feet for 10 minutes.",
+      "lay on hands (Ex)": "",
+      "spectral mist (Su)": "A silvanshee can assume an eerie, mist-like form roughly the size and shape of a cat. This ability has the same effect as a gaseous form spell, except the silvanshee retains its own DR and supernatural abilities and can move at its normal speed. It can remain in mist form up to 5 minutes per day. This duration does not have to be consecutive, but it must be used in 1-minute increments."
+    }
   },
   {
     "name": "Small Air Elemental",
@@ -7694,6 +9518,15 @@
       "total": 13,
       "hitDice": "2d10+2"
     },
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 6,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "fly": 100
     },
@@ -7716,7 +9549,9 @@
       "whirlwind",
       "air mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "air mastery (Ex)": "Airborne creatures take a -1 penalty on attack and damage rolls against an air elemental."
+    }
   },
   {
     "name": "Small Earth Elemental",
@@ -7745,6 +9580,15 @@
       "total": 13,
       "hitDice": "2d10+2"
     },
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 2,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -7767,7 +9611,9 @@
     "specialQualities": [
       "earth mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "earth mastery (Ex)": "An earth elemental gains a +1 bonus on attack and damage rolls if both it and its foe are touching the ground. If an opponent is airborne or waterborne, the elemental takes a -4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks. (These modifiers are not included in the statistics block.)"
+    }
   },
   {
     "name": "Small Fire Elemental",
@@ -7795,6 +9641,15 @@
       "total": 11,
       "hitDice": "2d10+0"
     },
+    "savingThrows": {
+      "fortitude": 0,
+      "reflex": 4,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack., Immune to Fire",
     "speed": {
       "speed": 50
     },
@@ -7816,7 +9671,7 @@
     "specialQualities": [
       "burn"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Small Ice Elemental",
@@ -7847,6 +9702,15 @@
       "total": 13,
       "hitDice": "2d10+2"
     },
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 2,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": "Vulnerable to Fire",
+    "immunities": "Immune to Cold, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 60
@@ -7871,7 +9735,11 @@
       "ice glide",
       "icewalking"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "numbing cold (Su)": "When an ice elemental deals cold damage to a creature, that creature must succeed on a Fortitude save or be staggered for 1 round. The save DC is listed in the elemental's stat block and is Constitution-based. Snow Vision (Ex) An ice elemental can see perfectly well in snowy conditions and does not take any penalties on Perception checks while in snow.",
+      "ice glide (Su)": "A burrowing ice elemental can pass through nonmagical ice and snow as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A control water spell cast on an area containing a burrowing ice elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.",
+      "icewalking (Ex)": "This ability works like the spider climb spell, but the surfaces the elemental climbs must be icy. The elemental can move across icy surfaces without penalty and does not need to make Acrobatics checks to run or charge on ice. Numbing Cold (Su) When an ice elemental deals cold damage to a creature, that creature must succeed on a Fortitude save or be staggered for 1 round. The save DC is listed in the elemental's stat block and is Constitution-based. Snow Vision (Ex) An ice elemental can see perfectly well in snowy conditions and does not take any penalties on Perception checks while in snow."
+    }
   },
   {
     "name": "Small Lightning Elemental",
@@ -7899,6 +9767,15 @@
       "total": 11,
       "hitDice": "2d10+0"
     },
+    "savingThrows": {
+      "fortitude": 0,
+      "reflex": 5,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to electricity, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "fly": 100
     },
@@ -7921,7 +9798,10 @@
       "metal mastery",
       "spark leap"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "metal mastery (Ex)": "A lightning elemental gains a +3 bonus on attack rolls if its opponent is wearing metal armor, is wielding a metal weapon, or is made of metal (such as an iron golem).",
+      "spark leap (Ex)": "A lightning elemental gains a +10 bonus on bull rush, disarm, overrun, and trip attacks when it charges a creature against whom its metal mastery ability applies."
+    }
   },
   {
     "name": "Small Magma Elemental",
@@ -7950,6 +9830,15 @@
       "total": 11,
       "hitDice": "2d10+0"
     },
+    "savingThrows": {
+      "fortitude": 0,
+      "reflex": 2,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": "Vulnerable to Cold",
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack., Immune to Fire",
     "speed": {
       "speed": 20,
       "burrow": 20
@@ -7974,7 +9863,10 @@
       "lava puddle",
       "earth glide"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "lava puddle (Su)": "Once per day as a full-round action, a magma elemental can vomit forth a puddle of lava (Pathfinder RPG Core Rulebook 444) that fills its space to a depth of 2-3 inches and counts as difficult terrain. Any creature that moves through this puddle of lava takes 2d6 points of fire damage. This damage continues for 1d3 rounds after the creature leaves the lava pool, although then it only inflicts 1d6 points of fire damage per round. The lava puddle solidifies and is safe to touch after a number of rounds equal to the elemental's Hit Dice. At the GM's discretion, this puddle of lava could start secondary fires.",
+      "earth glide (Ex)": "A burrowing magma elemental can pass through stone, dirt, lava, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple, though the area it passes through feels warm for 1 round afterward and often retains a strangely smooth texture, as if the stone had been polished. A move earth spell cast on an area containing a burrowing magma elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save."
+    }
   },
   {
     "name": "Small Mud Elemental",
@@ -8004,6 +9896,15 @@
       "total": 13,
       "hitDice": "2d10+2"
     },
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 2,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to acid, Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 30,
@@ -8028,7 +9929,9 @@
       "entrap",
       "earth glide"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "earth glide (Ex)": "A burrowing mud elemental can pass through dirt, gravel, or other loose or porous solid matter as easily as a fish swims through water. It cannot use this ability to pass through a solid barrier such as a stone or brick wall. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A move earth spell cast on an area containing a burrowing mud elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save."
+    }
   },
   {
     "name": "Small Water Elemental",
@@ -8056,6 +9959,15 @@
       "total": 13,
       "hitDice": "2d10+2"
     },
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 3,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": "Immune to bleed, paralysis, poison, sleep effects, and stunning.,Immune to critical hits or flanking. Does not take additional damage from precision-based attacks, such as sneak attack.",
     "speed": {
       "speed": 20,
       "swim": 90
@@ -8080,7 +9992,11 @@
       "vortex",
       "water mastery"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "drench (Ex)": "The elemental's touch puts out nonmagical flames of Large size or smaller. The creature can dispel magical fire it touches as dispel magic (caster level equals elemental's HD). Vortex (Su) A water elemental can create a whirlpool as a standard action, at will. This ability functions identically to the whirlwind special attack (see page 306), but can only form underwater and cannot leave the water.",
+      "vortex (Su)": "A water elemental can create a whirlpool as a standard action, at will. This ability functions identically to the whirlwind special attack (see page 306), but can only form underwater and cannot leave the water.",
+      "water mastery (Ex)": "A water elemental gains a +1 bonus on attack and damage rolls if both it and its opponent are touching water. If the opponent or the elemental is touching the ground, the elemental takes a -4 penalty on attack and damage rolls. These modifiers apply to bull rush and overrun maneuvers, whether the elemental is initiating or resisting these kinds of attacks."
+    }
   },
   {
     "name": "Squid",
@@ -8106,6 +10022,15 @@
       "total": 13,
       "hitDice": "3d8+0"
     },
+    "savingThrows": {
+      "fortitude": 3,
+      "reflex": 7,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "swim": 60
     },
@@ -8129,7 +10054,9 @@
       "grab",
       "jet"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "ink cloud (Ex)": "A squid can emit a 5-foot-radius cloud of ink once per minute as a free action while underwater. This cloud provides total concealment. The ink persists for 1 minute. Jet (Ex) A squid can jet in a straight line as a full-round action. It does not provoke attacks of opportunity while jetting."
+    }
   },
   {
     "name": "Succubus",
@@ -8159,6 +10086,18 @@
       "total": 84,
       "hitDice": "8d10+40"
     },
+    "savingThrows": {
+      "fortitude": 7,
+      "reflex": 9,
+      "will": 10
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "cold iron or good"
+    },
+    "spellResistance": 18,
+    "resistances": "Acid 10, Cold 10, Fire 10",
+    "immunities": "Immune to fire, Immune to Electricity and Poison",
     "speed": {
       "speed": 30,
       "fly": 50
@@ -8183,7 +10122,9 @@
       "profane gift",
       "change shape"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "profane gift (Su)": "Once per day as a full-round action, a succubus may grant a profane gift to a willing humanoid creature by touching it for 1 full round. The target gains a +2 profane bonus to an ability score of his choice. A single creature may have no more than one profane gift from a succubus at a time. As long as the profane gift persists, the succubus can communicate telepathically with the target across any distance (and may use her suggestion spell-like ability through it). A profane gift is removed by dispel evil or dispel chaos. The succubus can remove it as well as a free action (causing 2d6 Charisma drain to the victim, no save)."
+    }
   },
   {
     "name": "Tiger",
@@ -8208,6 +10149,15 @@
       "total": 45,
       "hitDice": "6d8+18"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 7,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -8231,7 +10181,7 @@
       "rake",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Triceratops",
@@ -8256,6 +10206,15 @@
       "total": 119,
       "hitDice": "14d8+56"
     },
+    "savingThrows": {
+      "fortitude": 15,
+      "reflex": 8,
+      "will": 5
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30
     },
@@ -8278,7 +10237,7 @@
       "powerful charge",
       "trample"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Trumpet Archon",
@@ -8308,6 +10267,18 @@
       "total": 175,
       "hitDice": "14d10+98"
     },
+    "savingThrows": {
+      "fortitude": 11,
+      "reflex": 14,
+      "will": 14
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "evil"
+    },
+    "spellResistance": 25,
+    "resistances": null,
+    "immunities": "Immune to Electricity and Petrification",
     "speed": {
       "speed": 40,
       "fly": 90
@@ -8330,7 +10301,9 @@
     "specialQualities": [
       "trumpet"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "trumpet (Su)": "All creatures except archons within 100 feet of the trumpet's blast must succeed on a DC 19 Fortitude save or be paralyzed for 1d4 rounds. The save DC is Charismabased. The archon can also command its trumpet to become a +4 greatsword as a free action. Out of the archon's hands, it is a chunk of useless metal."
+    }
   },
   {
     "name": "Tylosaurus",
@@ -8355,6 +10328,15 @@
       "total": 105,
       "hitDice": "10d8+60"
     },
+    "savingThrows": {
+      "fortitude": 15,
+      "reflex": 8,
+      "will": 4
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 20,
       "swim": 50
@@ -8378,7 +10360,7 @@
       "swallow whole",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Tyrannosaurus",
@@ -8403,6 +10385,15 @@
       "total": 153,
       "hitDice": "18d8+72"
     },
+    "savingThrows": {
+      "fortitude": 15,
+      "reflex": 12,
+      "will": 10
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -8426,7 +10417,9 @@
       "powerful bite",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "powerful bite (Ex)": "A tyrannosaurus applies twice its Strength modifier to bite damage."
+    }
   },
   {
     "name": "Vanth",
@@ -8455,6 +10448,18 @@
       "total": 76,
       "hitDice": "9d10+27"
     },
+    "savingThrows": {
+      "fortitude": 8,
+      "reflex": 9,
+      "will": 10
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "adamantine"
+    },
+    "spellResistance": 18,
+    "resistances": "Cold 10, Electricity 10",
+    "immunities": "Immune to Death effects, Disease and Poison",
     "speed": {
       "speed": 30,
       "fly": 50
@@ -8479,7 +10484,10 @@
       "spirit touch",
       "fear aura"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "reaper's scythe (Su)": "Every vanth carries a distinctive adamantine scythe as both a weapon and a symbol of its duty. When the vanth wields its own scythe, the weapon gains a +1 enhancement bonus on attack rolls and damage rolls. As a free action, the vanth can summon its weapon from a personal demiplane or any other location and have it appear in its hands instantly. It can also dismiss its scythe back to its personal demiplane as a free action. If a vanth's scythe is destroyed, it can summon a new one in 24 hours.",
+      "spirit touch (Ex)": ""
+    }
   },
   {
     "name": "Venomous Snake",
@@ -8504,6 +10512,15 @@
       "total": 13,
       "hitDice": "2d8+4"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 4,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 20,
       "swim": 20,
@@ -8527,7 +10544,7 @@
     "specialQualities": [
       "poison"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Viper",
@@ -8552,6 +10569,15 @@
       "total": 3,
       "hitDice": "1d8-1"
     },
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 5,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 20,
       "swim": 20,
@@ -8575,7 +10601,7 @@
     "specialQualities": [
       "poison"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Vrock",
@@ -8604,6 +10630,18 @@
       "total": 112,
       "hitDice": "9d10+63"
     },
+    "savingThrows": {
+      "fortitude": 10,
+      "reflex": 10,
+      "will": 9
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "good"
+    },
+    "spellResistance": 20,
+    "resistances": "Acid 10, Cold 10, Fire 10",
+    "immunities": "Immune to Electricity and Poison",
     "speed": {
       "speed": 30,
       "fly": 50
@@ -8628,7 +10666,11 @@
       "spores",
       "stunning screech"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "dance of ruin (Su)": "A vrock can dance and chant as a full-round action-at the end of 3 rounds, a crackling wave of energy explodes from the vrock, dealing 5d6 points of electricity damage to all creatures within 100 feet. A DC 17 Reflex save halves this damage. For each additional vrock that joins in the dance, the damage increases by 5d6 and the DC to avoid the effect increases by +1, to a maximum of 20d6 when four or more vrocks are dancing (the DC continues to increase with additional vrocks, but the damage does not). The dance immediately ends and must be started anew if any of the participating vrocks is slain, stunned, or otherwise prevented from dancing. The save DC is Charisma-based.",
+      "spores (Ex)": "A vrock can release a cloud of spores from its body once every 3 rounds as a free action. Adjacent creatures take 1d8 points of damage from the spores, plus 1d4 points of damage per round for 10 rounds as the spores grow into thick green vines. Although ugly, the vines are harmless and wither away in 1d4 days if not shaved off before then. The spores can be destroyed by casting bless on the affected creatures or by sprinkling them with holy water. This attack can also be halted by effects that remove or provide immunity to disease.",
+      "stunning screech (Su)": "Once per hour, a vrock can emit a shrill screech. All creatures except demons within a 30-foot-radius spread must succeed on a DC 21 Fortitude save or be stunned for 1 round. The save DC is Constitution-based."
+    }
   },
   {
     "name": "Vulpinal",
@@ -8658,6 +10700,18 @@
       "total": 59,
       "hitDice": "7d10+21"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 10,
+      "will": 7
+    },
+    "damageResistance": {
+      "value": 10,
+      "bypass": "evil or silver"
+    },
+    "spellResistance": 17,
+    "resistances": "Cold 10, Sonic 10",
+    "immunities": "Immune to Electricity and Petrification",
     "speed": {
       "speed": 30
     },
@@ -8682,7 +10736,11 @@
       "lay on hands",
       "calm emotions aura"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "bardic knowledge +7 (Ex)": "",
+      "lay on hands (Ex)": "",
+      "calm emotions aura (Su)": "A vulpinal's aura acts like a calm emotions spell with a radius of 30 feet. Any creature entering this area must make a Will save (DC 16) to resist the effect. A creature that makes its save is immune to that vulpinal's aura for 24 hours. The save DC is Charisma-based."
+    }
   },
   {
     "name": "Wolf",
@@ -8707,6 +10765,15 @@
       "total": 13,
       "hitDice": "2d8+4"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 5,
+      "will": 1
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 50
     },
@@ -8728,7 +10795,7 @@
     "specialQualities": [
       "trip"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Wolverine",
@@ -8753,6 +10820,15 @@
       "total": 22,
       "hitDice": "3d8+6"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 5,
+      "will": 2
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30,
       "climb": 10,
@@ -8776,7 +10852,9 @@
     "specialQualities": [
       "rage"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "rage (Ex)": "A wolverine that takes damage in combat flies into a rage on its next turn, clawing and biting madly until either it or its opponent is dead. It gains +4 to Strength, +4 to Constitution, and -2 to AC. The creature cannot end its rage voluntarily."
+    }
   },
   {
     "name": "Woolly Rhinoceros",
@@ -8801,6 +10879,15 @@
       "total": 76,
       "hitDice": "8d8+40"
     },
+    "savingThrows": {
+      "fortitude": 13,
+      "reflex": 6,
+      "will": 3
+    },
+    "damageResistance": null,
+    "spellResistance": null,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 30
     },
@@ -8823,7 +10910,7 @@
       "powerful charge",
       "trample"
     ],
-    "specialAbilities": {}
+    "specialAbilities": null
   },
   {
     "name": "Xill",
@@ -8850,6 +10937,15 @@
       "total": 67,
       "hitDice": "9d10+18"
     },
+    "savingThrows": {
+      "fortitude": 5,
+      "reflex": 10,
+      "will": 9
+    },
+    "damageResistance": null,
+    "spellResistance": 17,
+    "resistances": null,
+    "immunities": null,
     "speed": {
       "speed": 40
     },
@@ -8875,6 +10971,10 @@
       "planewalk",
       "grab"
     ],
-    "specialAbilities": {}
+    "specialAbilities": {
+      "implant (Ex)": "As a standard action, a xill can lay 2d6 eggs in a helpless creature. A xill's eggs hatch in 24 hours, at which point the young consume the host from within, inflicting 1 point of Con damage per hour per young until the host dies. The young then emerge and planewalk to the Ethereal Plane, if possible, to mature. A remove disease spell (or similar effect) rids a victim of all implanted eggs or active young, or they can be cut out one at a time with DC 20 Heal checks (each attempt takes 10 minutes). If a check fails, the healer can try again, but each attempt (successful or not) deals 1d4 points of damage to the patient.",
+      "multiweapon mastery (Ex)": "A xill never takes penalties to an attack roll when fighting with multiple weapons, and treats claws as primary attacks even when also wielding weapons.",
+      "planewalk (Su)": "A xill can shift from the Ethereal Plane to the Material Plane as a move action. Shifting from the Material Plane to the Ethereal Plane takes 2 consecutive full-round actions, during which time the xill is immobile. As a xill fades away, it becomes harder to hit: opponents have a 20% miss chance in the first round and a 50% miss chance in the second. A xill can take a single willing or helpless creature with it when it switches planes."
+    }
   }
 ]

@@ -29,7 +29,9 @@ import com.example.summonapp.data.converters.SpeedConverter
 import com.example.summonapp.models.AbilityScore
 import com.example.summonapp.models.ArmourClass
 import com.example.summonapp.models.AttackBonus
+import com.example.summonapp.models.DamageResist
 import com.example.summonapp.models.Health
+import com.example.summonapp.models.SavingThrows
 import com.example.summonapp.models.enums.Alignment
 import com.example.summonapp.models.enums.Size
 
@@ -50,6 +52,11 @@ data class Monster(
     @TypeConverters(ListStringConverter::class) val senses: List<String>,
     @TypeConverters(HealthConverter::class) val health: Health,
     @TypeConverters(ArmourClassConverter::class) val armourClass: ArmourClass,
+    @TypeConverters(ArmourClassConverter::class) val savingThrows: SavingThrows,
+    @TypeConverters(ArmourClassConverter::class) val damageResistance: DamageResist?,
+    @TypeConverters(ArmourClassConverter::class) val spellResistance: Int?,
+    @TypeConverters(ArmourClassConverter::class) val resistances: String?,
+    @TypeConverters(ArmourClassConverter::class) val immunities: String?,
     @TypeConverters(SpeedConverter::class) val speed: Map<String, Int>,
     val meleeAttacks: String?,
     val rangedAttacks: String?,

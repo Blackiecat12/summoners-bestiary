@@ -60,7 +60,9 @@ import com.example.summonapp.data.Monster
 import com.example.summonapp.models.AbilityScore
 import com.example.summonapp.models.ArmourClass
 import com.example.summonapp.models.AttackBonus
+import com.example.summonapp.models.DamageResist
 import com.example.summonapp.models.Health
+import com.example.summonapp.models.SavingThrows
 import com.example.summonapp.ui.AppViewModelProvider
 import com.example.summonapp.ui.navigation.NavigationDestination
 import com.example.summonapp.ui.theme.SummonAppTheme
@@ -364,6 +366,11 @@ fun getPreviewMonster(summonLevel: Int): Monster {
         senses = listOf("Darkvision 60ft", "Scent"),
         health = Health(total=100, hitDice = "8d8+4"),
         armourClass = ArmourClass(base = 18, touch = 12, flatFooted = 16),
+        savingThrows = SavingThrows(1, 2, 3),
+        damageResistance = DamageResist(5, "good"),
+        spellResistance = 10,
+        resistances = "Resistance to poison",
+        immunities = "Immunity to fire",
         speed = mapOf("land" to 30, "fly" to 60),
         meleeAttacks = "Bite +10 (1d8+5), 2 Claws +8 (1d6+3)",
         rangedAttacks = "Fire Breath (30ft cone, 3d6 fire damage)",
