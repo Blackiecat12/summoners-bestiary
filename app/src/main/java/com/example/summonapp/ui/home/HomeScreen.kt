@@ -19,8 +19,10 @@ package com.example.summonapp.ui.home
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.expandVertically
 import androidx.compose.animation.shrinkVertically
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -29,6 +31,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material3.Card
@@ -49,10 +52,14 @@ import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.summonapp.MonsterTopAppBar
 import com.example.summonapp.R
@@ -67,7 +74,6 @@ import com.example.summonapp.models.SavingThrows
 import com.example.summonapp.ui.AppViewModelProvider
 import com.example.summonapp.ui.navigation.NavigationDestination
 import com.example.summonapp.ui.theme.SummonAppTheme
-import java.util.Locale
 import com.example.summonapp.models.enums.Alignment as CreatureAlignment
 import com.example.summonapp.models.enums.Size as CreatureSize
 
@@ -215,6 +221,7 @@ fun SummonLevelHeader(summonLevel: Int, isExpanded: Boolean, onToggleExpand: () 
         Text(
             text = "Summon Level $summonLevel",
             style = MaterialTheme.typography.titleLarge,
+            color = MaterialTheme.colorScheme.onPrimary,
             fontWeight = FontWeight.Bold,
             modifier = Modifier.weight(1f)
         )
@@ -312,6 +319,42 @@ fun formatMonsterBasicDescription(monster: Monster): String {
     }
     return "%s, %s, %s %s".format(alignment, size, creatureType, subtypes)
 }
+
+@Preview(showBackground = true)
+@Composable
+fun ThemePreview() {
+    SummonAppTheme {
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp)
+                .background(MaterialTheme.colorScheme.primary, shape = RoundedCornerShape(8.dp))
+                .padding(16.dp)
+        ) {
+            Text(
+                text = "Hello, SummonApp!",
+                color = MaterialTheme.colorScheme.onPrimary,
+                style = MaterialTheme.typography.headlineMedium
+            )
+        }
+    }
+}
+
+
+//@Preview(showBackground = true)
+//@Composable
+//fun DirectFontTest() {
+//    Text(
+//        text = "Hello, ADLaM Display!",
+//        style = TextStyle(
+//            fontFamily = FontFamily(
+//                Font(R.font.adlam_display)
+//            ),
+//            fontSize = 24.sp
+//        )
+//    )
+//}
+
 
 @Preview(showBackground = true)
 @Composable
