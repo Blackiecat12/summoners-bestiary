@@ -23,17 +23,13 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
+import com.example.summonapp.data.FavouriteMonster
+import com.example.summonapp.ui.favouritemonster.FavouriteMonsterDestination
+import com.example.summonapp.ui.favouritemonster.FavouriteMonsterScreen
 import com.example.summonapp.ui.home.HomeDestination
 import com.example.summonapp.ui.home.HomeScreen
 import com.example.summonapp.ui.monsterdetails.MonsterDetailDestination
 import com.example.summonapp.ui.monsterdetails.MonsterDetailScreen
-
-//import com.example.inventory.ui.item.ItemDetailsDestination
-//import com.example.inventory.ui.item.ItemDetailsScreen
-//import com.example.inventory.ui.item.ItemEditDestination
-//import com.example.inventory.ui.item.ItemEditScreen
-//import com.example.inventory.ui.item.ItemEntryDestination
-//import com.example.inventory.ui.item.ItemEntryScreen
 
 /**
  * Provides Navigation graph for the application.
@@ -64,6 +60,16 @@ fun MonsterNavHost(
         ){
             MonsterDetailScreen(
                 navigateBack = { navController.navigateUp() }
+            )
+        }
+        composable(
+            route = FavouriteMonsterDestination.route
+        ) {
+            FavouriteMonsterScreen(
+                navigateToMonsterInfo = {
+                    navController.navigate("${MonsterDetailDestination.route}/$it")
+                },
+                onBottomBarClick = { navController.navigate(it) }
             )
         }
     }

@@ -253,7 +253,7 @@ fun SummonLevelHeader(summonLevel: Int, isExpanded: Boolean, onToggleExpand: () 
 
 
 @Composable
-private fun MonsterItem(
+fun MonsterItem(
     monster: Monster, modifier: Modifier = Modifier
 ) {
     Card(

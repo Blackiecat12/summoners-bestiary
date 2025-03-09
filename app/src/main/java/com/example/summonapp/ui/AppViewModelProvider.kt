@@ -23,6 +23,7 @@ import androidx.lifecycle.viewmodel.CreationExtras
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.example.summonapp.SummonApplication
+import com.example.summonapp.ui.favouritemonster.FavouriteMonsterViewModel
 import com.example.summonapp.ui.home.HomeViewModel
 import com.example.summonapp.ui.monsterdetails.MonsterDetailViewModel
 
@@ -64,6 +65,13 @@ object AppViewModelProvider {
         initializer {
             MonsterDetailViewModel(
                 this.createSavedStateHandle(),
+                summonApplication().container.monsterRepository,
+                summonApplication().container.favouriteMonsterRepository
+            )
+        }
+
+        initializer {
+            FavouriteMonsterViewModel(
                 summonApplication().container.monsterRepository,
                 summonApplication().container.favouriteMonsterRepository
             )

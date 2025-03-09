@@ -25,6 +25,7 @@ import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.outlined.Favorite
+import androidx.compose.material.icons.outlined.FavoriteBorder
 import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.material3.CenterAlignedTopAppBar
@@ -45,6 +46,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.example.summonapp.R.string
+import com.example.summonapp.ui.favouritemonster.FavouriteMonsterDestination
 import com.example.summonapp.ui.home.HomeDestination
 import com.example.summonapp.ui.navigation.MonsterNavHost
 
@@ -92,10 +94,10 @@ fun MonsterBottomNavBar(
     onBottomBarClick: (String) -> Unit,
     initialRoute: String
 ) {
-    val items = listOf("Home", "Favourite", "Mail")
+    val items = listOf("Favourite", "Bestiary", "Settings")
     val selectedIcons = listOf(Filled.Favorite, Filled.Home, Filled.Settings)
-    val unselectedIcons = listOf(Icons.Outlined.Favorite, Icons.Outlined.Home, Icons.Outlined.Settings)
-    val navigationDestinations = listOf(HomeDestination.route, HomeDestination.route, HomeDestination.route)
+    val unselectedIcons = listOf(Icons.Outlined.FavoriteBorder, Icons.Outlined.Home, Icons.Outlined.Settings)
+    val navigationDestinations = listOf(FavouriteMonsterDestination.route, HomeDestination.route, HomeDestination.route)
 
     var selectedItem by remember { mutableIntStateOf(navigationDestinations.indexOf(initialRoute)) }
 
