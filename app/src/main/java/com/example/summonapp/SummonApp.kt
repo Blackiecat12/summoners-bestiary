@@ -16,6 +16,8 @@
 
 package com.example.summonapp
 
+import android.inputmethodservice.Keyboard.Row
+import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.Icons.Filled
 import androidx.compose.material.icons.filled.ArrowBack
@@ -64,7 +66,8 @@ fun MonsterTopAppBar(
     canNavigateBack: Boolean,
     modifier: Modifier = Modifier,
     scrollBehavior: TopAppBarScrollBehavior? = null,
-    navigateUp: () -> Unit = {}
+    navigateUp: () -> Unit = {},
+    actions: @Composable RowScope.() -> Unit = {}
 ) {
     CenterAlignedTopAppBar(
         title = { Text(title) },
@@ -79,7 +82,8 @@ fun MonsterTopAppBar(
                     )
                 }
             }
-        }
+        },
+        actions = actions
     )
 }
 

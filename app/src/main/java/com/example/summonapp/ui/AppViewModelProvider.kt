@@ -64,7 +64,8 @@ object AppViewModelProvider {
         initializer {
             MonsterDetailViewModel(
                 this.createSavedStateHandle(),
-                summonApplication().container.monsterRepository
+                summonApplication().container.monsterRepository,
+                summonApplication().container.favouriteMonsterRepository
             )
         }
     }

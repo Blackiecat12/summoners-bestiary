@@ -1,5 +1,6 @@
 package com.example.summonapp.ui.monsterdetails
 
+import android.util.Log
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -12,8 +13,12 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -43,6 +48,8 @@ import com.example.summonapp.ui.home.getPreviewMonster
 import com.example.summonapp.ui.navigation.NavigationDestination
 import com.example.summonapp.ui.theme.SummonAppTheme
 
+private val TAG = "MONSTERDETAILSCREEN"
+
 object MonsterDetailDestination : NavigationDestination {
     override val route = "monsterDetail"
     override val titleRes = R.string.monster_details
@@ -58,12 +65,22 @@ fun MonsterDetailScreen(
     viewModel: MonsterDetailViewModel = viewModel(factory = AppViewModelProvider.Factory)
 ) {
     val uiState by viewModel.monster.collectAsState()
+    val isFavourited by viewModel.isFavourited.collectAsState()
+    Log.d(TAG, "${uiState.monsterId}: $isFavourited")
     Scaffold(
         topBar = {
             MonsterTopAppBar(
                 title = stringResource(MonsterDetailDestination.titleRes),
                 canNavigateBack = true,
-                navigateUp = navigateBack
+                navigateUp = navigateBack,
+                actions = {
+                    IconButton(onClick = { viewModel.toggleFavourite() }) {
+                        Icon(
+                            imageVector = if (isFavourited) Icons.Filled.Favorite else Icons.Filled.FavoriteBorder,
+                            contentDescription = "Favourite"
+                        )
+                    }
+                }
             )
         },
         modifier = modifier

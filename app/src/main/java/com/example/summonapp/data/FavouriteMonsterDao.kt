@@ -11,6 +11,9 @@ interface FavouriteMonsterDao {
     @Query("SELECT monsterId FROM favourite_monsters")
     fun getFavouritedMonsterIds(): Flow<List<String>>  // Live updates
 
+    @Query("SELECT COUNT(*) FROM favourite_monsters WHERE monsterId = :monsterId")
+    fun isMonsterFavourited(monsterId: String): Flow<Int>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun addFavourite(favouriteMonster: FavouriteMonster)
 
