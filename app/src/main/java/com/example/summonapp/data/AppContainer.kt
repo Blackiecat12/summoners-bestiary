@@ -17,12 +17,14 @@
 package com.example.summonapp.data
 
 import android.content.Context
+import androidx.lifecycle.ViewModelProvider
 
 /**
  * App container for Dependency injection.
  */
 interface AppContainer {
     val monsterRepository: MonsterRepository
+    val favouriteMonsterRepository: FavouriteMonsterRepository
 }
 
 /**
@@ -34,5 +36,9 @@ class AppDataContainer(private val context: Context) : AppContainer {
      */
     override val monsterRepository: MonsterRepository by lazy {
         OfflineMonsterRepository(MonsterDatabase.getDatabase(context).monsterDao())
+    }
+
+    override val favouriteMonsterRepository: FavouriteMonsterRepository by lazy {
+        FavouriteMonsterRepository(MonsterDatabase.getDatabase(context).favouriteMonsterDao())
     }
 }

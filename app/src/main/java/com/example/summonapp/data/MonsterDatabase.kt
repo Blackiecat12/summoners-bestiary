@@ -30,7 +30,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.lang.reflect.Type
 
-@Database(entities = [Monster::class], version = 2, exportSchema = false)
+@Database(entities = [Monster::class, FavouriteMonster::class], version = 3, exportSchema = false)
 @TypeConverters(
     ListStringConverter::class,
     AlignmentConverter::class,
@@ -47,6 +47,7 @@ import java.lang.reflect.Type
 abstract class MonsterDatabase : RoomDatabase() {
 
     abstract fun monsterDao(): MonsterDao
+    abstract fun favouriteMonsterDao(): FavouriteMonsterDao
 
     companion object {
         @Volatile
