@@ -1,5 +1,5 @@
 [versions]
-agp = "8.8.1"
+agp = "8.8.2"
 kotlin = "2.1.0"
 coreKtx = "1.15.0"
 junit = "4.13.2"
@@ -13,6 +13,7 @@ navigationCompose = "2.8.7"
 databaseRoom = "2.6.1"
 ksp = "2.1.0-1.0.29"
 gson = "2.8.9"
+uiTextGoogleFonts = "1.7.8"
 
 
 [libraries]
@@ -36,6 +37,7 @@ androidx-room-runtime = { group = "androidx.room", name = "room-runtime", versio
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref="databaseRoom"}
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref="databaseRoom"}
 gson = {group = "com.google.code.gson", name = "gson", version.ref="gson"}
+androidx-ui-text-google-fonts = { group = "androidx.compose.ui", name = "ui-text-google-fonts", version.ref = "uiTextGoogleFonts" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

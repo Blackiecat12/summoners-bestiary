@@ -229,7 +229,7 @@ private fun BoldLabelToValue(label: String, value: String) {
             }
             append(value)
         },
-            style = MaterialTheme.typography.bodyMedium)
+            style = MaterialTheme.typography.bodySmall)
     }
 }
 

@@ -1,34 +1,38 @@
 package com.example.summonapp.ui.theme
 
 import androidx.compose.material3.Typography
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.sp
+import androidx.compose.ui.text.googlefonts.Font
+import androidx.compose.ui.text.googlefonts.GoogleFont
+import com.example.summonapp.R
 
-// Set of Material typography styles to start with
-val Typography = Typography(
-    bodyLarge = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
-        lineHeight = 24.sp,
-        letterSpacing = 0.5.sp
-    )
-    /* Other default text styles to override
-    titleLarge = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 22.sp,
-        lineHeight = 28.sp,
-        letterSpacing = 0.sp
-    ),
-    labelSmall = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Medium,
-        fontSize = 11.sp,
-        lineHeight = 16.sp,
-        letterSpacing = 0.5.sp
-    )
-    */
+val provider = GoogleFont.Provider(
+    providerAuthority = "com.google.android.gms.fonts",
+    providerPackage = "com.google.android.gms",
+    certificates = R.array.com_google_android_gms_fonts_certs
 )
+
+val fontName = GoogleFont("ADLaM Display")
+
+val customFontFamily = FontFamily(
+    Font(googleFont = fontName, fontProvider = provider)
+)
+
+val AppTypography = Typography(
+    displayLarge = Typography().displayLarge.copy(fontFamily = customFontFamily),
+    displayMedium = Typography().displayMedium.copy(fontFamily = customFontFamily),
+    displaySmall = Typography().displaySmall.copy(fontFamily = customFontFamily),
+    headlineLarge = Typography().headlineLarge.copy(fontFamily = customFontFamily),
+    headlineMedium = Typography().headlineMedium.copy(fontFamily = customFontFamily),
+    headlineSmall = Typography().headlineSmall.copy(fontFamily = customFontFamily),
+    titleLarge = Typography().titleLarge.copy(fontFamily = customFontFamily),
+    titleMedium = Typography().titleMedium.copy(fontFamily = customFontFamily),
+    titleSmall = Typography().titleSmall.copy(fontFamily = customFontFamily),
+    bodyLarge = Typography().bodyLarge.copy(fontFamily = customFontFamily),
+    bodyMedium = Typography().bodyMedium.copy(fontFamily = customFontFamily),
+    bodySmall = Typography().bodySmall.copy(fontFamily = customFontFamily),
+    labelLarge = Typography().labelLarge.copy(fontFamily = customFontFamily),
+    labelMedium = Typography().labelMedium.copy(fontFamily = customFontFamily),
+    labelSmall = Typography().labelSmall.copy(fontFamily = customFontFamily)
+)
+

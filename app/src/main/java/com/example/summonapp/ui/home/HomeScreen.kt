@@ -16,6 +16,7 @@
 
 package com.example.summonapp.ui.home
 
+import android.util.Log
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.expandVertically
 import androidx.compose.animation.shrinkVertically
@@ -43,19 +44,23 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.googlefonts.Font
+import androidx.compose.ui.text.googlefonts.GoogleFont
+import androidx.compose.ui.text.googlefonts.isAvailableOnDevice
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -74,6 +79,7 @@ import com.example.summonapp.models.SavingThrows
 import com.example.summonapp.ui.AppViewModelProvider
 import com.example.summonapp.ui.navigation.NavigationDestination
 import com.example.summonapp.ui.theme.SummonAppTheme
+import com.example.summonapp.ui.theme.provider
 import com.example.summonapp.models.enums.Alignment as CreatureAlignment
 import com.example.summonapp.models.enums.Size as CreatureSize
 
@@ -161,6 +167,15 @@ private fun SummonList(
     val groupedMonsters = remember(monsterList) {
         monsterList.groupBy { it.summonLevel }
             .toSortedMap() // Ensures summon levels are sorted
+    }
+
+    val context = LocalContext.current
+    LaunchedEffect(Unit) {
+        if (provider.isAvailableOnDevice(context)) {
+            Log.d("MAIN", "Success!")
+        } else {
+            Log.d("MAIN", "Failed to get font!")
+        }
     }
 
     LazyColumn(
@@ -319,41 +334,6 @@ fun formatMonsterBasicDescription(monster: Monster): String {
     }
     return "%s, %s, %s %s".format(alignment, size, creatureType, subtypes)
 }
-
-@Preview(showBackground = true)
-@Composable
-fun ThemePreview() {
-    SummonAppTheme {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(16.dp)
-                .background(MaterialTheme.colorScheme.primary, shape = RoundedCornerShape(8.dp))
-                .padding(16.dp)
-        ) {
-            Text(
-                text = "Hello, SummonApp!",
-                color = MaterialTheme.colorScheme.onPrimary,
-                style = MaterialTheme.typography.headlineMedium
-            )
-        }
-    }
-}
-
-
-//@Preview(showBackground = true)
-//@Composable
-//fun DirectFontTest() {
-//    Text(
-//        text = "Hello, ADLaM Display!",
-//        style = TextStyle(
-//            fontFamily = FontFamily(
-//                Font(R.font.adlam_display)
-//            ),
-//            fontSize = 24.sp
-//        )
-//    )
-//}
 
 
 @Preview(showBackground = true)
