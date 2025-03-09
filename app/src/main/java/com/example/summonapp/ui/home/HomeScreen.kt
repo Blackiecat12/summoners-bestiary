@@ -20,10 +20,8 @@ import android.util.Log
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.expandVertically
 import androidx.compose.animation.shrinkVertically
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -32,7 +30,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material3.Card
@@ -55,17 +52,13 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.googlefonts.Font
-import androidx.compose.ui.text.googlefonts.GoogleFont
 import androidx.compose.ui.text.googlefonts.isAvailableOnDevice
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.summonapp.MonsterBottomNavBar
 import com.example.summonapp.MonsterTopAppBar
 import com.example.summonapp.R
 import com.example.summonapp.capitalise
@@ -95,6 +88,7 @@ object HomeDestination : NavigationDestination {
 @Composable
 fun HomeScreen(
     navigateToMonsterInfo: (String) -> Unit,
+    onBottomBarClick: (String) -> Unit,
     modifier: Modifier = Modifier,
     viewModel: HomeViewModel = viewModel(factory = AppViewModelProvider.Factory)
 ) {
@@ -109,7 +103,8 @@ fun HomeScreen(
                 canNavigateBack = false,
                 scrollBehavior = scrollBehavior
             )
-        }
+        },
+        bottomBar = { MonsterBottomNavBar( onBottomBarClick, HomeDestination.route ) }
     ) { innerPadding ->
         HomeBody(
             monsterList = homeUiState.monsterList,
@@ -236,7 +231,6 @@ fun SummonLevelHeader(summonLevel: Int, isExpanded: Boolean, onToggleExpand: () 
         Text(
             text = "Summon Level $summonLevel",
             style = MaterialTheme.typography.titleLarge,
-            color = MaterialTheme.colorScheme.onPrimary,
             fontWeight = FontWeight.Bold,
             modifier = Modifier.weight(1f)
         )
@@ -282,11 +276,11 @@ private fun MonsterItem(
                 horizontalArrangement = Arrangement.spacedBy(12.dp)
             ) {
                 Text(
-                    text = "HP: %d".format(monster.health.total),
+                    text = "HP %d".format(monster.health.total),
                     style = MaterialTheme.typography.bodyMedium
                 )
                 Text(
-                    text = "AC: %d".format(monster.armourClass.base),
+                    text = "AC %d".format(monster.armourClass.base),
                     style = MaterialTheme.typography.bodyMedium
                 )
             }

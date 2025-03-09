@@ -52,7 +52,8 @@ fun MonsterNavHost(
             HomeScreen(
                 navigateToMonsterInfo = {
                     navController.navigate("${MonsterDetailDestination.route}/$it")
-                }
+                },
+                onBottomBarClick = { navController.navigate(it) }
             )
         }
         composable(
@@ -65,33 +66,5 @@ fun MonsterNavHost(
                 navigateBack = { navController.navigateUp() }
             )
         }
-//        composable(route = ItemEntryDestination.route) {
-//            ItemEntryScreen(
-//                navigateBack = { navController.popBackStack() },
-//                onNavigateUp = { navController.navigateUp() }
-//            )
-//        }
-//        composable(
-//            route = ItemDetailsDestination.routeWithArgs,
-//            arguments = listOf(navArgument(ItemDetailsDestination.itemIdArg) {
-//                type = NavType.IntType
-//            })
-//        ) {
-//            ItemDetailsScreen(
-//                navigateToEditItem = { navController.navigate("${ItemEditDestination.route}/$it") },
-//                navigateBack = { navController.navigateUp() }
-//            )
-//        }
-//        composable(
-//            route = ItemEditDestination.routeWithArgs,
-//            arguments = listOf(navArgument(ItemEditDestination.itemIdArg) {
-//                type = NavType.IntType
-//            })
-//        ) {
-//            ItemEditScreen(
-//                navigateBack = { navController.popBackStack() },
-//                onNavigateUp = { navController.navigateUp() }
-//            )
-//        }
     }
 }

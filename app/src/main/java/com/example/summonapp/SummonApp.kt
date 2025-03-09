@@ -16,20 +16,34 @@
 
 package com.example.summonapp
 
+import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.Icons.Filled
 import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.outlined.Favorite
+import androidx.compose.material.icons.outlined.Home
+import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.NavigationBar
+import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBarScrollBehavior
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.example.summonapp.R.string
+import com.example.summonapp.ui.home.HomeDestination
 import com.example.summonapp.ui.navigation.MonsterNavHost
 
 /**
@@ -67,4 +81,36 @@ fun MonsterTopAppBar(
             }
         }
     )
+}
+
+@Composable
+fun MonsterBottomNavBar(
+    onBottomBarClick: (String) -> Unit,
+    initialRoute: String
+) {
+    val items = listOf("Home", "Favourite", "Mail")
+    val selectedIcons = listOf(Filled.Favorite, Filled.Home, Filled.Settings)
+    val unselectedIcons = listOf(Icons.Outlined.Favorite, Icons.Outlined.Home, Icons.Outlined.Settings)
+    val navigationDestinations = listOf(HomeDestination.route, HomeDestination.route, HomeDestination.route)
+
+    var selectedItem by remember { mutableIntStateOf(navigationDestinations.indexOf(initialRoute)) }
+
+    NavigationBar {
+        items.forEachIndexed { index, item ->
+            NavigationBarItem(
+                icon = {
+                    Icon(
+                        if (selectedItem == index) selectedIcons[index] else unselectedIcons[index],
+                        contentDescription = item
+                    )
+                },
+                label = { Text(item) },
+                selected = selectedItem == index,
+                onClick = {
+                    selectedItem = index
+                    onBottomBarClick(navigationDestinations[index])
+                }
+            )
+        }
+    }
 }
